@@ -2,6 +2,7 @@
 
 import { Sun, Moon } from "lucide-react";
 import { useTheme } from "@/contexts/ThemeContext";
+import InstallBanner from "@/components/InstallBanner";
 
 export default function TabsLayout({ children }: { children: React.ReactNode }) {
   const { dark, colors, toggleTheme } = useTheme();
@@ -25,6 +26,8 @@ export default function TabsLayout({ children }: { children: React.ReactNode }) 
       </header>
 
       <main className="flex-1">{children}</main>
+
+      <InstallBanner />
     </div>
   );
 }
