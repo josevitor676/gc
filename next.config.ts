@@ -1,28 +1,35 @@
 import type { NextConfig } from "next";
 import withPWAInit from "@ducanh2912/next-pwa";
-import studies from "./src/data/studies.json";
+import { readFileSync } from "fs";
+import { join } from "path";
 
-// Todas as rotas de estudo e lição serão pré-cacheadas pelo SW na instalação,
-// garantindo que funcionem offline mesmo sem o usuário ter visitado antes.
-const precacheRoutes = (
-  studies as Array<{ id: string; lessons: Array<{ id: string }> }>
-).flatMap((study) => [
-  { url: `/study/${study.id}`, revision: study.id },
-  ...study.lessons.map((lesson) => ({
-    url: `/study/${study.id}/lesson/${lesson.id}`,
-    revision: lesson.id,
-  })),
-]);
+// Lê o JSON de estudos via fs para garantir compatibilidade em qualquer ambiente de build
+function loadStudyRoutes() {
+  try {
+    const raw = readFileSync(join(process.cwd(), "src/data/studies.json"), "utf-8");
+    const studies = JSON.parse(raw) as Array<{ id: string; lessons: Array<{ id: string }> }>;
+    return studies.flatMap((study) => [
+      { url: `/study/${study.id}`, revision: study.id },
+      ...study.lessons.map((lesson) => ({
+        url: `/study/${study.id}/lesson/${lesson.id}`,
+        revision: lesson.id,
+      })),
+    ]);
+  } catch {
+    return [];
+  }
+}
 
+const precacheRoutes = loadStudyRoutes();
+
+// app/~offline/page.tsx é detectado automaticamente pelo @ducanh2912/next-pwa
+// e gera o fallback correto para navegação offline (sem necessidade de configurar `fallbacks` manualmente)
 const withPWA = withPWAInit({
   dest: "public",
   cacheOnFrontEndNav: true,
   aggressiveFrontEndNavCaching: true,
   reloadOnOnline: true,
   disable: process.env.NODE_ENV === "development",
-  fallbacks: {
-    document: "/offline.html",
-  },
   workboxOptions: {
     additionalManifestEntries: [{ url: "/", revision: "index" }, ...precacheRoutes],
   },
