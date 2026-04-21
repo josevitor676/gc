@@ -1,6 +1,6 @@
 "use client";
 
-import React, { createContext, useContext, useState, useCallback, useMemo } from "react";
+import React, { createContext, useContext, useState, useEffect, useCallback, useMemo } from "react";
 
 export interface ThemeColors {
   bg: string;
@@ -82,10 +82,30 @@ const ThemeContext = createContext<ThemeContextType>({
 
 const MIN_FONT = 12;
 const MAX_FONT = 24;
+const STORAGE_KEY_THEME = "gc-theme";
+const STORAGE_KEY_FONT = "gc-font-size";
+
+function readStorage<T>(key: string, fallback: T): T {
+  if (typeof window === "undefined") return fallback;
+  try {
+    const raw = localStorage.getItem(key);
+    return raw !== null ? (JSON.parse(raw) as T) : fallback;
+  } catch {
+    return fallback;
+  }
+}
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [dark, setDark] = useState(false);
-  const [fontSize, setFontSize] = useState(15);
+  const [dark, setDark] = useState(() => readStorage<boolean>(STORAGE_KEY_THEME, false));
+  const [fontSize, setFontSize] = useState(() => readStorage<number>(STORAGE_KEY_FONT, 15));
+
+  useEffect(() => {
+    try { localStorage.setItem(STORAGE_KEY_THEME, JSON.stringify(dark)); } catch {}
+  }, [dark]);
+
+  useEffect(() => {
+    try { localStorage.setItem(STORAGE_KEY_FONT, JSON.stringify(fontSize)); } catch {}
+  }, [fontSize]);
 
   const toggleTheme = useCallback(() => setDark((d) => !d), []);
   const increaseFontSize = useCallback(
