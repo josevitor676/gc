@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sem conexão — Grupos de Crescimento</title>
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        background: #111827;
+        color: #F9FAFB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100dvh;
+        padding: 1.5rem;
+        text-align: center;
+      }
+      .icon { font-size: 4rem; margin-bottom: 1.25rem; }
+      h1 { font-size: 1.5rem; font-weight: 800; margin-bottom: 0.5rem; }
+      p { font-size: 0.9rem; color: #9CA3AF; line-height: 1.6; max-width: 20rem; }
+      button {
+        margin-top: 2rem;
+        padding: 0.75rem 2rem;
+        background: #7C3AED;
+        color: #fff;
+        border: none;
+        border-radius: 9999px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      button:hover { opacity: 0.85; }
+    </style>
+  </head>
+  <body>
+    <div class="icon">📵</div>
+    <h1>Você está offline</h1>
+    <p>Verifique sua conexão com a internet e tente novamente.</p>
+    <button onclick="window.location.reload()">Tentar novamente</button>
+  </body>
+</html>

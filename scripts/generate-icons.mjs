@@ -7,7 +7,7 @@
  */
 
 import sharp from "sharp";
-import { mkdirSync } from "fs";
+import { mkdirSync, existsSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 
@@ -15,6 +15,12 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const src = resolve(__dirname, "../../gc-app/assets/icon.png");
 const outDir = resolve(__dirname, "../public/icons");
+
+if (!existsSync(src)) {
+  console.error(`❌ Arquivo de origem não encontrado: ${src}`);
+  console.error("Certifique-se de que o repositório gc-app está em ../gc-app/.");
+  process.exit(1);
+}
 
 mkdirSync(outDir, { recursive: true });
 

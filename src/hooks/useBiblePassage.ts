@@ -1,9 +1,12 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useMemo } from "react";
 import type { BibleVerse, BibleReference } from "@/types";
 import { fetchVerses } from "@/services/bible";
 import { getCachedBibleVerses, cacheBibleVerses } from "@/services/storage";
+import staticPassages from "@/data/bible-passages.json";
+
+const bundled = staticPassages as Record<string, BibleVerse[]>;
 
 export function useBiblePassage() {
   const [verses, setVerses] = useState<BibleVerse[]>([]);
@@ -19,17 +22,29 @@ export function useBiblePassage() {
     try {
       const cached = await getCachedBibleVerses(cacheKey);
       if (cached) {
-        setVerses(JSON.parse(cached));
-        setLoading(false);
-        return;
+        try {
+          setVerses(JSON.parse(cached) as BibleVerse[]);
+          setLoading(false);
+          return;
+        } catch {
+          // Cache corrompido — busca na rede
+        }
       }
 
       const data = await fetchVerses(ref.book, ref.chapter, ref.verseStart, ref.verseEnd);
       setVerses(data);
       await cacheBibleVerses(cacheKey, JSON.stringify(data));
-    } catch (e: unknown) {
-      const msg = e instanceof Error ? e.message : "Erro ao carregar passagem";
-      setError(msg);
+    } catch {
+      // Fallback 1: dados estáticos pré-bundled
+      const fallback = bundled[cacheKey];
+      if (fallback && fallback.length > 0) {
+        setVerses(fallback);
+        // Armazena no IndexedDB para uso futuro enquanto online
+        await cacheBibleVerses(cacheKey, JSON.stringify(fallback)).catch(() => {});
+      } else {
+        // Fallback 2: mensagem de erro amigável
+        setError("Passagem não disponível offline. Abra o app com internet para carregar.");
+      }
     } finally {
       setLoading(false);
     }
@@ -40,5 +55,8 @@ export function useBiblePassage() {
     setError(null);
   }, []);
 
-  return { verses, loading, error, loadPassage, clear };
+  return useMemo(
+    () => ({ verses, loading, error, loadPassage, clear }),
+    [verses, loading, error, loadPassage, clear]
+  );
 }

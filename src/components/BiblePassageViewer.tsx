@@ -44,6 +44,8 @@ export default function BiblePassageViewer({ reference, visible, onClose }: Prop
       onClick={(e) => { if (e.target === dialogRef.current) onClose(); }}
       className="m-auto mt-auto mb-0 w-full max-w-2xl rounded-t-2xl p-0 shadow-2xl backdrop:bg-black/45 max-h-[75dvh] outline-none border-0"
       style={{ backgroundColor: colors.surface }}
+      aria-modal="true"
+      aria-labelledby="bible-dialog-title"
     >
       {/* Handle bar */}
       <div className="flex justify-center pt-2.5 pb-1">
@@ -53,7 +55,7 @@ export default function BiblePassageViewer({ reference, visible, onClose }: Prop
       {/* Header */}
       <div className="flex items-start justify-between px-5 py-4">
         <div>
-          <p className="text-lg font-bold" style={{ color: colors.primary }}>{title}</p>
+          <p id="bible-dialog-title" className="text-lg font-bold" style={{ color: colors.primary }}>{title}</p>
           <p className="text-xs mt-0.5" style={{ color: colors.textMuted }}>
             Almeida Revista e Atualizada (ARA)
           </p>
@@ -93,6 +95,7 @@ export default function BiblePassageViewer({ reference, visible, onClose }: Prop
                 <sup
                   className="font-bold mr-1"
                   style={{ color: colors.primaryLight, fontSize: fontSize - 4 }}
+                  aria-label={`verso ${v.verse}`}
                 >
                   {v.verse}
                 </sup>

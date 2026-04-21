@@ -19,7 +19,11 @@ export default function InstallBanner() {
 
   useEffect(() => {
     // Don't show if already dismissed or installed
-    if (localStorage.getItem(DISMISSED_KEY)) return;
+    try {
+      if (localStorage.getItem(DISMISSED_KEY)) return;
+    } catch {
+      return; // localStorage indisponível (modo privado, etc.)
+    }
 
     // Detect iOS (Safari doesn't support beforeinstallprompt)
     const ios =
@@ -52,7 +56,11 @@ export default function InstallBanner() {
   };
 
   const handleDismiss = () => {
-    localStorage.setItem(DISMISSED_KEY, "1");
+    try {
+      localStorage.setItem(DISMISSED_KEY, "1");
+    } catch {
+      // localStorage indisponível — dismiss não persistido
+    }
     setVisible(false);
   };
 

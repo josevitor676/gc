@@ -1,6 +1,6 @@
 "use client";
 
-import React, { createContext, useContext, useState, useCallback } from "react";
+import React, { createContext, useContext, useState, useCallback, useMemo } from "react";
 
 export interface ThemeColors {
   bg: string;
@@ -97,12 +97,15 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     []
   );
 
-  const colors = dark ? darkColors : lightColors;
+  const colors = useMemo(() => (dark ? darkColors : lightColors), [dark]);
+
+  const value = useMemo(
+    () => ({ dark, colors, fontSize, toggleTheme, increaseFontSize, decreaseFontSize }),
+    [dark, colors, fontSize, toggleTheme, increaseFontSize, decreaseFontSize]
+  );
 
   return (
-    <ThemeContext.Provider
-      value={{ dark, colors, fontSize, toggleTheme, increaseFontSize, decreaseFontSize }}
-    >
+    <ThemeContext.Provider value={value}>
       <div
         data-theme={dark ? "dark" : "light"}
         style={{ backgroundColor: colors.bg, minHeight: "100dvh" }}

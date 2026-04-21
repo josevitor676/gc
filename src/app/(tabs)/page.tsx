@@ -5,7 +5,7 @@ import StudyCard from "@/components/StudyCard";
 import { useTheme } from "@/contexts/ThemeContext";
 
 export default function EstudosPage() {
-  const { studies, loading } = useStudies();
+  const { studies, loading, error } = useStudies();
   const { colors } = useTheme();
 
   return (
@@ -23,11 +23,21 @@ export default function EstudosPage() {
       </div>
 
       {loading ? (
-        <div className="flex justify-center mt-12">
+        <div
+          className="flex justify-center mt-12"
+          role="status"
+          aria-label="Carregando estudos..."
+        >
           <div
             className="w-10 h-10 rounded-full border-2 border-t-transparent animate-spin"
             style={{ borderColor: colors.primaryLight, borderTopColor: "transparent" }}
           />
+        </div>
+      ) : error ? (
+        <div className="flex justify-center mt-12">
+          <p className="text-sm text-center" style={{ color: colors.textMuted }}>
+            {error}
+          </p>
         </div>
       ) : (
         <div className="flex flex-col gap-4">

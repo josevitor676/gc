@@ -1,5 +1,6 @@
 "use client";
 
+import { memo } from "react";
 import Link from "next/link";
 import type { Study } from "@/types";
 import { useTheme } from "@/contexts/ThemeContext";
@@ -8,7 +9,7 @@ interface Props {
   study: Study;
 }
 
-export default function StudyCard({ study }: Props) {
+export default memo(function StudyCard({ study }: Props) {
   const { colors } = useTheme();
   const totalLessons = study.lessons.length;
 
@@ -48,6 +49,7 @@ export default function StudyCard({ study }: Props) {
           <span
             className="w-7 h-7 rounded-full flex items-center justify-center text-sm font-bold shrink-0"
             style={{ backgroundColor: colors.badgeBg, color: colors.badgeText }}
+            aria-label={`${totalLessons} ${totalLessons === 1 ? "lição" : "lições"}`}
           >
             {totalLessons}
           </span>
@@ -58,4 +60,4 @@ export default function StudyCard({ study }: Props) {
       </div>
     </Link>
   );
-}
+});

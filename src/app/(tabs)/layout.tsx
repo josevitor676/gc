@@ -8,7 +8,7 @@ export default function TabsLayout({ children }: { children: React.ReactNode }) 
   const { dark, colors, toggleTheme } = useTheme();
 
   return (
-    <div className="flex flex-col min-h-dvh" style={{ backgroundColor: colors.bg }}>
+    <div className="flex flex-col min-h-dvh">
       <header
         className="flex items-center justify-between px-5 py-3 sticky top-0 z-30"
         style={{ backgroundColor: colors.headerBg }}

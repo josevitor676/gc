@@ -7,11 +7,17 @@ import { getStudies } from "@/services/studies";
 export function useStudies() {
   const [studies, setStudies] = useState<Study[]>([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    setStudies(getStudies());
-    setLoading(false);
+    try {
+      setStudies(getStudies());
+    } catch (e: unknown) {
+      setError(e instanceof Error ? e.message : "Erro ao carregar estudos");
+    } finally {
+      setLoading(false);
+    }
   }, []);
 
-  return { studies, loading };
+  return { studies, loading, error };
 }

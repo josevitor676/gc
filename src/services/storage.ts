@@ -75,9 +75,19 @@ export async function upsertAnnotation(a: Annotation): Promise<void> {
 
 // ── Bible Cache ───────────────────────────────────────────
 
+const BIBLE_CACHE_TTL_MS = 30 * 24 * 60 * 60 * 1_000; // 30 dias
+
 export async function getCachedBibleVerses(cacheKey: string): Promise<string | null> {
   const row = await getDb().bibleCache.get(cacheKey);
-  return row?.data ?? null;
+  if (!row) return null;
+
+  const age = Date.now() - new Date(row.createdAt).getTime();
+  if (age > BIBLE_CACHE_TTL_MS) {
+    await getDb().bibleCache.delete(cacheKey);
+    return null;
+  }
+
+  return row.data;
 }
 
 export async function cacheBibleVerses(cacheKey: string, data: string): Promise<void> {
