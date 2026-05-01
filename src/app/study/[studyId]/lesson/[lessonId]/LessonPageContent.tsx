@@ -5,12 +5,21 @@ import { notFound } from "next/navigation";
 import { useRouter } from "next/navigation";
 import { getLessonById } from "@/services/studies";
 import { parseBibleReferences } from "@/utils/bible-ref-parser";
-import { getHighlightsByLesson } from "@/services/storage";
+import {
+  getHighlightsByLesson,
+  insertHighlight,
+  deleteHighlight,
+  getAnnotationByHighlight,
+  upsertAnnotation,
+} from "@/services/storage";
 import LessonContent from "@/components/LessonContent";
 import BiblePassageViewer from "@/components/BiblePassageViewer";
+import HighlightToolbar from "@/components/HighlightToolbar";
+import AnnotationModal from "@/components/AnnotationModal";
 import { useTheme } from "@/contexts/ThemeContext";
-import type { BibleReference, Highlight } from "@/types";
-import { ChevronLeft, Minus, Plus } from "lucide-react";
+import { isLicaoLida, marcarLicaoLida, desmarcarLicaoLida } from "@/lib/progresso-licao";
+import type { BibleReference, Highlight, Annotation } from "@/types";
+import { CheckCircle2, ChevronLeft, Minus, Plus } from "lucide-react";
 
 interface Props {
   studyId: string;
@@ -28,6 +37,39 @@ export default function LessonPageContent({ studyId, lessonId }: Props) {
   const [bibleModalVisible, setBibleModalVisible] = useState(false);
   const [highlights, setHighlights] = useState<Highlight[]>([]);
 
+  // Highlight toolbar
+  const [toolbarState, setToolbarState] = useState<{
+    blockIndex: number;
+    startOffset: number;
+    endOffset: number;
+    x: number;
+    y: number;
+  } | null>(null);
+
+  // Annotation modal
+  const [annotationState, setAnnotationState] = useState<{
+    highlight: Highlight;
+    annotation: Annotation | null;
+    snippetText: string;
+  } | null>(null);
+
+  // Lesson progress
+  const [lida, setLida] = useState(false);
+  useEffect(() => {
+    if (lesson) setLida(isLicaoLida(studyId, lesson.id));
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [lesson?.id]);
+
+  const toggleLida = useCallback(() => {
+    if (!lesson) return;
+    if (lida) {
+      desmarcarLicaoLida(studyId, lesson.id);
+    } else {
+      marcarLicaoLida(studyId, lesson.id);
+    }
+    setLida(!lida);
+  }, [lida, lesson, studyId]);
+
   const handleBibleRefPress = useCallback((ref: BibleReference) => {
     setSelectedRef(ref);
     setBibleModalVisible(true);
@@ -42,6 +84,73 @@ export default function LessonPageContent({ studyId, lessonId }: Props) {
       setBibleModalVisible(true);
     }
   }, [lesson]);
+
+  const handleTextSelect = useCallback(
+    (blockIndex: number, startOffset: number, endOffset: number, x: number, y: number) => {
+      setToolbarState({ blockIndex, startOffset, endOffset, x, y });
+    },
+    [],
+  );
+
+  const handleColorSelect = useCallback(
+    async (color: string) => {
+      if (!toolbarState || !lesson) return;
+      const newHighlight: Highlight = {
+        id: `h-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
+        lessonId: lesson.id,
+        blockIndex: toolbarState.blockIndex,
+        startOffset: toolbarState.startOffset,
+        endOffset: toolbarState.endOffset,
+        color,
+        createdAt: new Date().toISOString(),
+      };
+      await insertHighlight(newHighlight);
+      setHighlights(await getHighlightsByLesson(lesson.id));
+      window.getSelection()?.removeAllRanges();
+      setToolbarState(null);
+    },
+    [toolbarState, lesson],
+  );
+
+  const handleDismissToolbar = useCallback(() => {
+    window.getSelection()?.removeAllRanges();
+    setToolbarState(null);
+  }, []);
+
+  const handleHighlightClick = useCallback(
+    async (highlight: Highlight) => {
+      if (!lesson) return;
+      const annotation = await getAnnotationByHighlight(highlight.id);
+      const blockText = lesson.content[highlight.blockIndex]?.text ?? "";
+      const snippetText = blockText.slice(highlight.startOffset, highlight.endOffset);
+      setAnnotationState({ highlight, annotation, snippetText });
+    },
+    [lesson],
+  );
+
+  const handleSaveAnnotation = useCallback(
+    async (text: string) => {
+      if (!annotationState || !lesson) return;
+      const existing = annotationState.annotation;
+      const annotation: Annotation = {
+        id: existing?.id ?? `a-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
+        highlightId: annotationState.highlight.id,
+        text,
+        createdAt: existing?.createdAt ?? new Date().toISOString(),
+        updatedAt: new Date().toISOString(),
+      };
+      await upsertAnnotation(annotation);
+      setAnnotationState(null);
+    },
+    [annotationState, lesson],
+  );
+
+  const handleDeleteHighlight = useCallback(async () => {
+    if (!annotationState || !lesson) return;
+    await deleteHighlight(annotationState.highlight.id);
+    setHighlights(await getHighlightsByLesson(lesson.id));
+    setAnnotationState(null);
+  }, [annotationState, lesson]);
 
   useEffect(() => {
     if (lesson) {
@@ -118,7 +227,11 @@ export default function LessonPageContent({ studyId, lessonId }: Props) {
           blocks={lesson.content}
           highlights={highlights}
           onBibleRefPress={handleBibleRefPress}
+          onTextSelect={handleTextSelect}
+          onHighlightClick={handleHighlightClick}
         />
+
+        
 
         {/* Reflection questions */}
         {lesson.reflectionQuestions.length > 0 && (
@@ -149,6 +262,21 @@ export default function LessonPageContent({ studyId, lessonId }: Props) {
           </div>
         )}
 
+        {/* Mark as read */}
+        <div className="mt-8 flex justify-center">
+          <button
+            onClick={toggleLida}
+            className="flex items-center gap-2 px-5 py-3 rounded-full font-semibold text-sm transition-all active:scale-95"
+            style={{
+              backgroundColor: lida ? "#22c55e" : colors.primaryBg,
+              color: lida ? "#fff" : colors.badgeText,
+            }}
+          >
+            <CheckCircle2 size={18} />
+            {lida ? "Lição concluída" : "Marcar como lida"}
+          </button>
+        </div>
+
       </div>
 
       <BiblePassageViewer
@@ -156,6 +284,25 @@ export default function LessonPageContent({ studyId, lessonId }: Props) {
         visible={bibleModalVisible}
         onClose={() => setBibleModalVisible(false)}
       />
+
+      {toolbarState && (
+        <HighlightToolbar
+          position={{ x: toolbarState.x, y: toolbarState.y }}
+          onColorSelect={handleColorSelect}
+          onDismiss={handleDismissToolbar}
+        />
+      )}
+
+      {annotationState && (
+        <AnnotationModal
+          highlight={annotationState.highlight}
+          snippetText={annotationState.snippetText}
+          annotation={annotationState.annotation}
+          onSave={handleSaveAnnotation}
+          onDeleteHighlight={handleDeleteHighlight}
+          onClose={() => setAnnotationState(null)}
+        />
+      )}
     </div>
   );
 }

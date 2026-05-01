@@ -1,9 +1,10 @@
 "use client";
 
-import { memo } from "react";
+import { useState, useEffect, memo } from "react";
 import Link from "next/link";
 import type { Study } from "@/types";
 import { useTheme } from "@/contexts/ThemeContext";
+import { getProgressoEstudo } from "@/lib/progresso-licao";
 
 interface Props {
   study: Study;
@@ -12,6 +13,16 @@ interface Props {
 export default memo(function StudyCard({ study }: Props) {
   const { colors } = useTheme();
   const totalLessons = study.lessons.length;
+  const [lidasCount, setLidasCount] = useState(0);
+
+  useEffect(() => {
+    setLidasCount(
+      getProgressoEstudo(
+        study.id,
+        study.lessons.map((l) => l.id),
+      ),
+    );
+  }, [study]);
 
   return (
     <Link
@@ -49,13 +60,28 @@ export default memo(function StudyCard({ study }: Props) {
           <span
             className="w-7 h-7 rounded-full flex items-center justify-center text-sm font-bold shrink-0"
             style={{ backgroundColor: colors.badgeBg, color: colors.badgeText }}
-            aria-label={`${totalLessons} ${totalLessons === 1 ? "lição" : "lições"}`}
+            aria-label={`${lidasCount} de ${totalLessons} ${totalLessons === 1 ? "lição" : "lições"} lidas`}
           >
             {totalLessons}
           </span>
-          <span className="text-sm" style={{ color: colors.textSecondary }}>
-            {totalLessons === 1 ? "lição disponível" : "lições disponíveis"}
-          </span>
+          <div className="flex-1">
+            <p className="text-sm" style={{ color: colors.textSecondary }}>
+              {lidasCount > 0
+                ? `${lidasCount}/${totalLessons} lições`
+                : `${totalLessons} ${totalLessons === 1 ? "lição disponível" : "lições disponíveis"}`}
+            </p>
+            {lidasCount > 0 && totalLessons > 0 && (
+              <div className="mt-1 h-1.5 rounded-full overflow-hidden" style={{ backgroundColor: colors.border }}>
+                <div
+                  className="h-full rounded-full transition-all duration-500"
+                  style={{
+                    width: `${(lidasCount / totalLessons) * 100}%`,
+                    backgroundColor: lidasCount === totalLessons ? "#22c55e" : colors.primaryLight,
+                  }}
+                />
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </Link>
