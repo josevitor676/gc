@@ -1,11 +1,34 @@
 "use client";
 
-import { Sun, Moon } from "lucide-react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { Sun, Moon, Book, Heart, HandHeart } from "lucide-react";
 import { useTheme } from "@/contexts/ThemeContext";
 import InstallBanner from "@/components/InstallBanner";
 
+const NAV_ITEMS = [
+  {
+    href: "/",
+    label: "Estudos",
+    icon: Book,
+  },
+  {
+    href: "/vida-espiritual/devocional",
+    label: "Devocional",
+    icon: Heart,
+  },
+  {
+    href: "/vida-espiritual/oracao",
+    label: "Oração",
+    icon: HandHeart,
+  },
+];
+
 export default function TabsLayout({ children }: { children: React.ReactNode }) {
   const { dark, colors, toggleTheme } = useTheme();
+  const pathname = usePathname();
+
+  const isActive = (href: string) => pathname === href;
 
   return (
     <div className="flex flex-col min-h-dvh">
@@ -25,7 +48,35 @@ export default function TabsLayout({ children }: { children: React.ReactNode }) 
         </button>
       </header>
 
-      <main className="flex-1">{children}</main>
+      <main className="flex-1 pb-24">{children}</main>
+
+      <nav
+        className="fixed bottom-0 left-0 right-0 flex justify-center items-center gap-8 px-5 py-4 border-t z-20"
+        style={{
+          backgroundColor: colors.headerBg,
+          borderColor: colors.border,
+        }}
+      >
+        {NAV_ITEMS.map(({ href, label, icon: Icon }) => {
+          const active = isActive(href);
+
+          return (
+            <Link
+              key={href}
+              href={href}
+              className="flex flex-col items-center gap-1 p-2 rounded-lg transition-colors"
+              aria-label={label}
+              title={label}
+              style={{
+                color: active ? colors.primary : colors.headerText,
+              }}
+            >
+              <Icon size={24} />
+              <span className="text-xs font-medium">{label}</span>
+            </Link>
+          );
+        })}
+      </nav>
 
       <InstallBanner />
     </div>

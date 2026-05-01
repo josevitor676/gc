@@ -66,4 +66,33 @@ export interface BibleVerse {
   text: string;
 }
 
+export interface DevocionalDiario {
+  id: number;
+  data: string;
+  versiculo: string;
+  referencia: string;
+  titulo: string;
+  reflexao: string;
+  aplicacao: string;
+  oracao: string;
+  criadoEm: string;
+}
+
+export interface VersiculoDoDia {
+  id: number;
+  data: string;
+  versiculo: string;
+  referencia: string;
+  livro: string;
+  criadoEm: string;
+}
+
+export interface PedidoOracao {
+  id: number;
+  solicitante: string | null;
+  pedido: string;
+  criadoEm: string;
+  ativo: boolean;
+}
+
 export const HIGHLIGHT_COLORS = ["#FDE68A", "#BBF7D0", "#BAE6FD", "#FBCFE8"];

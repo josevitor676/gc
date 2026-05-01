@@ -47,8 +47,18 @@ const CSP = [
 ].join("; ");
 
 const nextConfig: NextConfig = {
+  allowedDevOrigins: ['c70d-2804-3c74-3f0-912e-91a7-7bfc-7e05-65c3.ngrok-free.app'],
   async headers() {
     return [
+      {
+        source: "/api/:path*",
+        headers: [
+          { key: "Access-Control-Allow-Credentials", value: "true" },
+          { key: "Access-Control-Allow-Origin", value: "*" },
+          { key: "Access-Control-Allow-Methods", value: "GET,DELETE,PATCH,POST,PUT,OPTIONS" },
+          { key: "Access-Control-Allow-Headers", value: "Content-Type,Authorization" },
+        ],
+      },
       {
         source: "/(.*)",
         headers: [
@@ -56,6 +66,7 @@ const nextConfig: NextConfig = {
           { key: "X-Content-Type-Options", value: "nosniff" },
           { key: "X-Frame-Options", value: "DENY" },
           { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+          { key: "Access-Control-Allow-Origin", value: "*" }
         ],
       },
     ];

@@ -1,0 +1,36 @@
+import type { DiaPlano } from "@/lib/plano-leitura";
+
+export const PLANO_ID = "novo_testamento_30_dias";
+
+export const PLANO_LEITURA_NT_30_DIAS: DiaPlano[] = [
+  { dia: 1, titulo: "A palavra se fez carne", referencia: "Joao 1-2" },
+  { dia: 2, titulo: "Novo nascimento", referencia: "Joao 3-4" },
+  { dia: 3, titulo: "Pao da vida", referencia: "Joao 5-6" },
+  { dia: 4, titulo: "Luz do mundo", referencia: "Joao 7-8" },
+  { dia: 5, titulo: "Bom Pastor", referencia: "Joao 9-10" },
+  { dia: 6, titulo: "Ressurreicao e vida", referencia: "Joao 11-12" },
+  { dia: 7, titulo: "Amor e servico", referencia: "Joao 13-14" },
+  { dia: 8, titulo: "Videira verdadeira", referencia: "Joao 15-16" },
+  { dia: 9, titulo: "Oracao sacerdotal", referencia: "Joao 17-18" },
+  { dia: 10, titulo: "Cruz e ressurreicao", referencia: "Joao 19-21" },
+  { dia: 11, titulo: "Inicio da igreja", referencia: "Atos 1-2" },
+  { dia: 12, titulo: "Poder e testemunho", referencia: "Atos 3-4" },
+  { dia: 13, titulo: "Perseguicao e coragem", referencia: "Atos 5-7" },
+  { dia: 14, titulo: "Missao se expande", referencia: "Atos 8-10" },
+  { dia: 15, titulo: "Graca para todos", referencia: "Atos 11-13" },
+  { dia: 16, titulo: "Viagens missionarias", referencia: "Atos 14-16" },
+  { dia: 17, titulo: "Firmeza no evangelho", referencia: "Atos 17-20" },
+  { dia: 18, titulo: "Paulo em Jerusalem", referencia: "Atos 21-24" },
+  { dia: 19, titulo: "Paulo em Roma", referencia: "Atos 25-28" },
+  { dia: 20, titulo: "Justificados pela fe", referencia: "Romanos 1-4" },
+  { dia: 21, titulo: "Vida no Espirito", referencia: "Romanos 5-8" },
+  { dia: 22, titulo: "Corpo de Cristo", referencia: "Romanos 9-12" },
+  { dia: 23, titulo: "Amor e santidade", referencia: "Romanos 13-16" },
+  { dia: 24, titulo: "A cruz e a igreja", referencia: "1 Corintios 1-6" },
+  { dia: 25, titulo: "Dons e amor", referencia: "1 Corintios 7-14" },
+  { dia: 26, titulo: "Esperanca da ressurreicao", referencia: "1 Corintios 15-16" },
+  { dia: 27, titulo: "Consolo em Cristo", referencia: "2 Corintios 1-7" },
+  { dia: 28, titulo: "Alegria em toda circunstancia", referencia: "Filipenses 1-4" },
+  { dia: 29, titulo: "Cristo acima de tudo", referencia: "Colossenses 1-4" },
+  { dia: 30, titulo: "Fe perseverante", referencia: "Hebreus 11-13" },
+];

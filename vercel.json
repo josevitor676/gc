@@ -1,0 +1,8 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/gerar-devocional",
+      "schedule": "0 3 * * *"
+    }
+  ]
+}
