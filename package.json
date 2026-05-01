@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --webpack",
-    "build": "next build --webpack",
+    "build": "prisma generate && next build --webpack",
     "start": "next start",
     "prefetch-bible": "node scripts/prefetch-bible.mjs",
     "prisma:generate": "prisma generate",
