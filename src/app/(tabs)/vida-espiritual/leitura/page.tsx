@@ -4,16 +4,23 @@ import { useEffect, useState } from "react";
 import VersiculoDoDiaCard from "@/components/vida-espiritual/VersiculoDoDia";
 import PlanoLeitura from "@/components/vida-espiritual/PlanoLeitura";
 import { useTheme } from "@/contexts/ThemeContext";
+import { useOnlineStatus } from "@/hooks/useOnlineStatus";
 import { PLANO_ID, PLANO_LEITURA_NT_30_DIAS } from "@/data/plano-leitura-novo-testamento";
 import type { VersiculoDoDia } from "@/types";
 
 export default function LeituraPage() {
   const { colors } = useTheme();
+  const isOnline = useOnlineStatus();
   const [versiculo, setVersiculo] = useState<VersiculoDoDia | null>(null);
   const [versiculoLoading, setVersiculoLoading] = useState(true);
   const [versiculoError, setVersiculoError] = useState<string | null>(null);
 
   useEffect(() => {
+    if (!isOnline) {
+      setVersiculoLoading(false);
+      return;
+    }
+
     async function loadVersiculo() {
       try {
         setVersiculoLoading(true);
@@ -34,7 +41,7 @@ export default function LeituraPage() {
     }
 
     void loadVersiculo();
-  }, []);
+  }, [isOnline]);
 
   return (
     <div className="px-5 py-8 max-w-2xl mx-auto md:max-w-3xl">
@@ -44,7 +51,15 @@ export default function LeituraPage() {
         </h1>
       </div>
 
-      {versiculoLoading ? (
+      {!isOnline ? (
+        <div
+          className="flex items-center gap-2 rounded-xl px-4 py-3 mb-4 text-sm"
+          style={{ backgroundColor: colors.surfaceAlt, color: colors.textMuted }}
+        >
+          <span>📵</span>
+          <span>Versículo do dia indisponível offline. Seu progresso de leitura está salvo.</span>
+        </div>
+      ) : versiculoLoading ? (
         <div
           className="flex justify-center mb-6"
           role="status"
@@ -55,13 +70,7 @@ export default function LeituraPage() {
             style={{ borderColor: colors.primaryLight, borderTopColor: "transparent" }}
           />
         </div>
-      ) : versiculoError ? (
-        <div className="mb-6 p-4 rounded-2xl" style={{ backgroundColor: colors.card }}>
-          <p className="text-sm" style={{ color: colors.textMuted }}>
-            {versiculoError}
-          </p>
-        </div>
-      ) : versiculo ? (
+      ) : versiculoError ? null : versiculo ? (
         <div className="mb-6">
           <VersiculoDoDiaCard versiculo={versiculo} />
         </div>

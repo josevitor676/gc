@@ -2,10 +2,9 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Sun, Moon, Book, Heart, HandHeart } from "lucide-react";
+import { Sun, Moon, Book, BookOpen, Heart, HandHeart } from "lucide-react";
 import { useTheme } from "@/contexts/ThemeContext";
 import InstallBanner from "@/components/InstallBanner";
-
 const NAV_ITEMS = [
   {
     href: "/",
@@ -16,6 +15,11 @@ const NAV_ITEMS = [
     href: "/vida-espiritual/devocional",
     label: "Devocional",
     icon: Heart,
+  },
+  {
+    href: "/vida-espiritual/leitura",
+    label: "Leitura",
+    icon: BookOpen,
   },
   {
     href: "/vida-espiritual/oracao",
@@ -77,7 +81,6 @@ export default function TabsLayout({ children }: { children: React.ReactNode }) 
           );
         })}
       </nav>
-
       <InstallBanner />
     </div>
   );
