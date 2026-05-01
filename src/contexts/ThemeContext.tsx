@@ -107,7 +107,15 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     try { localStorage.setItem(STORAGE_KEY_FONT, JSON.stringify(fontSize)); } catch {}
   }, [fontSize]);
 
-  const toggleTheme = useCallback(() => setDark((d) => !d), []);
+  // Save theme synchronously inside the updater so the value is in localStorage
+  // before any navigation that might trigger a full page reload (e.g. RSC cache miss offline).
+  const toggleTheme = useCallback(() => {
+    setDark((d) => {
+      const next = !d;
+      try { localStorage.setItem(STORAGE_KEY_THEME, JSON.stringify(next)); } catch {}
+      return next;
+    });
+  }, []);
   const increaseFontSize = useCallback(
     () => setFontSize((s) => Math.min(s + 1, MAX_FONT)),
     []
@@ -129,6 +137,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
       <div
         data-theme={dark ? "dark" : "light"}
         style={{ backgroundColor: colors.bg, minHeight: "100dvh" }}
+        suppressHydrationWarning
       >
         {children}
       </div>

@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import type { ContentBlock, BibleReference, Highlight } from "@/types";
 import { parseBibleReferences, type ParsedSegment } from "@/utils/bible-ref-parser";
 import BibleReferenceLink from "./BibleReferenceLink";
@@ -16,6 +16,7 @@ interface Props {
     endOffset: number,
     x: number,
     y: number,
+    yBottom: number,
   ) => void;
   onHighlightClick: (highlight: Highlight) => void;
 }
@@ -76,48 +77,6 @@ function getTextOffset(container: Element, targetNode: Node, targetOffset: numbe
     chars += (node as Text).textContent!.length;
   }
   return chars;
-}
-
-// ── BlockWrapper — handles text selection per block ───────
-
-function BlockWrapper({
-  blockIndex,
-  children,
-  onTextSelect,
-}: {
-  blockIndex: number;
-  children: React.ReactNode;
-  onTextSelect: Props["onTextSelect"];
-}) {
-  const ref = useRef<HTMLDivElement>(null);
-
-  function handlePointerUp() {
-    const sel = window.getSelection();
-    if (!sel || sel.isCollapsed || !ref.current) return;
-
-    const range = sel.getRangeAt(0);
-    if (!ref.current.contains(range.commonAncestorContainer)) return;
-    if (!sel.toString().trim()) return;
-
-    const startOffset = getTextOffset(ref.current, range.startContainer, range.startOffset);
-    const endOffset = getTextOffset(ref.current, range.endContainer, range.endOffset);
-    if (startOffset === endOffset) return;
-
-    const rect = range.getBoundingClientRect();
-    onTextSelect(
-      blockIndex,
-      Math.min(startOffset, endOffset),
-      Math.max(startOffset, endOffset),
-      rect.left + rect.width / 2,
-      rect.top,
-    );
-  }
-
-  return (
-    <div ref={ref} onPointerUp={handlePointerUp}>
-      {children}
-    </div>
-  );
 }
 
 // ── RichText ──────────────────────────────────────────────
@@ -213,8 +172,64 @@ export default function LessonContent({
 }: Props) {
   const { colors, fontSize } = useTheme();
 
+  const contentRef = useRef<HTMLDivElement>(null);
+  // One ref per block, tracked by index
+  const blockRefs = useRef<(HTMLDivElement | null)[]>([]);
+
+  // ── Selection detection via selectionchange + 300 ms debounce ────────────
+  // Using selectionchange instead of onPointerUp so Android users can finish
+  // adjusting the selection handles before the toolbar appears.
+  useEffect(() => {
+    let timer: ReturnType<typeof setTimeout>;
+
+    function handleSelectionChange() {
+      clearTimeout(timer);
+
+      timer = setTimeout(() => {
+        const sel = window.getSelection();
+        if (!sel || sel.isCollapsed || !sel.toString().trim()) return;
+        if (!contentRef.current) return;
+
+        const range = sel.getRangeAt(0);
+
+        // Find the block that fully contains both ends of the selection.
+        // Cross-block selections are skipped (rare, hard to store correctly).
+        for (let i = 0; i < blocks.length; i++) {
+          const blockEl = blockRefs.current[i];
+          if (!blockEl) continue;
+          if (
+            blockEl.contains(range.startContainer) &&
+            blockEl.contains(range.endContainer)
+          ) {
+            const startOff = getTextOffset(blockEl, range.startContainer, range.startOffset);
+            const endOff   = getTextOffset(blockEl, range.endContainer,   range.endOffset);
+            if (startOff === endOff) return;
+
+            const rect = range.getBoundingClientRect();
+            onTextSelect(
+              i,
+              Math.min(startOff, endOff),
+              Math.max(startOff, endOff),
+              rect.left + rect.width / 2,
+              rect.top,
+              rect.bottom,
+            );
+            return;
+          }
+        }
+      }, 300);
+    }
+
+    document.addEventListener("selectionchange", handleSelectionChange);
+    return () => {
+      document.removeEventListener("selectionchange", handleSelectionChange);
+      clearTimeout(timer);
+    };
+  }, [blocks, onTextSelect]);
+
   return (
-    <div>
+    // userSelect:text ensures text is always selectable inside the PWA WebView
+    <div ref={contentRef} style={{ userSelect: "text", WebkitUserSelect: "text" } as React.CSSProperties}>
       {blocks.map((block, blockIndex) => {
         const blockHighlights = highlights.filter((h) => h.blockIndex === blockIndex);
         const richTextProps = {
@@ -226,42 +241,33 @@ export default function LessonContent({
         };
 
         return (
-          <BlockWrapper key={blockIndex} blockIndex={blockIndex} onTextSelect={onTextSelect}>
-            <div style={{ marginBottom: 12 }}>
-              {block.type === "heading" && (
-                <p
-                  className="font-bold mt-4 mb-1"
-                  style={{ fontSize: fontSize + 2, color: colors.primary }}
+          <div
+            key={blockIndex}
+            ref={(el) => { blockRefs.current[blockIndex] = el; }}
+            style={{ marginBottom: 12 }}
+          >
+            {block.type === "heading" && (
+              <p
+                className="font-bold mt-4 mb-1"
+                style={{ fontSize: fontSize + 2, color: colors.primary }}
+              >
+                {block.text}
+              </p>
+            )}
+
+            {block.type === "paragraph" && (
+              <RichText text={block.text} bold={block.bold} italic={block.italic} {...richTextProps} />
+            )}
+
+            {block.type === "numbered_point" && (
+              <div className="flex ml-1 mt-1">
+                <span
+                  className="font-bold mr-2 mt-0.5 shrink-0"
+                  style={{ color: colors.primary, fontSize }}
                 >
-                  {block.text}
-                </p>
-              )}
-
-              {block.type === "paragraph" && (
-                <RichText text={block.text} bold={block.bold} italic={block.italic} {...richTextProps} />
-              )}
-
-              {block.type === "numbered_point" && (
-                <div className="flex ml-1 mt-1">
-                  <span
-                    className="font-bold mr-2 mt-0.5 shrink-0"
-                    style={{ color: colors.primary, fontSize }}
-                  >
-                    {getNumberPrefix(blockIndex, blocks)}.
-                  </span>
-                  <div className="flex-1">
-                    <RichText
-                      text={block.text}
-                      bold={block.bold}
-                      italic={block.italic}
-                      {...richTextProps}
-                    />
-                  </div>
-                </div>
-              )}
-
-              {block.type === "sub_point" && (
-                <div className="ml-6 mt-1">
+                  {getNumberPrefix(blockIndex, blocks)}.
+                </span>
+                <div className="flex-1">
                   <RichText
                     text={block.text}
                     bold={block.bold}
@@ -269,21 +275,32 @@ export default function LessonContent({
                     {...richTextProps}
                   />
                 </div>
-              )}
+              </div>
+            )}
 
-              {block.type === "bible_quote" && (
-                <blockquote
-                  className="mt-1 ml-1 px-3 py-3 rounded-r-lg border-l-4"
-                  style={{
-                    backgroundColor: colors.reflectionBg,
-                    borderLeftColor: colors.primaryLight,
-                  }}
-                >
-                  <RichText text={block.text} italic {...richTextProps} />
-                </blockquote>
-              )}
-            </div>
-          </BlockWrapper>
+            {block.type === "sub_point" && (
+              <div className="ml-6 mt-1">
+                <RichText
+                  text={block.text}
+                  bold={block.bold}
+                  italic={block.italic}
+                  {...richTextProps}
+                />
+              </div>
+            )}
+
+            {block.type === "bible_quote" && (
+              <blockquote
+                className="mt-1 ml-1 px-3 py-3 rounded-r-lg border-l-4"
+                style={{
+                  backgroundColor: colors.reflectionBg,
+                  borderLeftColor: colors.primaryLight,
+                }}
+              >
+                <RichText text={block.text} italic {...richTextProps} />
+              </blockquote>
+            )}
+          </div>
         );
       })}
     </div>

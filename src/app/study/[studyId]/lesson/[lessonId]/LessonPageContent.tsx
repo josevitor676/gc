@@ -44,6 +44,7 @@ export default function LessonPageContent({ studyId, lessonId }: Props) {
     endOffset: number;
     x: number;
     y: number;
+    yBottom: number;
   } | null>(null);
 
   // Annotation modal
@@ -86,8 +87,8 @@ export default function LessonPageContent({ studyId, lessonId }: Props) {
   }, [lesson]);
 
   const handleTextSelect = useCallback(
-    (blockIndex: number, startOffset: number, endOffset: number, x: number, y: number) => {
-      setToolbarState({ blockIndex, startOffset, endOffset, x, y });
+    (blockIndex: number, startOffset: number, endOffset: number, x: number, y: number, yBottom: number) => {
+      setToolbarState({ blockIndex, startOffset, endOffset, x, y, yBottom });
     },
     [],
   );
@@ -287,7 +288,7 @@ export default function LessonPageContent({ studyId, lessonId }: Props) {
 
       {toolbarState && (
         <HighlightToolbar
-          position={{ x: toolbarState.x, y: toolbarState.y }}
+          position={{ x: toolbarState.x, y: toolbarState.y, yBottom: toolbarState.yBottom }}
           onColorSelect={handleColorSelect}
           onDismiss={handleDismissToolbar}
         />
