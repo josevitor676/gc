@@ -1,0 +1,42 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Devocional {
+  id         Int      @id @default(autoincrement())
+  data       DateTime @unique @db.Date
+  versiculo  String   @db.Text
+  referencia String   @db.Text
+  titulo     String   @db.Text
+  reflexao   String   @db.Text
+  aplicacao  String   @db.Text
+  oracao     String   @db.Text
+  criadoEm   DateTime @default(now()) @map("criado_em")
+
+  @@map("devocionais")
+}
+
+model PedidoOracao {
+  id          Int      @id @default(autoincrement())
+  solicitante String?  @db.Text
+  pedido      String   @db.Text
+  criadoEm    DateTime @default(now()) @map("criado_em")
+  ativo       Boolean  @default(true)
+
+  @@map("pedidos_oracao")
+}
+
+model VersiculoCache {
+  id         Int      @id @default(autoincrement())
+  data       DateTime @unique @db.Date
+  versiculo  String   @db.Text
+  referencia String   @db.Text
+  livro      String   @db.Text
+  criadoEm   DateTime @default(now()) @map("criado_em")
+
+  @@map("versiculo_cache")
+}
