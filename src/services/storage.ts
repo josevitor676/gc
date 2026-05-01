@@ -1,5 +1,4 @@
 import Dexie, { type Table } from "dexie";
-import type { Highlight, Annotation } from "@/types";
 
 interface BibleCacheRow {
   cacheKey: string;
@@ -8,8 +7,6 @@ interface BibleCacheRow {
 }
 
 class GCDatabase extends Dexie {
-  highlights!: Table<Highlight>;
-  annotations!: Table<Annotation>;
   bibleCache!: Table<BibleCacheRow>;
 
   constructor() {
@@ -27,50 +24,6 @@ let _db: GCDatabase | null = null;
 function getDb(): GCDatabase {
   if (!_db) _db = new GCDatabase();
   return _db;
-}
-
-// ── Highlights ────────────────────────────────────────────
-
-export async function getHighlightsByLesson(lessonId: string): Promise<Highlight[]> {
-  return getDb().highlights
-    .where("lessonId")
-    .equals(lessonId)
-    .sortBy("blockIndex");
-}
-
-export async function insertHighlight(h: Highlight): Promise<void> {
-  await getDb().highlights.put(h);
-}
-
-export async function deleteHighlight(id: string): Promise<void> {
-  const db = getDb();
-  await db.annotations.where("highlightId").equals(id).delete();
-  await db.highlights.delete(id);
-}
-
-// ── Annotations ───────────────────────────────────────────
-
-export async function getAnnotationByHighlight(highlightId: string): Promise<Annotation | null> {
-  const result = await getDb().annotations
-    .where("highlightId")
-    .equals(highlightId)
-    .first();
-  return result ?? null;
-}
-
-export async function getAllAnnotations(): Promise<(Annotation & { lessonId: string; color: string })[]> {
-  const db = getDb();
-  const annotations = await db.annotations.orderBy("createdAt").reverse().toArray();
-  const result: (Annotation & { lessonId: string; color: string })[] = [];
-  for (const a of annotations) {
-    const h = await db.highlights.get(a.highlightId);
-    if (h) result.push({ ...a, lessonId: h.lessonId, color: h.color });
-  }
-  return result;
-}
-
-export async function upsertAnnotation(a: Annotation): Promise<void> {
-  await getDb().annotations.put(a);
 }
 
 // ── Bible Cache ───────────────────────────────────────────

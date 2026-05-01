@@ -1,0 +1,215 @@
+# Plano de Melhorias — GC PWA
+
+Baseado na análise completa do codebase. Organizado em 3 fases por prioridade de valor ao usuário.
+
+---
+
+## Fase 1 — Completar o que está meio-feito
+
+### 1A. Highlights e Anotações nas Lições ⭐
+
+A infraestrutura está **100% pronta** — `storage.ts` tem todos os métodos, os tipos existem, o `HIGHLIGHT_COLORS` está definido. Só falta a UI.
+
+**O que implementar:**
+- Selecionar texto na lição → toolbar com paleta de 4 cores → salvar no Dexie (IndexedDB)
+- Tocar em highlight existente → abrir modal de anotação
+- Highlights persistem offline e por dispositivo
+
+**Arquivos envolvidos:**
+- Criar: `src/components/HighlightToolbar.tsx`
+- Criar: `src/components/AnnotationModal.tsx`
+- Modificar: `src/app/study/[studyId]/lesson/[lessonId]/LessonPageContent.tsx`
+- Modificar: `src/components/LessonContent.tsx`
+
+---
+
+### 1B. Ampliar o Pool de Versículos do Dia
+
+`src/lib/vida-espiritual/bible.ts` tem apenas **20 referências fixas**. Com uso contínuo, os versículos vão repetir com frequência.
+
+**O que implementar:**
+- Expandir de 20 para 90–180 versículos
+- Cobrir mais livros além dos atuais (João, Romanos, Salmos, etc.)
+
+**Arquivos envolvidos:**
+- Modificar: `src/lib/vida-espiritual/bible.ts`
+
+---
+
+### 1C. Múltiplos Planos de Leitura
+
+`PlanoLeitura.tsx` e `plano-leitura.ts` já suportam múltiplos planos via `planoId`. Só existe 1 plano no momento.
+
+**O que implementar:**
+- Novos planos: Antigo Testamento, Salmos/Provérbios 30 dias, Toda a Bíblia
+- Seletor de plano na tab Leitura (dropdown ou cards)
+- Cada plano com progresso independente no localStorage
+
+**Arquivos envolvidos:**
+- Criar: `src/data/plano-leitura-salmos-proverbios.ts`, `src/data/plano-leitura-antigo-testamento.ts`
+- Modificar: `src/app/(tabs)/vida-espiritual/leitura/page.tsx`
+
+---
+
+## Fase 2 — Melhorias de UX de Alto Impacto
+
+### 2A. Push Notifications para o Devocional 📣
+
+O cron job já roda todo dia às 03:00 UTC no Vercel. Falta avisar o usuário quando um novo devocional for gerado.
+
+**O que implementar:**
+- Pedir permissão de notificação ao usuário
+- Salvar `PushSubscription` no PostgreSQL
+- Disparar notificação para todos os inscritos após gerar o devocional
+- Botão "Ativar notificações" na tab Devocional
+
+**Novo modelo Prisma:**
+```prisma
+model PushSubscription {
+  id        Int      @id @default(autoincrement())
+  endpoint  String   @unique @db.Text
+  p256dh    String   @db.Text
+  auth      String   @db.Text
+  criadoEm DateTime @default(now()) @map("criado_em")
+
+  @@map("push_subscriptions")
+}
+```
+
+**Arquivos envolvidos:**
+- Criar: `src/app/api/push/subscribe/route.ts`
+- Criar: `src/app/api/push/unsubscribe/route.ts`
+- Modificar: `src/app/api/cron/gerar-devocional/route.ts` (disparar push após criar)
+- Modificar: `src/app/(tabs)/vida-espiritual/devocional/page.tsx` (botão de inscrição)
+- Adicionar dependência: `web-push`
+
+---
+
+### 2B. Busca nos Estudos
+
+Não existe busca hoje. Os dados já estão em memória (JSON bundlado), então a busca pode ser 100% client-side sem custo de rede.
+
+**O que implementar:**
+- Campo de busca no topo da tab Estudos
+- Filtragem em tempo real por: título do estudo, subtítulo, título das lições e conteúdo
+- Destacar termo buscado nos resultados
+
+**Arquivos envolvidos:**
+- Modificar: `src/app/(tabs)/page.tsx`
+- Modificar: `src/services/studies.ts` (adicionar `searchStudies(query)`)
+
+---
+
+### 2C. Progresso por Lição
+
+Os estudos têm lições mas não rastreiam o que foi lido. O usuário não sabe onde parou.
+
+**O que implementar:**
+- Botão "Marcar como lida" em cada lição
+- Progresso armazenado em localStorage por `studyId + lessonId`
+- Badge de progresso no `StudyCard` na home (ex: "3/15 lições")
+- Indicador visual na lista de lições (check verde nas concluídas)
+
+**Arquivos envolvidos:**
+- Modificar: `src/app/study/[studyId]/StudyPageContent.tsx`
+- Modificar: `src/components/StudyCard.tsx`
+- Criar: `src/lib/progresso-licao.ts`
+
+---
+
+### 2D. Responder às Perguntas de Reflexão
+
+Cada lição tem `reflectionQuestions[]` que são exibidas como texto estático. O usuário não tem onde registrar suas respostas.
+
+**O que implementar:**
+- Textarea por pergunta ao final da lição
+- Respostas salvas no Dexie por `lessonId + questionIndex`
+- Indicador visual de perguntas respondidas
+
+**Nova tabela Dexie:**
+```typescript
+reflectionAnswers: "id, lessonId, questionIndex"
+```
+
+**Arquivos envolvidos:**
+- Modificar: `src/app/study/[studyId]/lesson/[lessonId]/LessonPageContent.tsx`
+- Modificar: `src/services/storage.ts`
+- Modificar: `src/types/index.ts` (adicionar tipo `ReflectionAnswer`)
+
+---
+
+## Fase 3 — Novas Features
+
+### 3A. Compartilhar Versículo / Devocional
+
+Aproveitar a Web Share API nativa do browser para facilitar o compartilhamento.
+
+**O que implementar:**
+- Botão "Compartilhar" em `DevocionalCard` e `VersiculoDoDiaCard`
+- Usa `navigator.share()` quando disponível
+- Fallback: copiar texto para área de transferência com feedback visual
+
+**Arquivos envolvidos:**
+- Modificar: `src/components/vida-espiritual/DevocionalCard.tsx`
+- Modificar: `src/components/vida-espiritual/VersiculoDoDia.tsx`
+
+---
+
+### 3B. Reagir a Pedidos de Oração 🙏
+
+O Mural de Oração tem pedidos mas sem interação. Adicionar um contador de "Orei por isso" cria engajamento e encoraja a oração coletiva.
+
+**O que implementar:**
+- Botão "🙏 Orei por isso" em cada pedido
+- Incrementa um contador anônimo no banco
+- Rate limiting por IP/sessão para evitar spam
+
+**Novo modelo Prisma:**
+```prisma
+model OracaoReacao {
+  id        Int      @id @default(autoincrement())
+  pedidoId  Int
+  criadoEm  DateTime @default(now()) @map("criado_em")
+  pedido    PedidoOracao @relation(fields: [pedidoId], references: [id])
+
+  @@map("oracao_reacoes")
+}
+```
+
+**Arquivos envolvidos:**
+- Criar: `src/app/api/pedidos-oracao/[id]/reagir/route.ts`
+- Modificar: `src/components/vida-espiritual/MuralOracao.tsx`
+- Modificar: `prisma/schema.prisma`
+
+---
+
+### 3C. Histórico de Devocionais
+
+A tabela `Devocional` no banco já armazena todos os devocionais gerados. Falta expô-los ao usuário.
+
+**O que implementar:**
+- Botão "Ver devocionais anteriores" na tab Devocional
+- Lista paginada (7 por página) ordenada por data descendente
+- Cada item expande para exibir o conteúdo completo
+
+**Nova API:**
+```
+GET /api/devocionais?page=1
+→ { data: Devocional[], total: number, page: number }
+```
+
+**Arquivos envolvidos:**
+- Criar: `src/app/api/devocionais/route.ts`
+- Modificar: `src/app/(tabs)/vida-espiritual/devocional/page.tsx`
+
+---
+
+## Decisões de Escopo
+
+| Feature | Decisão | Motivo |
+|---|---|---|
+| Autenticação / Contas | ❌ Excluído | Complexidade alta; público-alvo é uma única comunidade |
+| Analytics | ❌ Excluído | Privacidade dos usuários |
+| i18n / outros idiomas | ❌ Excluído | App é exclusivamente para contexto BR |
+| Editor de estudos (admin) | 🔄 Futuro | Útil mas fora do escopo atual |
+| Bíblia completa navegável | 🔄 Fase 3+ | Infraestrutura de base (`BiblePassageViewer`) existe |

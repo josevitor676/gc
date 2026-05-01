@@ -32,24 +32,6 @@ export interface ContentBlock {
   italic?: boolean;
 }
 
-export interface Highlight {
-  id: string;
-  lessonId: string;
-  blockIndex: number;
-  startOffset: number;
-  endOffset: number;
-  color: string;
-  createdAt: string;
-}
-
-export interface Annotation {
-  id: string;
-  highlightId: string;
-  text: string;
-  createdAt: string;
-  updatedAt: string;
-}
-
 export interface BibleReference {
   raw: string;
   book: string;
@@ -95,4 +77,3 @@ export interface PedidoOracao {
   ativo: boolean;
 }
 
-export const HIGHLIGHT_COLORS = ["#FDE68A", "#BBF7D0", "#BAE6FD", "#FBCFE8"];
