@@ -27,11 +27,58 @@ const precacheRoutes = loadStudyRoutes();
 const withPWA = withPWAInit({
   dest: "public",
   cacheOnFrontEndNav: true,
-  aggressiveFrontEndNavCaching: true,
-  reloadOnOnline: true,
+  // Desabilitado: causava race conditions de CSS/JS ao cachear agressivamente durante navegação
+  aggressiveFrontEndNavCaching: false,
+  // Desabilitado: causava reload forçado ao reconectar, resultando em "This page couldn't load"
+  // quando havia instabilidade momentânea na rede mobile
+  reloadOnOnline: false,
   disable: process.env.NODE_ENV === "development",
+  // Estende (não substitui) o runtimeCaching padrão.
+  // Entradas com o mesmo cacheName substituem as padrões.
+  extendDefaultRuntimeCaching: true,
   workboxOptions: {
     additionalManifestEntries: [{ url: "/", revision: "index" }, ...precacheRoutes],
+    runtimeCaching: [
+      // RSC prefetch: adiciona timeout de 3 s para cair no cache rapidamente quando offline
+      {
+        urlPattern: ({ request, url: { pathname }, sameOrigin }: { request: Request; url: URL; sameOrigin: boolean }) =>
+          request.headers.get("RSC") === "1" &&
+          request.headers.get("Next-Router-Prefetch") === "1" &&
+          sameOrigin &&
+          !pathname.startsWith("/api/"),
+        handler: "NetworkFirst" as const,
+        options: {
+          cacheName: "pages-rsc-prefetch",
+          networkTimeoutSeconds: 3,
+          expiration: { maxEntries: 32, maxAgeSeconds: 86400 },
+        },
+      },
+      // RSC: adiciona timeout de 3 s — sem isso, navegação offline trava indefinidamente
+      // em vez de servir a página do cache
+      {
+        urlPattern: ({ request, url: { pathname }, sameOrigin }: { request: Request; url: URL; sameOrigin: boolean }) =>
+          request.headers.get("RSC") === "1" &&
+          sameOrigin &&
+          !pathname.startsWith("/api/"),
+        handler: "NetworkFirst" as const,
+        options: {
+          cacheName: "pages-rsc",
+          networkTimeoutSeconds: 3,
+          expiration: { maxEntries: 32, maxAgeSeconds: 86400 },
+        },
+      },
+      // Páginas HTML: idem — timeout para fallback rápido offline
+      {
+        urlPattern: ({ url: { pathname }, sameOrigin }: { url: URL; sameOrigin: boolean }) =>
+          sameOrigin && !pathname.startsWith("/api/"),
+        handler: "NetworkFirst" as const,
+        options: {
+          cacheName: "pages",
+          networkTimeoutSeconds: 3,
+          expiration: { maxEntries: 32, maxAgeSeconds: 86400 },
+        },
+      },
+    ],
   },
 });
 
