@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Sun, Moon, Book, BookOpen, Heart, HandHeart } from "lucide-react";
+import { Sun, Moon, Book, BookOpen, Heart, HandHeart, RefreshCw, BookMarked } from "lucide-react";
 import { useTheme } from "@/contexts/ThemeContext";
 import InstallBanner from "@/components/InstallBanner";
 const NAV_ITEMS = [
@@ -17,6 +17,11 @@ const NAV_ITEMS = [
     icon: Heart,
   },
   {
+    href: "/biblia",
+    label: "Bíblia",
+    icon: BookMarked,
+  },
+  {
     href: "/vida-espiritual/leitura",
     label: "Leitura",
     icon: BookOpen,
@@ -26,13 +31,19 @@ const NAV_ITEMS = [
     label: "Oração",
     icon: HandHeart,
   },
+  // {
+  //   href: "/biblioteca",
+  //   label: "Biblioteca",
+  //   icon: LibraryBig,
+  // },
 ];
 
 export default function TabsLayout({ children }: { children: React.ReactNode }) {
   const { dark, colors, toggleTheme } = useTheme();
   const pathname = usePathname();
 
-  const isActive = (href: string) => pathname === href;
+  const isActive = (href: string) =>
+    href === "/" ? pathname === "/" : pathname === href || pathname.startsWith(href + "/");
 
   return (
     <div className="flex flex-col min-h-dvh">
@@ -43,19 +54,35 @@ export default function TabsLayout({ children }: { children: React.ReactNode }) 
         <h1 className="text-white font-semibold text-base tracking-tight">
           Grupos de Crescimento
         </h1>
-        <button
+        <div className="flex items-center align-middle gap-3">
+          <button
           onClick={toggleTheme}
           className="p-1.5 rounded-full hover:opacity-70 transition-opacity"
           aria-label="Alternar tema"
         >
           {dark ? <Sun size={20} color="#fff" /> : <Moon size={20} color="#fff" />}
         </button>
+        <button
+          onClick={() => {
+            if (caches) {
+              caches.keys().then((names) => {
+                names.forEach((name) => caches.delete(name));
+              });
+            }
+            window.location.reload();
+          }}
+          className="p-1.5 rounded-full hover:opacity-70 transition-opacity flex items-center justify-center"
+          aria-label="Limpar cache e recarregar"
+        >
+          <RefreshCw size={20} color="#fff" />
+        </button>
+        </div>
       </header>
 
       <main className="flex-1 pb-24">{children}</main>
 
       <nav
-        className="fixed bottom-0 left-0 right-0 flex justify-center items-center gap-8 px-5 py-4 border-t z-20"
+        className="fixed bottom-0 left-0 right-0 flex justify-around items-center px-2 py-3 border-t z-20"
         style={{
           backgroundColor: colors.headerBg,
           borderColor: colors.border,
@@ -68,15 +95,17 @@ export default function TabsLayout({ children }: { children: React.ReactNode }) 
             <Link
               key={href}
               href={href}
-              className="flex flex-col items-center gap-1 p-2 rounded-lg transition-colors"
+              className="flex flex-col items-center gap-0.5 flex-1 min-w-0 py-1 px-1 rounded-lg transition-colors"
               aria-label={label}
               title={label}
               style={{
-                color: active ? colors.primary : colors.headerText,
+                color: active ? (dark ? colors.primary : '#FFFFFF') : colors.headerText,
+                fontWeight: active ? 'bold' : 'normal',
+                transform: active ? 'scale(1.1)' : 'scale(1)',
               }}
             >
-              <Icon size={24} />
-              <span className="text-xs font-medium">{label}</span>
+              <Icon size={20} />
+              <span className="text-[10px] font-medium leading-tight truncate w-full text-center">{label}</span>
             </Link>
           );
         })}

@@ -1,5 +1,6 @@
 import type { BibleVerse } from "@/types";
 import { BIBLE_BOOK_NAMES } from "@/data/bible-abbreviations";
+import { BIBLE_BOOKS } from "@/data/bible-books";
 
 const BASE_URL = "https://bible-api.com";
 const FETCH_TIMEOUT_MS = 8_000;
@@ -97,4 +98,47 @@ export function formatReference(
 ): string {
   const ref = `${book} ${chapter}:${verseStart}`;
   return verseEnd && verseEnd !== verseStart ? `${ref}-${verseEnd}` : ref;
+}
+
+export async function fetchChapter(
+  bookSlug: string,
+  chapter: number
+): Promise<BibleVerse[]> {
+  const book = BIBLE_BOOKS.find((b) => b.slug === bookSlug);
+  if (!book) throw new Error("Livro não encontrado");
+  if (!isPositiveInt(chapter) || chapter > book.chapters) {
+    throw new Error("Capítulo inválido");
+  }
+
+  const nameSlug = removeAccents(book.name).toLowerCase().replace(/\s+/g, "+");
+  const ref = `${nameSlug}+${chapter}`;
+
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+
+  let res: Response;
+  try {
+    res = await fetch(`${BASE_URL}/${encodeURIComponent(ref)}?translation=almeida`, {
+      signal: controller.signal,
+    });
+  } finally {
+    clearTimeout(timeoutId);
+  }
+
+  if (!res.ok) throw new Error(`Erro ao buscar capítulo (${res.status})`);
+
+  const data: unknown = await res.json();
+
+  if (
+    data !== null &&
+    typeof data === "object" &&
+    Array.isArray((data as Record<string, unknown>).verses)
+  ) {
+    const verses = ((data as Record<string, unknown>).verses as unknown[])
+      .map(parseBibleApiVerse)
+      .filter((v): v is BibleVerse => v !== null);
+    if (verses.length > 0) return verses;
+  }
+
+  throw new Error("Resposta da API em formato inesperado");
 }

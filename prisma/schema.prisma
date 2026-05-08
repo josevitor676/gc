@@ -40,3 +40,15 @@ model VersiculoCache {
 
   @@map("versiculo_cache")
 }
+
+model BibliotecaPDF {
+  id             Int      @id @default(autoincrement())
+  titulo         String   @db.Text
+  descricao      String?  @db.Text
+  nomeArquivo    String   @map("nome_arquivo") @db.Text
+  tamanhoBytes   Int      @map("tamanho_bytes")
+  conteudoBase64 String   @map("conteudo_base64") @db.Text
+  criadoEm       DateTime @default(now()) @map("criado_em")
+
+  @@map("biblioteca_pdfs")
+}

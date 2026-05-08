@@ -22,8 +22,6 @@ function loadStudyRoutes() {
 
 const precacheRoutes = loadStudyRoutes();
 
-// app/~offline/page.tsx é detectado automaticamente pelo @ducanh2912/next-pwa
-// e gera o fallback correto para navegação offline (sem necessidade de configurar `fallbacks` manualmente)
 const withPWA = withPWAInit({
   dest: "public",
   cacheOnFrontEndNav: true,
@@ -33,11 +31,19 @@ const withPWA = withPWAInit({
   // quando havia instabilidade momentânea na rede mobile
   reloadOnOnline: false,
   disable: process.env.NODE_ENV === "development",
+  // Garante que navegação para páginas não-cacheadas sirva o offline page em vez do dinossauro
+  fallbacks: {
+    document: "/~offline",
+  },
   // Estende (não substitui) o runtimeCaching padrão.
   // Entradas com o mesmo cacheName substituem as padrões.
   extendDefaultRuntimeCaching: true,
   workboxOptions: {
-    additionalManifestEntries: [{ url: "/", revision: "index" }, ...precacheRoutes],
+    additionalManifestEntries: [
+      { url: "/", revision: "index" },
+      { url: "/biblia", revision: "biblia" },
+      ...precacheRoutes,
+    ],
     runtimeCaching: [
       // RSC prefetch: adiciona timeout de 3 s para cair no cache rapidamente quando offline
       {
@@ -91,6 +97,7 @@ const CSP = [
   "img-src 'self' data: blob:",
   "manifest-src 'self'",
   "worker-src 'self'",
+  "frame-src 'self' blob:",
 ].join("; ");
 
 const nextConfig: NextConfig = {

@@ -66,24 +66,34 @@ interface ThemeContextType {
   dark: boolean;
   colors: ThemeColors;
   fontSize: number;
+  lineHeight: number;
   toggleTheme: () => void;
   increaseFontSize: () => void;
   decreaseFontSize: () => void;
+  increaseLineHeight: () => void;
+  decreaseLineHeight: () => void;
 }
 
 const ThemeContext = createContext<ThemeContextType>({
   dark: false,
   colors: lightColors,
   fontSize: 15,
+  lineHeight: 1.8,
   toggleTheme: () => {},
   increaseFontSize: () => {},
   decreaseFontSize: () => {},
+  increaseLineHeight: () => {},
+  decreaseLineHeight: () => {},
 });
 
 const MIN_FONT = 12;
 const MAX_FONT = 24;
+const MIN_LH = 1.4;
+const MAX_LH = 2.4;
+const LH_STEP = 0.2;
 const STORAGE_KEY_THEME = "gc-theme";
 const STORAGE_KEY_FONT = "gc-font-size";
+const STORAGE_KEY_LH = "gc-line-height";
 
 function readStorage<T>(key: string, fallback: T): T {
   if (typeof window === "undefined") return fallback;
@@ -96,16 +106,32 @@ function readStorage<T>(key: string, fallback: T): T {
 }
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [dark, setDark] = useState(() => readStorage<boolean>(STORAGE_KEY_THEME, false));
-  const [fontSize, setFontSize] = useState(() => readStorage<number>(STORAGE_KEY_FONT, 15));
+  const [dark, setDark] = useState(false);
+  const [fontSize, setFontSize] = useState(15);
+  const [lineHeight, setLineHeight] = useState(1.8);
+  const [storageReady, setStorageReady] = useState(false);
 
   useEffect(() => {
+    setDark(readStorage<boolean>(STORAGE_KEY_THEME, false));
+    setFontSize(readStorage<number>(STORAGE_KEY_FONT, 15));
+    setLineHeight(readStorage<number>(STORAGE_KEY_LH, 1.8));
+    setStorageReady(true);
+  }, []);
+
+  useEffect(() => {
+    if (!storageReady) return;
     try { localStorage.setItem(STORAGE_KEY_THEME, JSON.stringify(dark)); } catch {}
-  }, [dark]);
+  }, [dark, storageReady]);
 
   useEffect(() => {
+    if (!storageReady) return;
     try { localStorage.setItem(STORAGE_KEY_FONT, JSON.stringify(fontSize)); } catch {}
-  }, [fontSize]);
+  }, [fontSize, storageReady]);
+
+  useEffect(() => {
+    if (!storageReady) return;
+    try { localStorage.setItem(STORAGE_KEY_LH, JSON.stringify(lineHeight)); } catch {}
+  }, [lineHeight, storageReady]);
 
   // Save theme synchronously inside the updater so the value is in localStorage
   // before any navigation that might trigger a full page reload (e.g. RSC cache miss offline).
@@ -124,12 +150,20 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     () => setFontSize((s) => Math.max(s - 1, MIN_FONT)),
     []
   );
+  const increaseLineHeight = useCallback(
+    () => setLineHeight((s) => Math.min(parseFloat((s + LH_STEP).toFixed(1)), MAX_LH)),
+    []
+  );
+  const decreaseLineHeight = useCallback(
+    () => setLineHeight((s) => Math.max(parseFloat((s - LH_STEP).toFixed(1)), MIN_LH)),
+    []
+  );
 
   const colors = useMemo(() => (dark ? darkColors : lightColors), [dark]);
 
   const value = useMemo(
-    () => ({ dark, colors, fontSize, toggleTheme, increaseFontSize, decreaseFontSize }),
-    [dark, colors, fontSize, toggleTheme, increaseFontSize, decreaseFontSize]
+    () => ({ dark, colors, fontSize, lineHeight, toggleTheme, increaseFontSize, decreaseFontSize, increaseLineHeight, decreaseLineHeight }),
+    [dark, colors, fontSize, lineHeight, toggleTheme, increaseFontSize, decreaseFontSize, increaseLineHeight, decreaseLineHeight]
   );
 
   return (

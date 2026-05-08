@@ -77,3 +77,12 @@ export interface PedidoOracao {
   ativo: boolean;
 }
 
+export interface BibliotecaPdfItem {
+  id: number;
+  titulo: string;
+  descricao: string | null;
+  nomeArquivo: string;
+  tamanhoBytes: number;
+  criadoEm: string;
+}
+
