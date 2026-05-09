@@ -31,10 +31,10 @@ jobs:
 
       # Instala o pnpm globalmente na máquina virtual.
       # O pnpm não vem pré-instalado; esta action oficial cuida disso.
+      # Sem "version" aqui, a action lê automaticamente o campo "packageManager"
+      # do package.json — única fonte de verdade para a versão do pnpm.
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: 10.30.8
 
       # Configura a versão do Node.js e ativa o cache do pnpm.
       # O cache guarda a pasta ~/.pnpm-store entre execuções, tornando
