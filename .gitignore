@@ -40,3 +40,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# PWA — artefatos gerados por @ducanh2912/next-pwa no build
+/public/sw.js
+/public/workbox-*.js
+/public/fallback-*.js
+/public/swe-worker-*.js

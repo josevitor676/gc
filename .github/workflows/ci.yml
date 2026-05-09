@@ -1,0 +1,98 @@
+# Nome do workflow — aparece na aba "Actions" do GitHub
+name: CI
+
+# Eventos que disparam este workflow:
+# - push para a branch main (quando um commit vai direto ou um PR é mergeado)
+# - pull_request aberto/atualizado com destino main (valida antes do merge)
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+# Um workflow pode ter vários "jobs" rodando em paralelo ou em sequência.
+# Aqui temos apenas um job responsável por buildar e validar o PWA.
+jobs:
+  build:
+    name: Build & Validate PWA
+
+    # Define o sistema operacional da máquina virtual onde os steps rodam.
+    # ubuntu-latest é o mais comum e tem Node, git, curl etc. pré-instalados.
+    runs-on: ubuntu-latest
+
+    # Steps são executados em ordem, um a um, na mesma máquina virtual.
+    # Se qualquer step falhar (exit code != 0), os steps seguintes são pulados
+    # e o job é marcado como falho — bloqueando o merge do PR.
+    steps:
+      # Faz o checkout do repositório na máquina virtual.
+      # Sem isso, os outros steps não enxergam nenhum arquivo do projeto.
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Instala o pnpm globalmente na máquina virtual.
+      # O pnpm não vem pré-instalado; esta action oficial cuida disso.
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      # Configura a versão do Node.js e ativa o cache do pnpm.
+      # O cache guarda a pasta ~/.pnpm-store entre execuções, tornando
+      # o "pnpm install" muito mais rápido nas próximas runs.
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      # Instala as dependências do projeto.
+      # --frozen-lockfile garante que o pnpm-lock.yaml não seja alterado:
+      # se houver divergência entre package.json e o lockfile, o comando falha.
+      # Isso evita surpresas de versão entre ambientes (local vs CI vs Vercel).
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      # Roda o build completo (prisma generate + next build).
+      # Variáveis de ambiente são necessárias para o Prisma gerar o client
+      # e para módulos que leem chaves na inicialização.
+      # A sintaxe ${{ secrets.VAR || 'fallback' }} tenta usar o secret do
+      # repositório; se ele não existir no CI, usa o valor fallback para que
+      # o build não quebre por falta de variável (o Prisma não conecta ao banco
+      # em tempo de build, apenas gera os tipos).
+      - name: Build
+        run: pnpm build
+        env:
+          POSTGRES_URL: ${{ secrets.POSTGRES_URL || 'postgresql://ci:ci@localhost:5432/ci' }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY || 'placeholder' }}
+
+      # Valida que o next-pwa gerou os arquivos esperados durante o build.
+      # O @ducanh2912/next-pwa gera sw.js (Service Worker) e workbox-*.js
+      # automaticamente como parte do "next build". Se eles não existirem ou
+      # estiverem com conteúdo errado, o app não funcionará offline.
+      # "test -f arquivo" retorna exit 1 se o arquivo não existir.
+      # "grep -q padrão arquivo" retorna exit 1 se o padrão não for encontrado.
+      - name: Validate PWA artifacts
+        run: |
+          echo "Verificando arquivos gerados pelo next-pwa..."
+          test -f public/sw.js        || { echo "ERRO: public/sw.js não foi gerado"; exit 1; }
+          test -f public/manifest.json || { echo "ERRO: public/manifest.json ausente"; exit 1; }
+          grep -q "precacheAndRoute"  public/sw.js || { echo "ERRO: sw.js não contém precacheAndRoute"; exit 1; }
+          grep -q "skipWaiting"       public/sw.js || { echo "ERRO: sw.js não contém skipWaiting"; exit 1; }
+          echo "Arquivos PWA OK"
+
+      # Garante que ninguém commitou os arquivos gerados pelo PWA no git.
+      # Esses arquivos contêm hashes da build atual e DEVEM ser gerados pela
+      # Vercel a cada deploy — se estiverem no git, a Vercel pode servir uma
+      # versão desatualizada, quebrando o cache offline.
+      # "git ls-files" lista apenas arquivos que estão rastreados pelo git;
+      # se retornar algo, o step falha e orienta como corrigir.
+      - name: Check PWA files not committed
+        run: |
+          COMMITTED=$(git ls-files public/sw.js public/workbox-*.js public/fallback-*.js public/swe-worker-*.js 2>/dev/null || true)
+          if [ -n "$COMMITTED" ]; then
+            echo "ERRO: Arquivos PWA gerados estão commitados no git:"
+            echo "$COMMITTED"
+            echo "Execute: git rm --cached $COMMITTED"
+            exit 1
+          fi
+          echo "Nenhum artefato PWA commitado. OK"

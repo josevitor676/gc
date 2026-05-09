@@ -63,16 +63,9 @@ export default function TabsLayout({ children }: { children: React.ReactNode }) 
           {dark ? <Sun size={20} color="#fff" /> : <Moon size={20} color="#fff" />}
         </button>
         <button
-          onClick={() => {
-            if (caches) {
-              caches.keys().then((names) => {
-                names.forEach((name) => caches.delete(name));
-              });
-            }
-            window.location.reload();
-          }}
+          onClick={() => window.location.reload()}
           className="p-1.5 rounded-full hover:opacity-70 transition-opacity flex items-center justify-center"
-          aria-label="Limpar cache e recarregar"
+          aria-label="Recarregar"
         >
           <RefreshCw size={20} color="#fff" />
         </button>
