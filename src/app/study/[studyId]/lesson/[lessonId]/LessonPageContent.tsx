@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { getLessonById } from "@/services/studies";
 import { parseBibleReferences } from "@/utils/bible-ref-parser";
 import LessonContent from "@/components/LessonContent";
+import BibleReferenceLink from "@/components/BibleReferenceLink";
 import BiblePassageViewer from "@/components/BiblePassageViewer";
 import { useTheme } from "@/contexts/ThemeContext";
 import { isLicaoLida, marcarLicaoLida, desmarcarLicaoLida } from "@/lib/progresso-licao";
@@ -151,7 +152,17 @@ export default function LessonPageContent({ studyId, lessonId }: Props) {
                     {i + 1}.
                   </span>
                   <p style={{ fontSize, color: colors.textSecondary, lineHeight: `${fontSize * 1.5}px` }}>
-                    {q}
+                    {parseBibleReferences(q).map((seg, segIndex) =>
+                      seg.reference ? (
+                        <BibleReferenceLink
+                          key={segIndex}
+                          reference={seg.reference}
+                          onPress={handleBibleRefPress}
+                        />
+                      ) : (
+                        <span key={segIndex}>{seg.value}</span>
+                      ),
+                    )}
                   </p>
                 </div>
               ))}

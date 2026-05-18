@@ -1,17 +1,18 @@
 #!/usr/bin/env node
 /**
- * Gera src/data/studies.json lendo os arquivos SQL de seed.
+ * Gera src/data/studies.json e src/data/estudos/*.json lendo os arquivos SQL de seed.
  * Uso: node scripts/generate-studies.mjs
  *
- * Fontes SQL (em ../../gc-app/scripts/):
+ * Fontes SQL (em ../../gc-app/scripts/ ou ~/cg/gc-app/scripts/):
  *   seed-studies.sql                   → Efésios (15 lições)
  *   seed-catecismo-nova-cidade-1.sql   → CNC1    (12 lições)
  *   seed-catecismo-nova-cidade-2.sql   → CNC2    (12 lições)
  */
 
-import { readFileSync, writeFileSync } from 'fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { homedir } from 'os';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -158,7 +159,15 @@ function parseLessonsFromSql(sql) {
 }
 
 // ── Ler SQL e gerar JSON ─────────────────────────────────────
-const sqlDir = resolve(__dirname, '../../gc-app/scripts');
+// Procura o diretório dos SQLs: tenta o caminho relativo original e, se não
+// existir, procura em ~/cg/gc-app/scripts (localização real no dev).
+const candidateDirs = [
+  resolve(__dirname, '../../gc-app/scripts'),
+  resolve(homedir(), 'cg/gc-app/scripts'),
+];
+const sqlDir = candidateDirs.find((d) => existsSync(d)) ?? candidateDirs[0];
+console.log(`📁 SQLs em: ${sqlDir}`);
+
 const sqlFiles = [
   'seed-studies.sql',
   'seed-catecismo-nova-cidade-1.sql',
@@ -183,7 +192,16 @@ const output = studiesRaw
       .map(({ studyId: _s, ...l }) => l),
   }));
 
+// Gerar arquivo único (retrocompatibilidade)
 const outPath = resolve(__dirname, '../src/data/studies.json');
 writeFileSync(outPath, JSON.stringify(output, null, 2), 'utf-8');
 console.log(`\n✅ studies.json gerado em ${outPath}`);
-output.forEach((s) => console.log(`   - ${s.id}: ${s.lessons.length} lição(ões)`));
+
+// Gerar arquivos individuais por estudo
+const estudosDir = resolve(__dirname, '../src/data/estudos');
+mkdirSync(estudosDir, { recursive: true });
+for (const study of output) {
+  const studyPath = resolve(estudosDir, `${study.id}.json`);
+  writeFileSync(studyPath, JSON.stringify(study, null, 2), 'utf-8');
+  console.log(`   - ${study.id}.json: ${study.lessons.length} lição(ões)`);
+}
