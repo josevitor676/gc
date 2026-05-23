@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useState } from "react";
 import { Sun, Moon, Book, BookOpen, Heart, HandHeart, RefreshCw, BookMarked } from "lucide-react";
 import { useTheme } from "@/contexts/ThemeContext";
 import InstallBanner from "@/components/InstallBanner";
@@ -41,9 +42,42 @@ const NAV_ITEMS = [
 export default function TabsLayout({ children }: { children: React.ReactNode }) {
   const { dark, colors, toggleTheme } = useTheme();
   const pathname = usePathname();
+  const [updating, setUpdating] = useState(false);
 
   const isActive = (href: string) =>
     href === "/" ? pathname === "/" : pathname === href || pathname.startsWith(href + "/");
+
+  const handleReload = async () => {
+    if (updating) return;
+    setUpdating(true);
+    try {
+      if ("serviceWorker" in navigator) {
+        const registration = await navigator.serviceWorker.getRegistration();
+        if (registration) {
+          // Força busca do SW atualizado no servidor
+          await registration.update();
+          // Se há um SW esperando para ativar, avisa para pular a espera
+          const pendingSW = registration.installing || registration.waiting;
+          if (pendingSW) {
+            pendingSW.postMessage({ type: "SKIP_WAITING" });
+            // Aguarda o novo SW assumir o controle antes de recarregar
+            await new Promise<void>((resolve) => {
+              const onControllerChange = () => {
+                navigator.serviceWorker.removeEventListener("controllerchange", onControllerChange);
+                resolve();
+              };
+              navigator.serviceWorker.addEventListener("controllerchange", onControllerChange);
+              // Segurança: recarrega em até 4s mesmo que o evento não dispare
+              setTimeout(resolve, 4000);
+            });
+          }
+        }
+      }
+    } catch {
+      // API de SW indisponível — recarrega normalmente
+    }
+    window.location.reload();
+  };
 
   return (
     <div className="flex flex-col min-h-dvh">
@@ -63,11 +97,12 @@ export default function TabsLayout({ children }: { children: React.ReactNode }) 
           {dark ? <Sun size={20} color="#fff" /> : <Moon size={20} color="#fff" />}
         </button>
         <button
-          onClick={() => window.location.reload()}
+          onClick={handleReload}
+          disabled={updating}
           className="p-1.5 rounded-full hover:opacity-70 transition-opacity flex items-center justify-center"
           aria-label="Recarregar"
         >
-          <RefreshCw size={20} color="#fff" />
+          <RefreshCw size={20} color="#fff" className={updating ? "animate-spin" : ""} />
         </button>
         </div>
       </header>

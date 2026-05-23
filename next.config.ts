@@ -22,6 +22,10 @@ function loadStudyRoutes() {
 
 const precacheRoutes = loadStudyRoutes();
 
+// Revision muda a cada build, garantindo que o Workbox re-faça fetch de todas as
+// páginas pré-cacheadas quando um novo Service Worker é instalado.
+const BUILD_REVISION = Date.now().toString();
+
 const withPWA = withPWAInit({
   dest: "public",
   cacheOnFrontEndNav: true,
@@ -40,9 +44,9 @@ const withPWA = withPWAInit({
   extendDefaultRuntimeCaching: true,
   workboxOptions: {
     additionalManifestEntries: [
-      { url: "/", revision: "index" },
-      { url: "/biblia", revision: "biblia" },
-      ...precacheRoutes,
+      { url: "/", revision: BUILD_REVISION },
+      { url: "/biblia", revision: BUILD_REVISION },
+      ...precacheRoutes.map((r) => ({ ...r, revision: BUILD_REVISION })),
     ],
     runtimeCaching: [
       // RSC prefetch: adiciona timeout de 3 s para cair no cache rapidamente quando offline

@@ -3,39 +3,33 @@
 import { useEffect, useRef } from "react";
 import type { BibleReference } from "@/types";
 import { useBiblePassage } from "@/hooks/useBiblePassage";
-import { BIBLE_BOOK_NAMES } from "@/data/bible-abbreviations";
 import { useTheme } from "@/contexts/ThemeContext";
 import { X } from "lucide-react";
 
 interface Props {
-  reference: BibleReference | null;
+  references: BibleReference[];
+  title: string;
   visible: boolean;
   onClose: () => void;
 }
 
-export default function BiblePassageViewer({ reference, visible, onClose }: Props) {
+export default function BiblePassageViewer({ references, title, visible, onClose }: Props) {
   const { verses, loading, error, loadPassage, clear } = useBiblePassage();
   const { colors, fontSize } = useTheme();
   const dialogRef = useRef<HTMLDialogElement>(null);
 
   useEffect(() => {
-    if (visible && reference) {
+    if (visible && references.length > 0) {
       dialogRef.current?.showModal();
-      loadPassage(reference);
+      loadPassage(references);
     } else {
       dialogRef.current?.close();
       clear();
     }
-  }, [visible, reference, loadPassage, clear]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [visible, references, loadPassage, clear]);
 
-  if (!reference) return null;
-
-  const bookName = BIBLE_BOOK_NAMES[reference.book] ?? reference.bookAbbr;
-  const verseRange =
-    reference.verseEnd
-      ? `${reference.verseStart}-${reference.verseEnd}`
-      : `${reference.verseStart}`;
-  const title = `${bookName} ${reference.chapter}:${verseRange}`;
+  if (references.length === 0) return null;
 
   return (
     <dialog
@@ -90,8 +84,8 @@ export default function BiblePassageViewer({ reference, visible, onClose }: Prop
 
         {!loading && !error && verses.length > 0 && (
           <div className="space-y-1">
-            {verses.map((v) => (
-              <p key={v.verse} style={{ fontSize, color: colors.textSecondary, lineHeight: `${fontSize * 1.7}px` }}>
+            {verses.map((v, i) => (
+              <p key={i} style={{ fontSize, color: colors.textSecondary, lineHeight: `${fontSize * 1.7}px` }}>
                 <sup
                   className="font-bold mr-1"
                   style={{ color: colors.primaryLight, fontSize: fontSize - 4 }}

@@ -25,7 +25,8 @@ export default function LessonPageContent({ studyId, lessonId }: Props) {
   const lesson = getLessonById(studyId, lessonId);
 
   // Bible passage modal
-  const [selectedRef, setSelectedRef] = useState<BibleReference | null>(null);
+  const [selectedRefs, setSelectedRefs] = useState<BibleReference[]>([]);
+  const [selectedTitle, setSelectedTitle] = useState("");
   const [bibleModalVisible, setBibleModalVisible] = useState(false);
 
   // Lesson progress
@@ -46,16 +47,20 @@ export default function LessonPageContent({ studyId, lessonId }: Props) {
   }, [lida, lesson, studyId]);
 
   const handleBibleRefPress = useCallback((ref: BibleReference) => {
-    setSelectedRef(ref);
+    setSelectedRefs([ref]);
+    setSelectedTitle(ref.raw);
     setBibleModalVisible(true);
   }, []);
 
   const handleHeaderRefPress = useCallback(() => {
     if (!lesson) return;
     const segments = parseBibleReferences(lesson.bibleReference);
-    const refSeg = segments.find((s) => s.type === "reference" && s.reference);
-    if (refSeg?.reference) {
-      setSelectedRef(refSeg.reference);
+    const refs = segments
+      .filter((s) => s.type === "reference" && s.reference)
+      .map((s) => s.reference!);
+    if (refs.length > 0) {
+      setSelectedRefs(refs);
+      setSelectedTitle(lesson.bibleReference);
       setBibleModalVisible(true);
     }
   }, [lesson]);
@@ -188,7 +193,8 @@ export default function LessonPageContent({ studyId, lessonId }: Props) {
       </div>
 
       <BiblePassageViewer
-        reference={selectedRef}
+        references={selectedRefs}
+        title={selectedTitle}
         visible={bibleModalVisible}
         onClose={() => setBibleModalVisible(false)}
       />

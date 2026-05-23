@@ -13,38 +13,54 @@ export function useBiblePassage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const loadPassage = useCallback(async (ref: BibleReference) => {
+  const loadPassage = useCallback(async (refs: BibleReference | BibleReference[]) => {
     setLoading(true);
     setError(null);
 
-    const cacheKey = `${ref.book}-${ref.chapter}-${ref.verseStart}-${ref.verseEnd ?? ref.verseStart}`;
+    const refList = Array.isArray(refs) ? refs : [refs];
+    const combined: BibleVerse[] = [];
 
     try {
-      const cached = await getCachedBibleVerses(cacheKey);
-      if (cached) {
-        try {
-          setVerses(JSON.parse(cached) as BibleVerse[]);
-          setLoading(false);
-          return;
-        } catch {
-          // Cache corrompido — busca na rede
+      for (const ref of refList) {
+        const cacheKey = `${ref.book}-${ref.chapter}-${ref.verseStart}-${ref.verseEnd ?? ref.verseStart}`;
+
+        let verses: BibleVerse[] | null = null;
+
+        const cached = await getCachedBibleVerses(cacheKey);
+        if (cached) {
+          try {
+            verses = JSON.parse(cached) as BibleVerse[];
+          } catch {
+            // Cache corrompido — busca na rede
+          }
+        }
+
+        if (!verses) {
+          try {
+            verses = await fetchVerses(ref.book, ref.chapter, ref.verseStart, ref.verseEnd);
+            await cacheBibleVerses(cacheKey, JSON.stringify(verses));
+          } catch {
+            // Fallback: dados estáticos pré-bundled
+            const fallback = bundled[cacheKey];
+            if (fallback && fallback.length > 0) {
+              verses = fallback;
+              await cacheBibleVerses(cacheKey, JSON.stringify(fallback)).catch(() => {});
+            }
+          }
+        }
+
+        if (verses) {
+          combined.push(...verses);
         }
       }
 
-      const data = await fetchVerses(ref.book, ref.chapter, ref.verseStart, ref.verseEnd);
-      setVerses(data);
-      await cacheBibleVerses(cacheKey, JSON.stringify(data));
-    } catch {
-      // Fallback 1: dados estáticos pré-bundled
-      const fallback = bundled[cacheKey];
-      if (fallback && fallback.length > 0) {
-        setVerses(fallback);
-        // Armazena no IndexedDB para uso futuro enquanto online
-        await cacheBibleVerses(cacheKey, JSON.stringify(fallback)).catch(() => {});
+      if (combined.length > 0) {
+        setVerses(combined);
       } else {
-        // Fallback 2: mensagem de erro amigável
         setError("Passagem não disponível offline. Abra o app com internet para carregar.");
       }
+    } catch {
+      setError("Passagem não disponível offline. Abra o app com internet para carregar.");
     } finally {
       setLoading(false);
     }
