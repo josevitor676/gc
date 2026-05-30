@@ -3,6 +3,7 @@ export interface BibleBook {
   name: string;
   chapters: number;
   testament: "AT" | "NT";
+  apiSlug?: string;
 }
 
 export const BIBLE_BOOKS: BibleBook[] = [
@@ -13,7 +14,7 @@ export const BIBLE_BOOKS: BibleBook[] = [
   { slug: "nm",   name: "Números",           chapters: 36,  testament: "AT" },
   { slug: "dt",   name: "Deuteronômio",      chapters: 34,  testament: "AT" },
   { slug: "js",   name: "Josué",             chapters: 24,  testament: "AT" },
-  { slug: "jz",   name: "Juízes",            chapters: 21,  testament: "AT" },
+  { slug: "jz",   name: "Juízes",            chapters: 21,  testament: "AT", apiSlug: "jdg" },
   { slug: "rt",   name: "Rute",              chapters: 4,   testament: "AT" },
   { slug: "1sm",  name: "1 Samuel",          chapters: 31,  testament: "AT" },
   { slug: "2sm",  name: "2 Samuel",          chapters: 24,  testament: "AT" },

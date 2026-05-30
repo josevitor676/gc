@@ -110,7 +110,7 @@ export async function fetchChapter(
     throw new Error("Capítulo inválido");
   }
 
-  const nameSlug = removeAccents(book.name).toLowerCase().replace(/\s+/g, "+");
+  const nameSlug = book.apiSlug ?? removeAccents(book.name).toLowerCase().replace(/\s+/g, "+");
   const ref = `${nameSlug}+${chapter}`;
 
   const controller = new AbortController();
