@@ -98,7 +98,7 @@ const CSP = [
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
   "font-src 'self' https://fonts.gstatic.com",
   "connect-src 'self' https://bible-api.com",
-  "img-src 'self' data: blob:",
+  "img-src 'self' data: blob: https://ipvo.com.br",
   "manifest-src 'self'",
   "worker-src 'self'",
   "frame-src 'self' blob:",
@@ -106,6 +106,15 @@ const CSP = [
 
 const nextConfig: NextConfig = {
   allowedDevOrigins: ['c70d-2804-3c74-3f0-912e-91a7-7bfc-7e05-65c3.ngrok-free.app'],
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'ipvo.com.br',
+        pathname: '/wp-content/uploads/**',
+      },
+    ],
+  },
   async headers() {
     return [
       {

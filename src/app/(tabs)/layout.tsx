@@ -32,6 +32,11 @@ const NAV_ITEMS = [
     label: "Oração",
     icon: HandHeart,
   },
+    {
+    href: "/informacoes",
+    label: "Informações",
+    icon: HandHeart,
+  },
   // {
   //   href: "/biblioteca",
   //   label: "Biblioteca",
