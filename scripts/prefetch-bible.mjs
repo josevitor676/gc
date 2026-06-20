@@ -9,8 +9,8 @@
  * Execute antes de `pnpm build` sempre que studies.json for atualizado.
  */
 
-import { readFileSync, writeFileSync } from "fs";
-import { resolve, dirname } from "path";
+import { readFileSync, writeFileSync, readdirSync } from "fs";
+import { resolve, dirname, join } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -201,10 +201,13 @@ async function fetchVerses(book, chapter, verseStart, verseEnd) {
 
 // ── Main ──────────────────────────────────────────────────────────────────────
 
-const studiesPath = resolve(__dirname, "../src/data/studies.json");
+const estudosDir = resolve(__dirname, "../src/data/estudos");
 const outputPath = resolve(__dirname, "../src/data/bible-passages.json");
 
-const studies = JSON.parse(readFileSync(studiesPath, "utf-8"));
+// Lê todos os estudos individuais (fonte de verdade em src/data/estudos/*.json)
+const studies = readdirSync(estudosDir)
+  .filter((f) => f.endsWith(".json"))
+  .map((f) => JSON.parse(readFileSync(join(estudosDir, f), "utf-8")));
 
 // Carrega passagens já salvas para não rebuscar as que já funcionaram
 let passages = {};
