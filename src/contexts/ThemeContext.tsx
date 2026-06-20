@@ -67,7 +67,10 @@ interface ThemeContextType {
   colors: ThemeColors;
   fontSize: number;
   lineHeight: number;
+  minFontSize: number;
+  maxFontSize: number;
   toggleTheme: () => void;
+  setFontSizeValue: (n: number) => void;
   increaseFontSize: () => void;
   decreaseFontSize: () => void;
   increaseLineHeight: () => void;
@@ -79,7 +82,10 @@ const ThemeContext = createContext<ThemeContextType>({
   colors: lightColors,
   fontSize: 15,
   lineHeight: 1.8,
+  minFontSize: 12,
+  maxFontSize: 30,
   toggleTheme: () => {},
+  setFontSizeValue: () => {},
   increaseFontSize: () => {},
   decreaseFontSize: () => {},
   increaseLineHeight: () => {},
@@ -87,7 +93,7 @@ const ThemeContext = createContext<ThemeContextType>({
 });
 
 const MIN_FONT = 12;
-const MAX_FONT = 24;
+const MAX_FONT = 30;
 const MIN_LH = 1.4;
 const MAX_LH = 2.4;
 const LH_STEP = 0.2;
@@ -142,6 +148,10 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
       return next;
     });
   }, []);
+  const setFontSizeValue = useCallback(
+    (n: number) => setFontSize(() => Math.max(MIN_FONT, Math.min(Math.round(n), MAX_FONT))),
+    []
+  );
   const increaseFontSize = useCallback(
     () => setFontSize((s) => Math.min(s + 1, MAX_FONT)),
     []
@@ -162,8 +172,8 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const colors = useMemo(() => (dark ? darkColors : lightColors), [dark]);
 
   const value = useMemo(
-    () => ({ dark, colors, fontSize, lineHeight, toggleTheme, increaseFontSize, decreaseFontSize, increaseLineHeight, decreaseLineHeight }),
-    [dark, colors, fontSize, lineHeight, toggleTheme, increaseFontSize, decreaseFontSize, increaseLineHeight, decreaseLineHeight]
+    () => ({ dark, colors, fontSize, lineHeight, minFontSize: MIN_FONT, maxFontSize: MAX_FONT, toggleTheme, setFontSizeValue, increaseFontSize, decreaseFontSize, increaseLineHeight, decreaseLineHeight }),
+    [dark, colors, fontSize, lineHeight, toggleTheme, setFontSizeValue, increaseFontSize, decreaseFontSize, increaseLineHeight, decreaseLineHeight]
   );
 
   return (
