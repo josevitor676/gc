@@ -18,17 +18,18 @@ interface RichTextProps {
   italic?: boolean;
   onBibleRefPress: (ref: BibleReference) => void;
   fontSize: number;
+  lineHeight: number;
   colors: ReturnType<typeof useTheme>["colors"];
 }
 
-function RichText({ text, bold, italic, onBibleRefPress, fontSize, colors }: RichTextProps) {
+function RichText({ text, bold, italic, onBibleRefPress, fontSize, lineHeight, colors }: RichTextProps) {
   const segments = parseBibleReferences(text);
 
   return (
     <p
       style={{
         fontSize,
-        lineHeight: `${fontSize * 1.6}px`,
+        lineHeight,
         color: colors.textSecondary,
         fontWeight: bold ? 600 : undefined,
         fontStyle: italic ? "italic" : undefined,
@@ -58,12 +59,12 @@ function getNumberPrefix(index: number, blocks: ContentBlock[]): number {
 // ── Main export ───────────────────────────────────────────
 
 export default function LessonContent({ blocks, onBibleRefPress }: Props) {
-  const { colors, fontSize } = useTheme();
+  const { colors, fontSize, lineHeight } = useTheme();
 
   return (
     <div>
       {blocks.map((block, blockIndex) => {
-        const richTextProps = { onBibleRefPress, fontSize, colors };
+        const richTextProps = { onBibleRefPress, fontSize, lineHeight, colors };
 
         return (
           <div key={blockIndex} style={{ marginBottom: 12 }}>

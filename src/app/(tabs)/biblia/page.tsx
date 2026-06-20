@@ -2,10 +2,11 @@
 
 import { useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
-import { Search, WifiOff } from "lucide-react";
+import { Search, WifiOff, SearchX } from "lucide-react";
 import { useTheme } from "@/contexts/ThemeContext";
 import { useOnlineStatus } from "@/hooks/useOnlineStatus";
 import { BIBLE_BOOKS } from "@/data/bible-books";
+import EstadoVazio from "@/components/EstadoVazio";
 
 function removeAccents(str: string) {
   return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
@@ -161,11 +162,11 @@ export default function BibliaPage() {
         )}
 
         {filtered.length === 0 && (
-          <div className="flex justify-center py-16">
-            <p className="text-sm" style={{ color: colors.textMuted }}>
-              Nenhum livro encontrado
-            </p>
-          </div>
+          <EstadoVazio
+            icon={SearchX}
+            titulo="Nenhum livro encontrado"
+            descricao="Tente buscar pelo nome do livro, como “João” ou “Salmos”."
+          />
         )}
       </div>
     </div>

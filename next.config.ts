@@ -1,20 +1,26 @@
 import type { NextConfig } from "next";
 import withPWAInit from "@ducanh2912/next-pwa";
-import { readFileSync } from "fs";
+import { readFileSync, readdirSync } from "fs";
 import { join } from "path";
 
-// Lê o JSON de estudos via fs para garantir compatibilidade em qualquer ambiente de build
+// Lê todos os estudos individuais (fonte de verdade em src/data/estudos/*.json)
+// para pré-cachear as rotas de cada estudo e lição — funcionamento offline-first.
 function loadStudyRoutes() {
   try {
-    const raw = readFileSync(join(process.cwd(), "src/data/studies.json"), "utf-8");
-    const studies = JSON.parse(raw) as Array<{ id: string; lessons: Array<{ id: string }> }>;
-    return studies.flatMap((study) => [
-      { url: `/study/${study.id}`, revision: study.id },
-      ...study.lessons.map((lesson) => ({
-        url: `/study/${study.id}/lesson/${lesson.id}`,
-        revision: lesson.id,
-      })),
-    ]);
+    const dir = join(process.cwd(), "src/data/estudos");
+    const files = readdirSync(dir).filter((f) => f.endsWith(".json"));
+    const routes: Array<{ url: string; revision: string }> = [];
+    for (const f of files) {
+      const study = JSON.parse(readFileSync(join(dir, f), "utf-8")) as {
+        id: string;
+        lessons: Array<{ id: string }>;
+      };
+      routes.push({ url: `/study/${study.id}`, revision: study.id });
+      for (const lesson of study.lessons) {
+        routes.push({ url: `/study/${study.id}/lesson/${lesson.id}`, revision: lesson.id });
+      }
+    }
+    return routes;
   } catch {
     return [];
   }

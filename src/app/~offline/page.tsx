@@ -17,12 +17,13 @@ export default function OfflinePage() {
         margin: 0,
       }}
     >
-      <div style={{ fontSize: "4rem", marginBottom: "1.25rem" }}>📵</div>
+      <div style={{ fontSize: "3.5rem", marginBottom: "1.25rem" }}>📖</div>
       <h1 style={{ fontSize: "1.5rem", fontWeight: 800, marginBottom: "0.5rem" }}>
         Você está offline
       </h1>
       <p style={{ fontSize: "0.9rem", color: "#9CA3AF", lineHeight: 1.6, maxWidth: "20rem", margin: 0 }}>
-        Verifique sua conexão com a internet e tente novamente.
+        Esta página ainda não foi salva no seu aparelho. Mas calma: os estudos que
+        você já abriu continuam disponíveis mesmo sem internet.
       </p>
       <button
         onClick={() => window.location.reload()}

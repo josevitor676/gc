@@ -3,9 +3,10 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { Sun, Moon, Book, BookOpen, Heart, HandHeart, RefreshCw, BookMarked } from "lucide-react";
+import { Sun, Moon, Book, Heart, RefreshCw, BookMarked, Info } from "lucide-react";
 import { useTheme } from "@/contexts/ThemeContext";
 import InstallBanner from "@/components/InstallBanner";
+import OfflineBanner from "@/components/OfflineBanner";
 const NAV_ITEMS = [
   {
     href: "/",
@@ -13,35 +14,20 @@ const NAV_ITEMS = [
     icon: Book,
   },
   {
-    href: "/vida-espiritual/devocional",
-    label: "Devocional",
-    icon: Heart,
-  },
-  {
     href: "/biblia",
     label: "Bíblia",
     icon: BookMarked,
   },
   {
-    href: "/vida-espiritual/leitura",
-    label: "Leitura",
-    icon: BookOpen,
+    href: "/vida-espiritual",
+    label: "Vida espiritual",
+    icon: Heart,
   },
   {
-    href: "/vida-espiritual/oracao",
-    label: "Oração",
-    icon: HandHeart,
-  },
-    {
     href: "/informacoes",
     label: "Informações",
-    icon: HandHeart,
+    icon: Info,
   },
-  // {
-  //   href: "/biblioteca",
-  //   label: "Biblioteca",
-  //   icon: LibraryBig,
-  // },
 ];
 
 export default function TabsLayout({ children }: { children: React.ReactNode }) {
@@ -111,6 +97,8 @@ export default function TabsLayout({ children }: { children: React.ReactNode }) 
         </button>
         </div>
       </header>
+
+      <OfflineBanner />
 
       <main className="flex-1 pb-24">{children}</main>
 
