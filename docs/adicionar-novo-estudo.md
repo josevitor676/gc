@@ -7,14 +7,16 @@ Este guia descreve o passo a passo completo para publicar um novo estudo de grup
 ## Visão geral do fluxo
 
 ```
-1. Editar studies.json  →  2. Prefetch das passagens bíblicas  →  3. Build  →  4. Deploy
+1. Criar o JSON do estudo  →  2. Registrar no index  →  3. Prefetch das passagens  →  4. Build  →  5. Deploy
 ```
 
 ---
 
-## Passo 1 — Adicionar o estudo em `src/data/studies.json`
+## Passo 1 — Criar o arquivo do estudo em `src/data/estudos/`
 
-Abra o arquivo [`src/data/studies.json`](../src/data/studies.json) e adicione um novo objeto ao array raiz.
+Cada estudo é um arquivo próprio em [`src/data/estudos/`](../src/data/estudos/), por exemplo `src/data/estudos/filipenses.json`. O conteúdo é um único objeto com a estrutura abaixo.
+
+> Os livros gerados a partir de PDF usam scripts em `scripts/` (ex.: `scripts/pdf-to-study-json.ts` para o formato do Catecismo, `scripts/parse-milagres.mjs` para o formato de livreto do Luciano). Rode o script apropriado e revise o JSON gerado.
 
 ### Estrutura completa
 
@@ -88,7 +90,24 @@ Gl 5:1       → Gálatas 5:1
 
 ---
 
-## Passo 2 — Prefetch das passagens bíblicas (para funcionamento offline)
+## Passo 2 — Registrar o estudo no índice
+
+Abra [`src/data/estudos/index.ts`](../src/data/estudos/index.ts) e adicione o novo arquivo à lista `studies`:
+
+```ts
+import filipenses from "./filipenses.json";
+
+export const studies = [
+  // ...estudos existentes
+  filipenses,
+] as unknown as Study[];
+```
+
+Esse é o **único** ponto de registro — o serviço de estudos, a home e as páginas SSG (estudo e lição) leem todos a partir desta lista.
+
+---
+
+## Passo 3 — Prefetch das passagens bíblicas (para funcionamento offline)
 
 As passagens bíblicas referenciadas nas lições precisam ser baixadas e salvas localmente para funcionar offline.
 
@@ -98,13 +117,13 @@ Execute:
 pnpm prefetch-bible
 ```
 
-O script lê `src/data/studies.json`, identifica todas as referências bíblicas, busca na API e salva em [`src/data/bible-passages.json`](../src/data/bible-passages.json).
+O script lê todos os arquivos em `src/data/estudos/*.json`, identifica todas as referências bíblicas (cabeçalho e texto das lições), busca na API e salva em [`src/data/bible-passages.json`](../src/data/bible-passages.json).
 
 **O script é incremental** — ele pula passagens que já estão salvas, portanto é seguro rodar novamente a qualquer momento.
 
 ---
 
-## Passo 3 — Gerar o build de produção
+## Passo 4 — Gerar o build de produção
 
 ```bash
 pnpm build
@@ -117,7 +136,7 @@ O build:
 
 ---
 
-## Passo 4 — Subir para produção (deploy)
+## Passo 5 — Subir para produção (deploy)
 
 Após o build, faça o deploy normalmente para o seu ambiente (Vercel, VPS, etc.).
 
@@ -166,14 +185,16 @@ Os usuários que já têm o PWA instalado receberão o novo Service Worker autom
 ## Resumo dos comandos
 
 ```bash
-# 1. Edite src/data/studies.json
+# 1. Crie src/data/estudos/<id>.json
 
-# 2. Baixe as passagens bíblicas offline
+# 2. Registre o estudo em src/data/estudos/index.ts
+
+# 3. Baixe as passagens bíblicas offline
 pnpm prefetch-bible
 
-# 3. Gere o build
+# 4. Gere o build
 pnpm build
 
-# 4. Teste localmente (opcional)
+# 5. Teste localmente (opcional)
 pnpm start
 ```

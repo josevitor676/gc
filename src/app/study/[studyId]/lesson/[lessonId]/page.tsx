@@ -1,9 +1,5 @@
-import efesiosData from "@/data/estudos/efesios.json";
-import catecismo1Data from "@/data/estudos/catecismo-nova-cidade-1.json";
-import catecismo2Data from "@/data/estudos/catecismo-nova-cidade-2.json";
+import { studies } from "@/data/estudos";
 import LessonPageContent from "./LessonPageContent";
-
-const studies = [efesiosData, catecismo1Data, catecismo2Data];
 
 interface Props {
   params: Promise<{ studyId: string; lessonId: string }>;

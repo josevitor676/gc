@@ -80,15 +80,17 @@ export default function StudyPageContent({ studyId }: Props) {
 
       <div className="px-5 py-6 max-w-2xl mx-auto md:max-w-3xl md:px-8">
         {/* Introduction */}
-        <div className="mb-8">
-          <div className="flex items-center gap-2 mb-3">
-            <span className="text-xl">📋</span>
-            <h2 className="text-lg font-bold" style={{ color: colors.text }}>Introdução</h2>
+        {study.introduction?.trim() && (
+          <div className="mb-8">
+            <div className="flex items-center gap-2 mb-3">
+              <span className="text-xl">📋</span>
+              <h2 className="text-lg font-bold" style={{ color: colors.text }}>Introdução</h2>
+            </div>
+            <p className="text-sm leading-relaxed whitespace-pre-line" style={{ color: colors.textSecondary }}>
+              {study.introduction}
+            </p>
           </div>
-          <p className="text-sm leading-relaxed whitespace-pre-line" style={{ color: colors.textSecondary }}>
-            {study.introduction}
-          </p>
-        </div>
+        )}
 
         {/* Lessons list */}
         <div>
