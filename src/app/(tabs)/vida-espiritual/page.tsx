@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { Heart, BookOpen, HandHeart, ChevronRight, Send } from "lucide-react";
 import { useTheme } from "@/contexts/ThemeContext";
-import { waLink } from "../informacoes/page";
+import { waLink } from "@/lib/links";
 
 const ITENS = [
   {
