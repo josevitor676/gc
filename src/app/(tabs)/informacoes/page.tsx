@@ -14,8 +14,8 @@ const TINTS = {
 function mapsLink(address: string) {
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
 }
-function waLink(digits: string) {
-  return `https://wa.me/${digits}`;
+export function waLink(digits: string, message?: string) {
+  return `https://wa.me/${digits}${message ? `?text=${encodeURIComponent(message)}` : ""}`;
 }
 
 const SEDE = "Av. Paissandú, 32 - Vila Operária, Maringá - PR, 87050-130";
