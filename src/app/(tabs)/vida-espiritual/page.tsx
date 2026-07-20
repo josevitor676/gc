@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Heart, BookOpen, HandHeart, ChevronRight, Send } from "lucide-react";
+import { Heart, BookOpen, HandHeart, ChevronRight, Send, Users } from "lucide-react";
 import { useTheme } from "@/contexts/ThemeContext";
 import { waLink } from "@/lib/links";
 
@@ -29,6 +29,14 @@ const ITENS = [
     icon: HandHeart,
     tint: "#E1F5EE",
     ink: "#085041",
+  },
+  {
+    href: "/vida-espiritual/gcs",
+    label: "Encontre seu GC",
+    desc: "Grupos de Crescimento perto de você",
+    icon: Users,
+    tint: "#FAEEDA",
+    ink: "#633806",
   },
 ];
 
