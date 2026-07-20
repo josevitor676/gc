@@ -75,6 +75,7 @@ export interface PedidoOracao {
   pedido: string;
   criadoEm: string;
   ativo: boolean;
+  oracoes: number;
 }
 
 export interface BibliotecaPdfItem {

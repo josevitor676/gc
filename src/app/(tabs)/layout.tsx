@@ -7,6 +7,8 @@ import { Sun, Moon, Book, Heart, RefreshCw, BookMarked, Info } from "lucide-reac
 import { useTheme } from "@/contexts/ThemeContext";
 import InstallBanner from "@/components/InstallBanner";
 import OfflineBanner from "@/components/OfflineBanner";
+import NotificationBell from "@/components/NotificationBell";
+import InstallButton from "@/components/InstallButton";
 const NAV_ITEMS = [
   {
     href: "/",
@@ -80,6 +82,8 @@ export default function TabsLayout({ children }: { children: React.ReactNode }) 
           Grupos de Crescimento
         </h1>
         <div className="flex items-center align-middle gap-3">
+          <InstallButton />
+          <NotificationBell />
           <button
           onClick={toggleTheme}
           className="p-1.5 rounded-full hover:opacity-70 transition-opacity"
