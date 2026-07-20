@@ -40,9 +40,14 @@ export default function InstallBanner() {
       setDeferredPrompt(e as BeforeInstallPromptEvent);
       setVisible(true);
     };
+    const onInstalled = () => setVisible(false);
 
     window.addEventListener("beforeinstallprompt", handler);
-    return () => window.removeEventListener("beforeinstallprompt", handler);
+    window.addEventListener("appinstalled", onInstalled);
+    return () => {
+      window.removeEventListener("beforeinstallprompt", handler);
+      window.removeEventListener("appinstalled", onInstalled);
+    };
   }, []);
 
   const handleInstall = async () => {
