@@ -1,0 +1,56 @@
+{
+  "id": "credo-apostolico",
+  "titulo": "Credo Apostólico",
+  "subtitulo": "O mais conhecido dos credos da igreja",
+  "autor": "true",
+  "ano": "Séc. II-VI",
+  "descricao": "Breve resumo da fé cristã, usado desde a antiguidade nas igrejas; anexado pela Assembleia de Westminster ao Catecismo.",
+  "tipo": "leitura",
+  "arquivoPdf": null,
+  "secoes": [
+    {
+      "id": "credo-01",
+      "order": 1,
+      "title": "Origem",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O Credo Apostólico, o mais conhecido dos credos, é atribuído pela tradição aos doze apóstolos. Mas os estudiosos acreditam que ele se desenvolveu a partir de pequenas confissões batismais empregadas nas igrejas dos primeiros séculos. Embora os seus artigos sejam de origem bem antiga, acredita-se atualmente que o credo apostólico só alcançou sua forma definitiva por volta do sexto século, quando são encontrados registros do seu emprego na liturgia oficial da igreja ocidental. De um modo ou de outro, parece evidente sua conexão com outros credos antigos menores, como os seguintes:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Creio em Deus Pai Todo-poderoso, e em Jesus Cristo, seu único Filho, nosso Senhor. E no Espírito Santo, na santa Igreja, na ressurreição da carne."
+        },
+        {
+          "type": "paragraph",
+          "text": "Creio em Deus Pai Todo-poderoso. E em Jesus Cristo seu único Filho nosso Senhor, que nasceu do Espírito Santo e da virgem Maria; padeceu sob o poder de Pôncio Pilatos e foi sepultado; ressuscitou ao terceiro dia; subiu ao céu e está sentado à mão direita do Pai, de onde há de vir julgar os vivos e os mortos. E no Espírito Santo; na santa Igreja; na remissão dos pecados; na ressurreição do corpo."
+        },
+        {
+          "type": "paragraph",
+          "text": "O Credo Apostólico, assim como os Dez Mandamentos e a Oração Dominical, foi anexado, pela Assembléia de Westminster, ao Catecismo. “Não como se houvesse sido composto pelos apóstolos, ou porque deva ser considerado Escritura canônica, mas por ser um breve resumo da fé cristã, por estar de acordo com a palavra de Deus, e por ser aceito desde a antigüidade pelas igrejas de Cristo.”"
+        }
+      ]
+    },
+    {
+      "id": "credo-02",
+      "order": 2,
+      "title": "Texto em Português",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Creio em Deus Pai, Todo-poderoso, Criador do Céu e da terra."
+        },
+        {
+          "type": "paragraph",
+          "text": "Creio em Jesus Cristo, seu único Filho, nosso Senhor, o qual foi concebido por obra do Espírito Santo; nasceu da virgem Maria; padeceu sob o poder de Pôncio Pilatos, foi crucificado, morto e sepultado; ressurgiu dos mortos ao terceiro dia; subiu ao Céu; está sentado à direita de Deus Pai Todo-poderoso, donde há de vir para julgar os vivos e os mortos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Creio no Espírito Santo; na Santa Igreja Universal; na comunhão dos santos; na remissão dos pecados; na ressurreição do corpo; na vida eterna. Amém."
+        }
+      ]
+    }
+  ]
+}

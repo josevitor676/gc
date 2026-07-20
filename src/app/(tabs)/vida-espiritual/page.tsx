@@ -1,9 +1,16 @@
 "use client";
 
 import Link from "next/link";
-import { Heart, BookOpen, HandHeart, ChevronRight, Send, Users } from "lucide-react";
+import {
+  Heart,
+  BookOpen,
+  HandHeart,
+  ScrollText,
+  GraduationCap,
+  Church,
+  ChevronRight,
+} from "lucide-react";
 import { useTheme } from "@/contexts/ThemeContext";
-import { waLink } from "@/lib/links";
 
 const ITENS = [
   {
@@ -31,12 +38,28 @@ const ITENS = [
     ink: "#085041",
   },
   {
-    href: "/vida-espiritual/gcs",
-    label: "Encontre seu GC",
-    desc: "Grupos de Crescimento perto de você",
-    icon: Users,
-    tint: "#FAEEDA",
-    ink: "#633806",
+    href: "/vida-espiritual/confissoes",
+    label: "Confissões",
+    desc: "Símbolos de fé das igrejas reformadas",
+    icon: ScrollText,
+    tint: "#F6ECD8",
+    ink: "#7A4A16",
+  },
+  {
+    href: "/vida-espiritual/teologia",
+    label: "Teologia reformada",
+    desc: "As bases e doutrinas da Reforma",
+    icon: GraduationCap,
+    tint: "#E7EDFB",
+    ink: "#1E3A8A",
+  },
+  {
+    href: "/vida-espiritual/credos",
+    label: "Credos históricos",
+    desc: "As confissões ecumênicas da igreja antiga",
+    icon: Church,
+    tint: "#EDE7FB",
+    ink: "#4A2A7C",
   },
 ];
 
@@ -46,10 +69,16 @@ export default function VidaEspiritualPage() {
   return (
     <div className="px-5 py-6 max-w-2xl mx-auto md:max-w-3xl">
       <div className="mb-5">
-        <p className="text-xs font-semibold uppercase tracking-widest" style={{ color: colors.textMuted }}>
+        <p
+          className="text-xs font-semibold uppercase tracking-widest"
+          style={{ color: colors.textMuted }}
+        >
           Sua caminhada com Deus
         </p>
-        <h2 className="text-2xl font-extrabold mt-1 leading-tight" style={{ color: colors.text }}>
+        <h2
+          className="text-2xl font-extrabold mt-1 leading-tight"
+          style={{ color: colors.text }}
+        >
           Vida espiritual
         </h2>
       </div>
@@ -79,33 +108,6 @@ export default function VidaEspiritualPage() {
             <ChevronRight size={20} color={colors.textMuted} />
           </Link>
         ))}
-      </div>
-      <div className="mt-5">
-        <h2 className="text-2xl font-extrabold mt-1 leading-tight" style={{ color: colors.text }}>
-          Agendamento
-        </h2>
-        <Link
-            href={waLink("5544999230444", "Olá, gostaria de agendar um horário com o pastor para aconselhamento e oração.")}
-            className="flex items-center gap-3 rounded-2xl border p-4 active:scale-[0.99] transition-transform mt-2"
-            style={{ backgroundColor: colors.card, borderColor: colors.border }}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div
-              className="w-12 h-12 rounded-xl flex items-center justify-center shrink-0"
-              style={{ backgroundColor: "#e7dcf7", color: "#5B21B6" }}
-            >
-              <Send size={22} />
-            </div>
-            <div className="min-w-0 flex-1">
-              <p className="text-base font-bold" style={{ color: colors.text }}>
-                Agendamento Pastoral
-              </p>
-              <p className="text-xs mt-0.5" style={{ color: colors.textMuted }}>
-                Agende um horário com o pastor para aconselhamento e oração
-              </p>
-            </div>
-          </Link>
       </div>
     </div>
   );

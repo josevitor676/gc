@@ -26,7 +26,69 @@ function loadStudyRoutes() {
   }
 }
 
-const precacheRoutes = loadStudyRoutes();
+// Lê todas as confissões (fonte de verdade em src/data/confissoes/*.json) para
+// pré-cachear a lista e a página de cada confissão — mesmo padrão dos estudos,
+// garantindo leitura offline em Vida espiritual → Confissões.
+function loadConfissaoRoutes() {
+  try {
+    const dir = join(process.cwd(), "src/data/confissoes");
+    const files = readdirSync(dir).filter((f) => f.endsWith(".json"));
+    const routes: Array<{ url: string; revision: string }> = [
+      { url: "/vida-espiritual", revision: "menu" },
+      { url: "/vida-espiritual/confissoes", revision: "list" },
+    ];
+    for (const f of files) {
+      const confissao = JSON.parse(readFileSync(join(dir, f), "utf-8")) as { id: string };
+      routes.push({ url: `/vida-espiritual/confissoes/${confissao.id}`, revision: confissao.id });
+    }
+    return routes;
+  } catch {
+    return [];
+  }
+}
+
+// Mesmo padrão para os documentos de Teologia reformada.
+function loadTeologiaRoutes() {
+  try {
+    const dir = join(process.cwd(), "src/data/teologia");
+    const files = readdirSync(dir).filter((f) => f.endsWith(".json"));
+    const routes: Array<{ url: string; revision: string }> = [
+      { url: "/vida-espiritual/teologia", revision: "list" },
+    ];
+    for (const f of files) {
+      const item = JSON.parse(readFileSync(join(dir, f), "utf-8")) as { id: string };
+      routes.push({ url: `/vida-espiritual/teologia/${item.id}`, revision: item.id });
+    }
+    return routes;
+  } catch {
+    return [];
+  }
+}
+
+// Mesmo padrão para os credos históricos da igreja.
+function loadCredoRoutes() {
+  try {
+    const dir = join(process.cwd(), "src/data/credos");
+    const files = readdirSync(dir).filter((f) => f.endsWith(".json"));
+    const routes: Array<{ url: string; revision: string }> = [
+      { url: "/vida-espiritual/credos", revision: "list" },
+    ];
+    for (const f of files) {
+      const item = JSON.parse(readFileSync(join(dir, f), "utf-8")) as { id: string };
+      routes.push({ url: `/vida-espiritual/credos/${item.id}`, revision: item.id });
+    }
+    return routes;
+  } catch {
+    return [];
+  }
+}
+
+const precacheRoutes = [
+  ...loadStudyRoutes(),
+  ...loadConfissaoRoutes(),
+  ...loadTeologiaRoutes(),
+  ...loadCredoRoutes(),
+];
 
 // Revision muda a cada build, garantindo que o Workbox re-faça fetch de todas as
 // páginas pré-cacheadas quando um novo Service Worker é instalado.
@@ -54,7 +116,22 @@ const withPWA = withPWAInit({
       { url: "/biblia", revision: BUILD_REVISION },
       ...precacheRoutes.map((r) => ({ ...r, revision: BUILD_REVISION })),
     ],
+    // Não pré-cachear os PDFs das confissões (arquivos grandes, alguns digitalizados):
+    // eles são cacheados sob demanda pela regra de runtime abaixo, ao serem abertos.
+    exclude: [/\.pdf$/i],
     runtimeCaching: [
+      // PDFs (confissões em public/confissoes): CacheFirst — baixa uma vez e
+      // fica disponível offline nas próximas aberturas.
+      {
+        urlPattern: ({ url: { pathname }, sameOrigin }: { url: URL; sameOrigin: boolean }) =>
+          sameOrigin && pathname.endsWith(".pdf"),
+        handler: "CacheFirst" as const,
+        options: {
+          cacheName: "confissoes-pdf",
+          expiration: { maxEntries: 12, maxAgeSeconds: 60 * 60 * 24 * 90 },
+          cacheableResponse: { statuses: [0, 200] },
+        },
+      },
       // RSC prefetch: adiciona timeout de 3 s para cair no cache rapidamente quando offline
       {
         urlPattern: ({ request, url: { pathname }, sameOrigin }: { request: Request; url: URL; sameOrigin: boolean }) =>

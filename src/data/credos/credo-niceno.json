@@ -1,0 +1,36 @@
+{
+  "id": "credo-niceno",
+  "titulo": "Credo Niceno",
+  "subtitulo": "Concílios de Niceia (325) e Constantinopla (381)",
+  "autor": "true",
+  "ano": "325-381",
+  "descricao": "Formulação da doutrina da Trindade contra o arianismo, aceito por católicos e protestantes.",
+  "tipo": "leitura",
+  "arquivoPdf": null,
+  "secoes": [
+    {
+      "id": "credo-01",
+      "order": 1,
+      "title": "Origem",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O Credo Niceno deriva-se do credo de Nicéia (composto pelo Concílio de Nicéia, 325 AD), com pequenas modificações efetuadas pelo Concílio de Calcedônia (451 AD) e pelo Concílio de Toledo (Espanha, 589 AD). Este credo expressa mais precisamente a doutrina da Trindade, contra o arianismo. Eis o texto do Credo de Nicéia, conforme aceito por católicos e protestantes:"
+        }
+      ]
+    },
+    {
+      "id": "credo-02",
+      "order": 2,
+      "title": "Texto",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Creio em um Deus, Pai Todo-poderoso, Criador do céu e da terra, e de todas as coisas visíveis e invisíveis; e em um Senhor Jesus Cristo, o unigênito Filho de Deus, gerado pelo Pai antes de todos os séculos, Deus de Deus, Luz da Luz, verdadeiro Deus de verdadeiro Deus, gerado não feito, de uma só substância com o Pai; pelo qual todas as coisas foram feitas; o qual por nós homens e por nossa salvação, desceu dos céus, foi feito carne pelo Espírito Santo da Virgem Maria, e foi feito homem; e foi crucificado por nós sob o poder de Pôncio Pilatos. Ele padeceu e foi sepultado; e no terceiro dia ressuscitou conforme as Escrituras; e subiu ao céu e assentou-se à direita do Pai, e de novo há de vir com glória para julgar os vivos e os mortos, e seu reino não terá fim. E no Espírito Santo, Senhor e Vivificador, que procede do Pai e do Filho, que com o Pai e o Filho conjuntamente é adorado e glorificado, que falou através dos profetas. Creio na Igreja una, universal e apostólica, reconheço um só batismo para remissão dos pecados; e aguardo a ressurreição dos mortos e da vida do mundo vindouro."
+        }
+      ]
+    }
+  ]
+}

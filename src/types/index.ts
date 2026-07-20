@@ -87,3 +87,33 @@ export interface BibliotecaPdfItem {
   criadoEm: string;
 }
 
+// ── Confissões (símbolos de fé das igrejas reformadas) ──────
+// Cada confissão é servida a partir de arquivos no repositório:
+// - tipo "leitura": conteúdo estruturado em `secoes` (gerado por
+//   scripts/pdf-to-confissao-json.ts a partir de PDFs com texto).
+// - tipo "pdf": PDF escaneado exibido em visualizador; o arquivo fica
+//   em public/confissoes/ e o nome vai em `arquivoPdf`.
+
+export interface ConfissaoSecao {
+  id: string;
+  order: number;
+  title: string;
+  bibleReference?: string;
+  content: ContentBlock[];
+}
+
+export interface Confissao {
+  id: string;
+  titulo: string;
+  subtitulo: string;
+  autor: string;
+  ano: string;
+  descricao: string;
+  tipo: "leitura" | "pdf";
+  arquivoPdf: string | null;
+  secoes: ConfissaoSecao[];
+}
+
+// Confissões e Teologia reformada compartilham a mesma estrutura de documento
+// (leitura estruturada ou visualizador de PDF) e o mesmo componente de leitura.
+export type DocumentoLeitura = Confissao;

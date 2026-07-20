@@ -1,0 +1,2250 @@
+{
+  "id": "heidelberg",
+  "titulo": "Catecismo de Heidelberg",
+  "subtitulo": "Segundo dos padrões doutrinários das Igrejas Reformadas",
+  "autor": "Zacarias Ursinus e Gaspar Olevianus",
+  "ano": "1563",
+  "descricao": "Catecismo em 52 Dias do Senhor, organizado em três partes: a miséria do homem, sua redenção e sua gratidão.",
+  "tipo": "leitura",
+  "arquivoPdf": null,
+  "secoes": [
+    {
+      "id": "heidelberg-00-introducao",
+      "order": 1,
+      "title": "Introdução",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O Catecismo de Heidelberg, o segundo dos padrões doutrinários das Igrejas Reformadas, foi escrito em Heidelberg a pedido do Eleitor Frederico III, governador, entre 1559 e 1576, da mais influente província alemã, o Palatinado. Esse piedoso príncipe cristão comissionou Zacarias Ursinus, vinte e oito anos de idade e professor de Teologia da Universidade de Heidelberg, e Gaspar Olevianus, vinte e seis anos de idade e pregador da corte de Frederico, para que preparassem um catecismo para instruir os jovens e guiar pastores e mestres. Na preparação do Catecismo, Frederico contou com o conselho e a cooperação de todo o corpo docente de Teologia. O Catecismo de Heidelberg foi adotado pelo Sínodo de Heidelberg e publicado na Alemanha com um prefácio de Frederico III datado de 19 de janeiro de 1563. Uma segunda e terceira edição alemã, com alguns pequenos acréscimos, além de uma tradução latina, foram publicadas em Heidel- berg nesse mesmo ano. Logo cedo o Catecismo foi divido em cinqüenta e duas seções para que cada uma delas pudesse ser explicada às igrejas a cada domingo do ano. O Catecismo de Heidelberg tornou-se ampla e favoravelmente conhecido nos Países Baixos quase imediatamente após sair das prensas, principalmente pelos esforços de Pedro Dathenus, que o traduziu para o holandês e o acrescentou à sua versão do Saltério de Genebra, publicando-o em 1566. No mesmo ano Pedro Gabriel deu o exemplo, explicando-o à sua congregação em Amsterdã nos sermões das tardes de domingo. Os Sínodos Nacionais do século dezesseis o adotou como uma das Formas de Unidade, requerendo dos seus oficiais eclesiásticos que o subscrevessem e que os seus ministros o explicassem às igrejas. Essas exigências foram fortemente enfatizadas pelo grande Sínodo de Dort de 1618/1619.O Catecismo de Heidelberg tem sido traduzido em muitas línguas e é o mais influente e o mais geralmente aceito dos di- versos catecismos dos dias da Reforma."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-02",
+      "order": 2,
+      "title": "Dia do Senhor 1",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Qual é o seu único consolo na vida e na morte?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Que não pertenço a mim mesmo, mas pertenço de corpo e alma, tanto na vida quanto na morte, ao meu fiel Salvador Jesus Cristo. Ele pagou completamente todos os meus pecados com o Seu sangue precioso e libertou-me de todo o domínio do diabo. Ele também me guarda de tal maneira que sem a vontade do meu Pai celeste nem um fio de cabelo pode cair da minha cabeça; na verdade, todas as coisas cooperam para a minha salvação. Por isso, pelo Seu Espírito Santo, Ele também me assegura a vida eterna e faz-me disposto e pronto de coração para viver para Ele de agora em diante."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. 1Co 6.19, 20. 2. Rm 14.7-9. 3. 1Co 3.23; Tt 2.14. 4. 1Pe 1.18, 19; 1Jo 1.7; 2.2. 5. Jo 8.34-36; Hb 2.14, 15; 1Jo 3.8. 6. Jo 6.39, 40; 10.27-30; 2Ts 3.3; 1Pe 1.5. 7. Mt 10.29-31; Lc 21:16-18. 8. Rm 8.28. 9. Rm 8.15, 16; 2Co 1.21, 22; 5.5; Ef 1.13, 14. 10. Rm 8:14",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "O que é que você precisa saber para viver e morrer nessa consolação?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Primeiro, como são grandes meus pecados e miséria; segundo, de que modo sou liberto de todos os meus pecados e miséria; terceiro, de que modo devo ser grato a Deus por uma tal libertação."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Rm 3.9, 10; 1Jo 1:10. 2. Jo 17.3; At 4.12; 10.43. 3. Mt 5.16; Rm 6.13; Ef 5.8-10; 1Pe 2.9, 10.",
+          "italic": true
+        },
+        {
+          "type": "heading",
+          "text": "Nossos Pecados e Miséria"
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-03",
+      "order": 3,
+      "title": "Dia do Senhor 2",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Parte I"
+        },
+        {
+          "type": "paragraph",
+          "text": "Como é que você sabe dos seus pecados e miséria?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Pela lei de Deus. 1. Rm 3.20; 7.7-25."
+        },
+        {
+          "type": "paragraph",
+          "text": "O que a lei de Deus exige de nós?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "É isso o que Cristo nos ensina resumidamente em Mateus 22.37-40: “Amarás o Senhor, teu Deus, de todo o teu coração, de toda a tua alma e de todo o teu entendimento. Este é o grande e primeiro mandamento. O segundo, semelhante a este, é: Amarás o teu próximo como a ti mesmo. Destes dois mandamentos dependem toda a Lei e os Profetas”."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Dt 6.5. 2. Lv 19.18.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Você consegue guardar tudo isso perfeitamente?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Não. Sou, por natureza, inclinado a odiar a Deus e ao meu próximo."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Rm 3.10, 23; 1Jo 1.8, 10. 2. Gn 6.5; 8.21; Jr 17.9; Rm 7.23; 8.7; Ef 2.3; Tt 3.3.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-04",
+      "order": 4,
+      "title": "Dia do Senhor 3",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Então, Deus criou o homem assim tão mau e perverso?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Não, pelo contrário, Deus criou o homem bom e à Sua imagem, isso é, em verdadeira justiça e santidade, de modo que ele pudesse conhecer corretamente a Deus, o seu Criador, amá-lO de coração, e viver com Ele em eterna felicidade para O louvar e glorificar."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Gn 1.31. 2. Gn 1.26, 27. 3. Ef 4.24. 4. Cl 3.10 5. Sl 8. 52",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "De onde veio, então, a natureza corrompida do homem?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Da queda e desobediência dos nossos primeiros pais, Adão e Eva, no Paraíso. Ali a nossa natureza tornou-se corrupta de tal modo que somos todos concebidos e nascidos em pecado."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Gn 3. 2. Rm 5.12, 18, 19. 3. Sl 51.5.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Mas, somos tão corruptos que não somos capazes de fazer bem algum e somos inclinados a todo o mal?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Sim, a menos que sejamos gerados novamente pelo Espírito de Deus."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Gn 6.5; 8.21; Jó 14.4; Is 53.6. 2. Jo 3.3-5.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-05",
+      "order": 5,
+      "title": "Dia do Senhor 4",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Mas, Deus não age injustamente com o homem ao exigir em Sua lei aquilo que o homem não consegue cumprir?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Não, pois Deus criou o homem de tal forma que ele era capaz de a cumprir. Mas o homem, sob a instigação do diabo, em desobediência deliberada, privou a si mesmo e a todos os seus descendentes destes dons."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Gn 1.31. 2. Gn 3.13; Jo 8.44; 1Tm 2.13, 14. 3. Gn 3.6. 4. rm 5.12, 28, 19.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Permitiria Deus que uma tal desobediência e apostasia ficasse sem castigo?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Certamente que não, pois tanto o nosso pecado original quanto os nossos pecados presentes O deixam terrivelmente irado. Por isso Ele os castigará com justo juízo agora e eternamente, conforme declarou: “Maldito todo aquele que não permanece em todas as coisas escritas no Livro da lei, para praticálas” (Gl 3.10)."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Gn 2.17; Ex 34.7; Sl 5.4-6; 7.11; Na 1.2; Rm 1.18; 5.12; Ef 5.6 Hb 9.27. 2. 27.26. 53",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Mas Deus não é também misericordioso?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Deus é verdadeiramente misericordioso, mas também é justo. A Sua justiça requer que o pecado cometido contra a Sua suprema majestade seja castigado também com a pena mais severa, quer dizer, com o eterno castigo do corpo e da alma."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Ex 20.6; 34.6, 7; Sl 103.8, 9. 2. Ex 20.5; 34.7; Dt 7.9-11; Sl 5.4-6; Hb 10.30, 31. 3. Mt 25.45, 46.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-06",
+      "order": 6,
+      "title": "Dia do Senhor 5",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Parte II — Nossa Salvação"
+        },
+        {
+          "type": "paragraph",
+          "text": "Se pelo justo julgamento de Deus merecemos tanto o castigo temporal quanto o eterno, como, então, poderemos escapar desta punição para sermos novamente recebidos em graça?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Deus requer que a Sua justiça seja satisfeita. Por isso, nós mesmos devemos satisfazer essa justiça completamente, ou um outro por nós."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Ex 20.5; 23.7; Rm 2:1-11. 2. Is 53.11; Rm 8.3, 4.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Podemos, nós mesmos, satisfazer essa justiça?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Certamente que não. Pelo contrário, todos os dias aumentamos a nossa dívida."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Sl 130.3; Mt 6.12; Rm 2.4, 5.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Qualquer mera criatura pode satisfazê-la por nós?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Não. Em primeiro lugar, Deus não vai castigar uma outra criatura pelo pecado que o homem cometeu. Além disso, não há criatura que possa suportar o peso da ira eterna de Deus contra o pecado, nem libertar outros dessa ira. 1. Ez 18.4, 20; Hb 2.14-18. 2. Sl 130.3; Na 1.6."
+        },
+        {
+          "type": "paragraph",
+          "text": "Que tipo de mediador e libertador temos que buscar?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Alguém que seja homem verdadeiro e justo, e mais pode- roso que todas as criaturas; isso é, alguém que seja ao mesmo tempo Deus verdadeiro."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. 1Co 15.21; Hb 2.17. 2. Is 53.9; 2Co 5.21; Hb 7.26. 3. Is 7.14; 9.6; Jr 23.6; Jo 1.1; Rm 8.3, 4.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-07",
+      "order": 7,
+      "title": "Dia do Senhor 6",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Por que tem de ser um homem verdadeiro e justo?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Tem de ser homem verdadeiro, pois a justiça de Deus exige que a mesma natureza humana que pecou pague pelo pecado. Tem de ser homem justo pois alguém que, por natureza, já é pecador, não pode pagar pelos pecados dos outros. 1. Rm 5.12, 15; 1Co 15.21; Hb 2.14-16. 2. Hb 7.26, 27; 1Pe 3.18."
+        },
+        {
+          "type": "paragraph",
+          "text": "Por que ele tem de ser, ao mesmo tempo, Deus verdadeiro?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Ele tem de ser Deus verdadeiro para que, pelo poder da Sua natureza Divina, possa suportar em sua natureza humana o peso da ira de Deus e, conquistar e restituir para nós a justiça e a vida."
+        },
+        {
+          "type": "paragraph",
+          "text": "1.Is 9.6. 2. Dt 4.24; Na 1.6; Sl 130.3. 3. Is 53.5, 11; Jo 3.16; 2Co 5.21.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Mas, que Mediador é esse que é, ao mesmo tempo, Deus verdadeiro e homem verdadeiro e justo?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "O nosso Senhor Jesus Cristo, “o qual se nos tornou, da parte de Deus, sabedoria, e justiça, e santificação, e redenção” (1Co 1.30)."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Mt 1.21-23; Lc 2.11; 1Tm 2.5; 3.16.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Como você sabe disso?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Pelo santo evangelho, revelado pela primeira vez no Paraíso pelo próprio Deus. O qual o fez proclamar depois pelos patriarcas e profetas, e prefigurar, como sombras, pelos sacrifícios e outras cerimônias da lei. Fazendo-o, por fim, ser cumprido por meio do Seu único Filho."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Gn 3.15. 2. Gn 12.3; 22.18; 49.10. 3. Is 53; Jr 23.5, 6; Mc 7.18-20; At 10.43; Hb 1.1 4. Lv 1-7; Jo 5.46; Hb 10.1-10. 5. Rm 10.4; Gl 4.4, 5; Cl 2.17.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-08",
+      "order": 8,
+      "title": "Dia do Senhor 7",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Então, todos os homens foram salvos por Cristo, exatamente como por meio de Adão todos pereceram?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Não.1Só estão salvos os que, pela verdadeira fé, foram enxertados em Cristo e aceitaram todos os Seus benefícios."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Mt 7 .14; Jo 1.12; 3.16, 18, 36; Rm 11.16-21.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "O que é a verdadeira fé?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "A verdadeira fé é a convicção com que aceito como verdade tudo aquilo que Deus nos revelou em Sua Palavra. É também a firme certeza de que Deus garantiu — não só aos outros como também a mim — perdão de pecados, justiça eterna, e salvação por pura graça e somente pelos méritos de Cristo. O Espírito Santo realiza essa fé em meu coração por meio do evangelho."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Jo 17.3, 17; Hb 11.1-3; Tg 2.19. 2. Rm 4.18-21; 5.1; 10.10; Hb 4.16. 3. Gl 2.20 4. Rm 1.17; Hb 10.10. 5.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Rm 3.20-26; Gl 2.16; Ef 2.8-10. 6. At 16.14; Rm1.16; 10.17; 1Co 1.21."
+        },
+        {
+          "type": "paragraph",
+          "text": "Então, no que o cristão tem de acreditar?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Em tudo que nos está prometido no evangelho, e que nos são ensinados resumidamente pelo artigos da nossa fé cristã universal e indubitável."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Mt 28.19; Jo 20.30, 31.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Que artigos são esses? R. 1. Creio em Deus Pai, Todo-poderoso, Criador do céu e da terra. 2. em Jesus Cristo, Seu unigênito Filho, nosso Senhor, 3. o qual foi concebido por obra do Espírito Santo; nasceu da virgem Maria; 4. padeceu sob o poder de Pôncio Pilatos, foi crucificado, morte e sepultado; desceu ao inferno; 5. ressurgiu dos mortos ao terceiro dia; 6. subiu ao céu; está assentado à mão direita de Deus Pai Todo-poderoso, 7. de onde há de vir para julgar os vivos e os mortos. 8. Creio no Espírito Santo; 9. na santa Igreja universal; na comunhão dos santos; 10. na remissão dos pecados; 11. na ressurreição do corpo; 12. na vida eterna.",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-09",
+      "order": 9,
+      "title": "Dia do Senhor 8",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Como se dividem esses artigos?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Em três partes. — a primeira é sobre Deus o Pai e a nossa criação; — a segunda é sobre Deus o Filho e a nossa redenção;— a terceira é sobre Deus o Espírito Santo e a nossa santificação."
+        },
+        {
+          "type": "paragraph",
+          "text": "Por que é que você fala em três Pessoas: Pai, Filho e Espírito Santo; visto que só existe um único Deus? 1 R. Porque o próprio Deus se revelou de tal maneira em Sua Palavra que essas três Pessoas distintas são o único, verdadeiro e eterno Deus. 1. Dt 6.4; Is 44.6; 45.5; 1Co 8.4, 6. 2. Gn 1.2, 3; Is 61.1; 63.8-10; Mt 3.16, 17; 28.18, 19; Lc 4.18; Jo 14.26; 15.26; 2Co 13.14; Gl 4.6; Tt 3.5, 6. Deus Pai e a Nossa Criação",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-10",
+      "order": 10,
+      "title": "Dia do Senhor 9",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Em que você crê quando diz: “Creio em Deus Pai, Todo-poderoso, Criador do céu e da terra”?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Creio que o eterno Pai do nosso Senhor Jesus Cristo, que criou do nada o céu e a terra e tudo o que neles há, e também os sustenta e governa por Seu conselho e providência eternos, é o meu Deus e o meu Pai, por causa do Seu Filho Cristo. Creio nEle tão completamente que não tenho nenhuma dúvida de que Ele me suprirá de tudo que é necessário ao corpo e à alma, e que também converterá em bem para mim toda a adversidade que me enviar nessa vida conturbada. Ele assim pode fazer porque é Deus Todo-Poderoso, mas o quer fazer, porque é Pai Fiel."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Gn 1; 2; Ex 20.11; Jó 38; 39; Sl 33.6; Is 44.24; At 4.24; 14.15. 2. Sl 104.27-30; Mt 6.30; 10.29; Ef 1.11. 3.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Jo 1.12, 13; Rm 8.15, 16; Gl 4.4-7; Ef 1.5. 4. Sl 55.22; Mt 6.25, 26; Lc 12.22-31. 5. Rm 8.28. 6. Gn 18.14; Rm 8.31-39. 7. Mt 6.32, 33; 7.9-11."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-11",
+      "order": 11,
+      "title": "Dia do Senhor 10",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O que você entende por “Providência de Deus”?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "A providência de Deus é o Seu onipotente e onipresente poder, por meio do qual, com as Sua mãos, Ele sustenta continuamente o céu e a terra e todas as criaturas, governando-os de tal modo que ervas e plantas, chuva e seca, abundância e escassez, comida e bebida, saúde e doença, riqueza e pobreza, todas as coisas na verdade, não nos vêm por acaso mas procedem da Sua mão paternal."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Jr 23.23, 24; At 17.24-28. 2. Hb 1.3 3. Jr 5.24; At 14.15-17; Jo 9.3; Pv 22.2. 4. Pv 16.33. 5. Mt 10.29.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Que benefício há em sabermos que Deus criou todas as coisas e que continuamente as sustenta pela Sua providência?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Podemos ser pacientes na adversidade, agradecidos na prosperidade e podemos, quanto ao futuro, confiar firmemente em nosso Deus e Pai fiel, porque criatura alguma poderá nos separar do Seu amor; pois todas elas estão de tal modo em Sua mão que sem a Sua vontade, elas não podem nem mesmo se mover."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Jó 1.21, 22; Sl 39.10; Tg 1.3 2. Dt 8.10; 1Ts 5.18. 3. Sl 55.22; Rm 5.3-5; 8.38, 39. 4. Jó 1.12; 2.6; Pv 21.1;",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "At 17.24-28. Deus Filho e a Nossa Redenção"
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-12",
+      "order": 12,
+      "title": "Dia do Senhor 11",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Por que razão é o Filho de Deus chamado de Jesus, que quer dizer, Salvador?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Porque Ele nos salva de todos os nossos pecados, e porque em ninguém mais devemos buscar ou podemos encontrar salvação."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Mt 1.21; Hb 7.25. 1. Is 43.11; Jo 15.4, 5; At 4.11, 12; 1Tm 2.5.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Aqueles que buscam com fervor a sua salvação ou bem-estar nos santos, em si mesmos ou em outra coisa qualquer, também crêem no único Salvador Jesus?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Não. Embora gloriem-se nEle com palavras, eles na verdade negam a Jesus como o único Salvador. Pois das duas coisas, só uma é verdadeira: ou Jesus é um Salvador incompleto, ou aqueles que pela verdadeira fé aceitam esse Salvador têm que achar nEle tudo que é necessário para a sua salvação."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. 1Co 1.12, 13; Gl 5.4 2. Cl 1.19, 20; 2.10; 1Jo 1.7.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-13",
+      "order": 13,
+      "title": "Dia do Senhor 12",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Por que razão é Ele chamado de Cristo, que quer dizer, Ungido?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Porque Ele foi ordenado por Deus o Pai, e ungido com o Espírito Santo, para ser o nosso supremo Profeta e Mestre, que nos revelou completamente o propósito secreto e a vontade de Deus quanto à nossa redenção; nosso único Sumo Sacerdote o qual por um único sacrifício do Seu corpo nos remiu, e intercede continuamente por nós diante do Pai; e nosso Rei eterno, que nos governa pela Sua Palavra e por Seu Espírito, e que nos defende e preserva na redenção que para nós conquistou."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Sl 45.7 (Hb 1.9); Is 61.1 (Lc 4.18); Lc 3.21, 22. 2. Dt 18.15 (At 3.22) 3. Jo 1.18; 15.15. 4. Sl 110.4 (Hb 7.17). 5. Hb 9.12; 10.11-14. 6. Rm 8.34; Hb 9.24; 1Jo 2.1. 7. Zc 9.9 (Mt 21.5); Lc 1.33. 8. Mt 28.18-20; Jo 10.28. Ap 12.10, 11.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Por que é que você é chamado de cristão?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Porque, pela fé, sou membro de Cristo e por isso partilho da Sua unção, para poder como profeta confessar o Seu nome; como sacerdote apresentar a mim mesmo como sacrifício vivo de gratidão a Ele; como rei, de livre e boa consciência, combater o pecado e o diabo nessa vida e no porvir reinar eternamente com Ele sobre todas as criaturas."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. 1Co 12.12-27. 2. Jl 2.28 (At 2.17); 1Jo 2.27. 3. Mt 10.32; Rm 10.9, 10; Hb 13.15. 4. Rm 12.1; 1Pe 2.5, 9. 5. Gl 5.16, 17; Ef 6.11; 1Tm 1.18, 19. 6. Mt 25.34; 2Tm 2.12.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-14",
+      "order": 14,
+      "title": "Dia do Senhor 13",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Por que é Ele chamado de “Filho unigênito” de Deus, se nós também somos filhos de Deus?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Porque somente Cristo é o eterno e natural Filho de Deus. Nós, contudo, somos filhos de Deus por adoção, pela graça, por causa de Cristo."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Jo 1.1-3, 14, 18; 3.16; Rm 8.32; Hb 1; 1Jo 4.9. 2. Jo 1.12; Rm 8.14-17; Gl 4.6; Ef 1.5, 6.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Por você O chama de “nosso Senhor”?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Porque Ele nos comprou e nos resgatou, o corpo e a alma, de todos os nossos pecados — não com ouro nem prata, mas com o Seu precioso sangue — e nos libertou de todo o domínio do diabo para nos tornar Sua possessão."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. 1Co 6.20; 1Tm 2.5, 6. 2. 1Pe 1.18, 19. 3. Cl 1.13, 14; Hb 2.14, 15.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-15",
+      "order": 15,
+      "title": "Dia do Senhor 14",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Que confessa você quando diz que Cristo: “foi concebido por obra do Espírito Santo; nasceu da virgem Maria”?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "O eterno Filho de Deus, o qual é e permanece Deus verdadeiro e eterno, tomou sobre Si a verdadeira natureza humana da carne e do sangue da virgem Maria, pela operação do Espírito Santo. Por isso, Ele é também a verdadeira semente de Davi, semelhante a Seus irmãos em tudo, porém, sem pecado."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Jo 1.1; 10.30-36; Rm 1.3; 9.5; Cl 1.15-17; 1Jo 5.20. 2. Mt 1.18-23; Jo 1.14; Gl 4.4; Hb 2.14. 3. Lc 1.35 4. 2 Sm 7.12-16; Sl 132.11; Mt 1.1; Lc 1.32; Rm 1.3. 5. Fl 2.7; Hb 2.17. 6. Hb 4.15; 7.26, 27.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Que benefício você recebe de Cristo ter sido concebido e nascido sem pecado?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Ele é o nosso Mediador, e com a Sua inocência e perfeita santidade cobre aos olhos de Deus o meu pecado, no qual fui concebido e nascido."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. 1Tm 2.5, 6; Hb 9.13-15. 2. Rm 8.3, 4; 2Co 5.21; Gl 4.4, 5; 1Pe 1.18, 19.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-16",
+      "order": 16,
+      "title": "Dia do Senhor 15",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O que você confessa quando diz que Ele “padeceu”?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Durante todo o tempo em que viveu sobre a terra, e especialmente no final, Cristo suportou no corpo e na alma a ira de Deus contra o pecado de toda a raça humana. Assim, por Seu sofrimento, como o único sacrifício de expiação, Ele redimiu o nosso corpo e a nossa alma da condenação eterna e conquistou para nós a graça de Deus, a justiça e a vida eterna."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Is 53; 1Tm 2.6; 1Pe 2.24; 3.18. 2. Rm 3.25; 1Co 5.7; Ef 5.2; Hb 10.14; 1Jo 2.2; 4.10. 3. Rm 8.1-4; Gl 3.13; Cl 1.13; Hb 9.12; 1Pe 1.18, 19. 4. Jo 3.16; Rm 3.24-26; 2Co 5.21; Hb 9.15.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Por que Ele “padeceu sob” o julgamento de “Pôncio Pilatos?”",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Embora inocente, Cristo foi condenado por um juiz terreno, e assim Ele nos livrou do severo juízo de Deus que haveria de cair sobre nós."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Lc 23.13-24; Jo 19.4, 12-16. 2. Is 53.4, 5; 2Co 5.21; Gl 3.13.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Há algum sentido especial em Cristo ter sido crucificado e não ter morrido de outro modo?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Sim. Por causa disso tenho a certeza de que Ele levou sobre Si a maldição que estava sobre mim, pois quem era crucificado era maldito de Deus."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Dt 21.23; Gl 3.13. 62",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-17",
+      "order": 17,
+      "title": "Dia do Senhor 16",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Por que foi necessário que Cristo se humilhasse até à morte?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Por causa da justiça e da verdade de Deus a satisfação pelos nossos pecados não poderia ocorrer de outra forma senão pela morte do Filho de Deus."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Gn 2.17. 2. Rm 8.3; Fl 2.8; Hb 2.9, 14, 15.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Por que foi Ele “sepultado”?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "O Seu sepultamento testifica que Ele realmente morreu."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Is 53.9; Jo 19.38-42; At 13.29; 1Co 15.3, 4.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Se Cristo morreu por nós, por que ainda temos que morrer?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "A nossa morte não é o pagamento pelos nossos pecados, mas ela põe fim aos nossos pecados e é a entrada para a vida eterna."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Mc 8.37; 2. Jo 5.24; Rm 7.24, 25; Fp 1.23.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Que outros benefícios recebemos do sacrifício e morte de Cristo na cruz?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Pela morte de Cristo a nossa velha natureza é crucificada, morta e sepultada com Ele, para que os desejos malignos da carne não reinem mais sobre nós e possamos nos ofertar a Ele como sacrifício de gratidão."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Rm 6.5-11; Cl 2.11-12. 2. Rm 6.12-14. 3. Rm 12.1; Ef 5.1, 2.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Por que razão se acrescenta: “desceu ao inferno”?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "A angústia, a dor, o terror e a agonia indizíveis que Cristo suportou em todos os Seus sofrimentos — especialmente na cruz — dão-me a certeza e a consolação de que, por maiores que sejam as minhas tristezas e tentações, Ele me livrou da angústia e do tormento do inferno."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Sl 18.5, 6; 116.3; Mt 26.36-46; 27.45, 46; Hb 5.7-10. 2. Is 53.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-18",
+      "order": 18,
+      "title": "Dia do Senhor 17",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Como somos favorecidos com a ressurreição de Cristo?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Primeiro: pela ressurreição Ele venceu a morte, para nos tornar participantes da justiça que Ele conquistou para nós pela Sua morte. Segundo: pelo Seu poder nós também somos ressuscitados para uma vida nova. Terceiro: a ressurreição de Cristo é, para nós, a garantia da nossa ressurreição gloriosa."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Rm 4.25; 1Co 15.16-20; 1Pe 1.3-5. 2. Rm 6.5-11; Ef 2.4-6; Cl 3.1-4. 3. Rm 8.11; 1Co 15.12-23; Fl 3.20,",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "21."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-19",
+      "order": 19,
+      "title": "Dia do Senhor 18",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O que você confessa quando diz que Cristo “subiu ao céu”?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Que Cristo, à vista dos Seus discípulos, foi levado da terra ao céu, e que lá está para o nosso benefício até que venha novamente para julgar os vivos e os mortos."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Mc 16.19; Lc 24.50, 51; At 1.9-11. 2. Rm 8.34; Hb 4.14; 7.23-25; 9.24. 3. Mt 24.30; At 1.11.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Quer dizer, então, que Cristo não está conosco até a consumação dos séculos, conforme Ele nos havia prometido? 1 R. Cristo é verdadeiro homem e verdadeiro Deus. Segundo Sua natureza humana, Ele não está mais na terra, mas segundo a Sua natureza divindade, majestade, graça e Espírito, Ele jamais se ausentou de nós. 1 Mt 28.20. 2. Mt 26.11; Jo 16.28; 17.11; At 3.19-21; Hb 8.4. 3. Mt 28.18-20; Jo 14.16-19; 16.13.",
+          "bold": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Mas, se a natureza humana não estiver presente onde quer que a natureza Divina esteja, não estariam as duas naturezas de Cristo separadas uma da outra?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "De maneira nenhuma, pois a Sua Divindade é ilimitada e está presente em toda parte. Por isso, conclui-se que apesar da Sua natureza Divina ultrapassar a natureza humana que Ele assumiu, ela está dentro dessa natureza humana e a ela permanece unida como pessoa."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Jr 23.23, 24; At 7.48, 49. 2. Jo 1.14; 3.13; Cl 2.9.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "De que modo somos abençoados com a ascensão de Cristo ao céu?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Primeiro: Ele é o nosso Advogado no céu diante do Pai. Segundo: temos a nossa carne no céu como a garantia segura de que Ele, o nosso Cabeça, também nos levará para Si, como membros Seus. Terceiro: Ele nos enviou o Seu Espírito como garantia, pelo poder do qual buscamos as coisas do alto — onde Cristo está assentado à direita de Deus — e não as que são da terra."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Rm 8.34; 1Jo 2.1. 2. Jo 14.2; 17.24; Ef 2.4-6. 3. Jo 14.16; At 2.33; 2Co 1.21, 22; 5.5; Ef 1.13,14 4. Cl 3.1-",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "4."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-20",
+      "order": 20,
+      "title": "Dia do Senhor 19",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Por que se acrescentou “está assentado à mão direita de Deus”?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Cristo ascendeu ao céu para manifestar-se lá como o Cabeça da Sua igreja, por meio de quem o Pai governa todas as coisas."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Ef 1.20-23; Cl 1.18. 2. Mt 28.18; Jo 5.22, 23.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Que benefício tem para nós esta glória de Cristo, o nosso Cabeça?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Primeiro: pelo Seu Espírito Santo Ele derrama sobre nós, Seus membros, os dons celestiais. Segundo: pelo Seu poder Ele nos defende e preserva de to- dos os inimigos."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. At 2.33; Ef 4.7-12. 2. Sl 2.9; 110.1, 2; Jo 10.27-30; Ap 19.11-16.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Que consolo lhe dá o fato de que Cristo “há de vir para julgar os vivos e os mortos”?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Que em todas as minhas aflições e perseguições eu de cabeça erguida e cheio de ânimo espero vir do céu, como juiz, Aquele mesmo que antes se submeteu ao juízo de Deus por minha causa, e removeu de sobre mim toda a maldição. Ela lançará todos os Seus e meus inimigos na condenação eterna, mas levará para Si mesmo, para o gozo e glória celestiais, a mim e a todos os Seus escolhidos."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Lc 21.28; Rm 8.22-25; Fl 3.20, 21; Tt 2.13, 14. 2. Mt 25.31-46; 1Ts 4.16, 17; 2Ts 1.6-10.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Deus Espírito Santo e a Nossa Santificação"
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-21",
+      "order": 21,
+      "title": "Dia do Senhor 20",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O que você crê sobre o Espírito Santo?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Primeiro: Creio que Ele é verdadeiro e eterno Deus, juntamente com o Pai e o Filho. Segundo: Creio que Ele foi dado também a mim para — pela verdadeira fé — me tornar participante de Cristo e de todos os Seus benefícios, para me consolar e para permanecer comigo para sempre."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Gn 1.1, 2; Mt 28.19; At 5.3, 4; 1Co 3.16. 2. 1Co 6.19; 2Co 1.21, 22; Gl 4.6; Ef 1.13. 3. Gl 3.14; 1Pe 1.2. 4.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Jo 15.26; At 9.31. 5. Jo 14.16, 17; 1Pe 4.14."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-22",
+      "order": 22,
+      "title": "Dia do Senhor 21",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O que você crê sobre a “santa Igreja universal ” de Cristo?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Creio que o Filho de Deus, desde o começo até o fim do mundo, reúne para Si mesmo, de entre todo o gênero humano, uma igreja eleita para a vida eterna a qual protege e preserva na unidade da verdadeira fé pelo Seu Espírito e pela Sua Palavra. E creio que eu sou e serei para sempre um membro vivo dela."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Jo 10.11; At 20.28; Ef 4.11-13; Cl 1.18. 2. Is 59.21; 1Co 11.26. 3. Sl 129.1-5; Mt 16.18; Jo 10.28-30. 4.Gn 26.4; Ap 5.9. 5.Rm 8.29; Ef 1.3-14. 6. At 2.42-47; Ef 4.1-6. 7. Rm 1.16; 10.14-17; Ef 5.26. 8. 1Jo 3.14, 19- 21. 9. Sl 23.6; Jo 10.27, 28; 1Co 1.4-9; 1Pe 1.3-5.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "O que você crê sobre a “comunhão dos santos”?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Primeiro: creio que todos os crentes, juntos e cada um em particular, como membros de Cristo, têm comunhão com Ele e participam de todos os Seus tesouros e dons. Segundo: creio que cada um têm o dever de usar os seus dons com disposição e alegria para o benefício e o bem-estar dos outros membros."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Rm 8.32; 1Co 6.17; 12.4-7, 12, 13; 1Jo 1.3 2. Rm 12.4-8; 1Co 12.20-27; 13.1-7; Fl 2.4-8.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "O que você crê sobre a “remissão dos pecados”?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Creio que Deus, por causa da satisfação que Cristo realizou, não se lembrará mais dos meus pecados nem da minha natu- reza pecaminosa, contra a qual devo lutar durante toda a mi- nha vida, mas me concederá graciosamente a justiça de Cristo, para que eu jamais entre em condenação."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Sl 103.3, 4, 10, 12; Mq 7.18, 19; 2Co 5.18-21; 1Jo 1.7; 2.2. 2. Rm 7.21-25. 3. Jo 3.17, 18; 5.24; Rm 8.1,",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "2."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-23",
+      "order": 23,
+      "title": "Dia do Senhor 22",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Que consolação lhe traz a “ressurreição do corpo”?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Que depois dessa vida, não apenas a minha alma será levada imediatamente para Cristo, meu Cabeça, mas que também essa minha carne, ressuscitada pelo poder de Cristo, será reunida à minha alma e feita à semelhança do corpo glorioso de Cristo."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Lc 16.22; 23.43; Fl 1.21-23. 2. Jó 19.25, 26; 1Co 15.20, 42-46, 54; Fl 3.21; 1Jo 3.2.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Que consolação lhe traz o artigo sobre a “vida eterna”?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Já agora sinto em meu coração o princípio do gozo eterno, pois depois dessa vida obterei a perfeita bem-aventurança que o olho jamais viu, nem o ouvido ouviu, nem o coração huma- no pode conceber. Uma bem-aventurança para se louvar a Deus eternamente."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Jo 17.3; Rm 14.17; 2Co 5.2, 3. 2. Jo17.24; 1Co 2.9.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "A Nossa Justificação"
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-24",
+      "order": 24,
+      "title": "Dia do Senhor 23",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Que proveito há para você que agora crê nisso?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "O proveito é que em Cristo sou justo diante de Deus e herdeiro da vida eterna."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Hc 2.4; Jo 3.36; Rm 1.17; 5.1, 2.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Como é que você é justo diante de Deus?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Somente pela verdadeira fé em Jesus Cristo. Embora a minha consciência me acuse de haver pecado gravamente contra os mandamentos de Deus, sem jamais haver obedecido a todos eles, e de ainda ser inclinado a todo o mal, Deus, no entanto, sem que houvesse em mim nenhum mérito próprio, somente pela Sua graça, imputa-me a perfeita satisfação, justiça e santidade de Cristo. Se tãosomente aceitar esse dom crendo fielmente com o coração, Ele me concede isso como se eu jamais tivesse tido ou cometido nenhum pecado, e como se eu mesmo tivesse cumpri- do toda a obediência que Cristo cumpriu por mim."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Rm 3.21-28; Gl 2.16; Ef 2.8, 9; Fl 3.8-11. 2. 3.9, 10. 3. Rm 7.23. 4. Dt 9.6; Ez 36.22; Tt 3.4, 5. 5. Rm 3.24;",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Ef 2.8. 6. Rm 4.3-5; 2Co 5.17-19; 1Jo 2.1, 2. 7. Jo 3.18; At 16.30, 31; Rm 3.22. 8. Rm 4.24, 25; 2Co 5.21."
+        },
+        {
+          "type": "paragraph",
+          "text": "Por quê você diz que é justo somente pela fé?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Eu o digo não porque sou agradável a Deus graças ao valor da minha fé, pois somente a satisfação, a justiça e santidade de Cristo é a minha justiça diante de Deus. É somente pela fé que posso receber e fazer dessa justiça a minha própria justiça."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. 1Co 1.30, 31; 2.2. 2. Rm10.10; 1Jo 5.10-12.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-25",
+      "order": 25,
+      "title": "Dia do Senhor 24",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Mas, por que as nossas boas obras não podem ser a nossa justiça diante de Deus, ou pelo menos parte dessa justiça?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Porque a justiça que pode subsistir diante do juizo de Deus deve ser absolutamente perfeita e totalmente de acordo com a Sua lei, enquanto até mesmo as nossas melhores obras nesta vida são todas imperfeitas e contaminadas com o pecado."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Dt 27.26; Gl 3.10. 2. Is 64.6.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Se as nossas boas obras não merecem nada, por que Deus promete recompensá-las nesta vida e na futura?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Essa recompensa não é por mérito, mas é um dom de graça."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Mt 5.12; Hb 11.6. 2. Lc 17.10; 2 Tm 4.7, 8.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Esse ensinamento não torna as pessoas descuidadas e ímpias?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Não. É impossível que os que são enxertados em Cristo pela verdadeira fé não produzam fruto de gratidão."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Mt 7.18; Lc 6.43-45; Jo 15.5.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "A Palavra e os Sacramentos"
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-26",
+      "order": 26,
+      "title": "Dia do Senhor 25",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Visto que somente a fé é o que nos torna participantes de Cristo e de todos os Seus benefícios, de onde vem essa fé?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Vem do Espírito Santo, que a opera em nossos corações pela pregação do evangelho, e a fortalece pelo uso dos sacramentos."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Jo 3.5; 1Co 2.10-14; Ef 2.8; Fl 1.29. 2. Rm 10.17; 1Pe 1.23-25. 3. Mt 28.19, 20; 1Co 10.16.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "O que são sacramentos?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Os sacramentos são sinais e selos santos e visíveis. Foram instituídos por Deus para que pelo uso deles Ele pudesse, o mais claramente possível, nos declarar e selar a promessa do evangelho. E esta é a promessa: que Deus nos concede graciosamente perdão de pecados e vida eterna por causa dos sacrifícios de Cristo ofertado na cruz."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Gn 17.11; Dt 30.6; Rm 4.11. 2. Mt 26.27, 28; At 2.38; Hb 10.10.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Então, tanto a Palavra quanto os sacramentos têm por objetivo direcionar a nossa fé para o sacrifício de Jesus Cristo na cruz, como a única base para a nossa salvação?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Sim, de fato. O Espírito Santo nos ensina no Evangelho e nos garante pelos sacramentos que toda a nossa salvação baseia-se no sacrifício único de Cristo por nós na cruz."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Rm 6.3; 1Co 11.26; Gl 3.27. 70",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Quantos sacramentos Cristo instituiu na nova aliança?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Dois: O santo batismo e a santa ceia."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Mt 28.19, 20; 1Co 11.23-26.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "O Santo Batismo"
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-27",
+      "order": 27,
+      "title": "Dia do Senhor 26",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Como o santo batismo lhe faz saber e lhe assegura que o único sacrifício de Cristo na cruz lhe beneficia?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Do seguinte modo: Cristo instituiu esse lavar exterior e deu com ele a promessa de que, tão certo quanto a água remove a sujeira do corpo, assim também o Seu sangue e Espírito removem a impureza da minha alma, isto é, todos os meus pecados."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Mt 28.19. 2. Mt 3.11; Mc 16.16; Jo 1.33; At 2.38; Rm 6.3, 4; 1Pe 3.21.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Que significa ser lavado com o sangue e o Espírito de Cristo?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Ser lavado com o sangue de Cristo significa receber de Deus o perdão de pecados, por meio da graça, por causa do sangue de Cristo derramado por nós em Seu sacrifício na cruz. Ser lavado com o Seu Espírito significa ser renovado pelo Espírito Santo e santificado para sermos membros de Cristo, para que morramos mais e mais para o pecado e vivamos uma vida santa e irrepreensível."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Ez 36.25; Zc 13.1; Ef 1.7; Hb 12.24; 1Pe 1.2; Ap 1.5; 7.14. 2. Jo 3.5-8; Rm 6.4; 1Co 6.11; Cl 2.11, 12.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Onde Cristo prometeu que nos lavaria com o Seu sangue e Espírito tão certo quanto somos lavados com a água do batismo?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Na instituição do batismo, onde Ele afirma: “Ide, portanto, fazei discípulos de todas as nações, batizando- os em nome do Pai, e do Filho, e do Espírito Santo” (Mt 28.19).“Quem crer e for batizado será salvo; quem, porém, não crer será condenado” (Mc 16.16). Essa promessa se repete onde a Escritura chama o batismo de lavar regenerador e de purificação dos pecados (Tt 3.5; At 22.16)."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-28",
+      "order": 28,
+      "title": "Dia do Senhor 27",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Então, esse lavar exterior com água por si mesmo remove os pecados?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Não, somente o sangue de Jesus Cristo e o Espírito Santo nos purificam de todo o pecado."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Mt 3.11; 1Pe 3.21; 1 Jo 1.7.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Então, por que o Espírito Santo chama o batismo de “lavar regenerador” e de “purificação de pecados”?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Deus fala assim por uma razão importante. Ele nos quer ensinar que o sangue e o Espírito de Cristo removem os nossos pecados assim como a água remove a sujeira do corpo. Porém, ainda mais importante, Ele nos quer assegurar por meio dessa garantia e sinal divinos que somos tão verdadeiramente purificados espiritualmente dos nossos pecados, assim como somos fisicamente lavados com a água."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. 1Co 6.11; Ap 1.5; 7-14. 2. Mt 16.16; At 2.38; Rm 6.3, 4; Gl 3.27.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "As crianças pequenas devem ser batizadas?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Sim. As crianças, assim como os adultos, pertencem à aliança e à igreja de Deus. Através do sangue de Cristo lhes são prometidos, da mesma forma que aos adultos, a redenção do pecado e o Espírito Santo, que opera a fé. Assim as crianças, por meio do batismo como sinal da aliança, devem ser enxertadas na igreja de Cristo e distinguidas dos filhos dos incrédulos. Na velha aliança isso era feito pela circuncisão, que, na nova aliança, foi substituída pela instituição do batismo."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Gn 17.7; Mt 19.14. 2. Sl 22.10; Is 44.1-3; At 2.38, 39; 16.31. 3. At 10.47; 1Co 7.14. 4. Gn 17.9-14. 5. Cl",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "2.11-13. A Santa Ceia"
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-29",
+      "order": 29,
+      "title": "Dia do Senhor 28",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Como a santa ceia lhe faz saber e lhe assegura que você tem parte no único sacrifício de Cristo na cruz e de todos os Seus dons?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Do seguinte modo: Cristo ordenou a mim e a todos os crentes que em Sua memória comêssemos desse pão partido e bebêssemos desse cálice. Juntamente com esse mandamento Ele deu essas promessas: Primeira: tão certo como vejo com os meus olhos o pão do Senhor partido por mim e o Seu cálice dado a mim, assim também foi o Seu corpo ofertado por mim e o Seu sangue derramado por mim na cruz. Segunda: tão certamente quanto recebo das mãos do ministro e provo com a minha boca o pão e o cálice do Senhor como si- nais seguros do corpo e do sangue de Cristo, assim também Ele mesmo, com o Seu corpo crucificado e o Seu sangue derramado, alimenta e nutre a minha alma para a vida eterna."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Mt 26.26-28; Mc 14.22-24; Lc 22.19, 20; 1Co 11.23-25.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "O que significa comer o corpo crucificado de Cristo e beber o Seu sangue derramado?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Primeiro: aceitar de todo coração todo o sofrimento e morte de Cristo, e assim receber o perdão dos pecados e a vida eterna. Segundo: ser unido cada vez mais ao santo corpo de Cristo pelo Espírito Santo que vive tanto nEle quanto em nós. Portanto, embora Cristo esteja no céu e nós estejamos na terra, somos carne da Sua carne e osso dos Seus ossos e vivemos eternamente e somos governados por um único Espírito, assim como os membros do nosso corpo o são por uma única alma."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Jo 6.35, 40, 40-54. 2. Jo 6.55, 56; 1Co 12.13. 3. At 1.9-11; 3.21; 1Co 11.26; Cl 3.1. 4. 1Co 6.15, 17; Ef 5.29, 30; 1Jo 4.13. 5. Jo 6.56-58; 15.1-6; Ef 4.15, 16; 1Jo 3.24.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Onde foi que Cristo prometeu que Ele quer alimentar e refrigerar os crentes com o Seu corpo e sangue tão certamente quanto eles comem desse pão partido e bebem desse cálice?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Na instituição da Ceia do Senhor: “O Senhor Jesus, na noite em que foi traído, tomou o pão; e, tendo dado graças, o partiu e disse: Isto é o meu corpo, que é dado por vós; fazei isto em memória de mim. Por semelhante modo, depois de haver ceado, tomou também o cálice, dizendo: Este cálice é a nova aliança no meu sangue; fazei isto, todas as vezes que o beberdes, em memória de mim. Porque, todas as vezes que comerdes este pão e beberdes o cálice, anunciais a morte do Senhor, até que ele venha” (1Co 11.23-26). Paulo repete essa promessa onde diz: “Porventura, o cálice da bênção que abençoamos não é a comunhão do sangue de Cristo? O pão que partimos não é a comunhão do corpo de Cristo? Porque nós, embora muitos, somos unicamente um pão, um só corpo; porque todos participamos do único pão” (1Co 10.16, 17)."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-30",
+      "order": 30,
+      "title": "Dia do Senhor 29",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Então, o pão e o vinho são transformados no corpo e no sangue reais de Cristo?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Não. Do mesmo modo que a água do batismo não se transforma no sangue de Cristo nem é a própria purificação dos pecados, mas é simplesmente um sinal e uma garantia disso da parte de Deus, assim também o pão na Ceia do Senhor não se torna no próprio corpo de Cristo, embora seja chamado de corpo de Cristo conforme a natureza e o uso dos sacramentos."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Ef 5.26; Tt 3.5. 2. Mt 26.26-29. 3. 1Co 10.16, 17; 11.26-28. 4. Gn 17.10, 11; Ex 12.11, 13; 1Co 10.3, 4; 1Pe 3.21.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Por que, então, Cristo chama o pão de “Seu corpo” e o cálice de “Seu sangue”, ou de a “nova aliança no Seu sangue”, e por que Paulo fala da comunhão do corpo e do sangue de Cristo?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Cristo fala dessa maneira por um motivo importante: Ele quer nos ensinar pela Sua ceia que do mesmo modo como o pão e o vinho nos sustentam a vida temporal, assim também o Seu corpo crucificado e o Seu sangue derramado são o verdadeiro alimento e a verdadeira bebida das nossas almas para a vida eterna. E, ainda mais, Ele nos quer assegurar por esse sinal e garantia visíveis, primeiramente, que pela operação do Espírito Santo nós participamos do Seu verdadeiro corpo e sangue tão certo quanto recebemos com a nossa boca esses santos sinais em memória dEle; e em segundo lugar, que todo o Seu sofrimento e obediência são tão certamente nos- sos como se nós mesmos tivéssemos sofrido e pago pelos nossos pecados."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Jo 6.51, 55. 2. 1Co 10.16, 17; 11.26. 3. Rm 6.5-11.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-31",
+      "order": 31,
+      "title": "Dia do Senhor 30",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Qual é a diferença entre a Ceia do Senhor e a missa do papa?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "A Ceia do Senhor nos testifica, primeiramente, que temos o perdão completo de todos os nossos pecados pelo único sacrifício de Jesus Cristo, que Ele mesmo realizou na cruz de uma vez por todas; em segundo lugar,que pelo Espírito Santo somos enxertados em Cristo, o qual está agora no céu em Seu corpo verdadeiro à mão direita do Pai, e é onde Ele quer ser adorado. A missa, no entanto, ensina primeiro que nem os vivos nem os mortos têm o perdão de pecados por meio do sofrimento de Cristo se Ele não for ainda sacrificado diariamente em favor deles pelos sacerdotes; e em segundo lugar, que Cristo está presente corporalmente na forma do pão e do vinho, e neles deve ser adorado. A missa, portanto, é basicamente nada mais que a negação do único sacrifício e sofrimento de Jesus Cristo, e é uma idolatria maldita."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Mt 26.28; Jo 10.30; Hb 7.27; 9.12, 25, 26; 10..10-18. 2. 1Co 6.17; 10.16, 17. 3. Jo 20.17; At 7.55, 56; Hb 1.3; 8.1. 4. Jo 4.21-24; Fp 3.20; Cl 3.1; 1Ts 1.10.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Quem deve vir à mesa do Senhor?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Aqueles que, em verdade, estão descontentes consigo mesmos por causa dos seus pecados e que, mesmo assim, confiam que eles lhes foram perdoados e que o mal que ainda resta neles está coberto pelo sofrimento e morte de Cristo, e que também desejam fortalecer a sua fé e corrigir as suas vidas, cada vez mais. Mas os hipócritas e os que não se arrependem comem e bebem juízo para si mesmos."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. 1Co 10.19-22; 11.26-32.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Esses que por sua confissão e vida demonstram que são incrédulos e ímpios devem ser admitidos à ceia do Senhor?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Não, porque a aliança de Deus seria profanada e a Sua ira se acenderia contra toda a congregação. Por isso, segundo o mandamento de Cristo a Seus apóstolos, a igreja de Cristo tem o dever de excluir tais pessoas pelas chaves do reino do céu, até que corrijam as suas vidas."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Sl 50.16; Is 1.11-17; 1Co 11.17-34. 76",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-32",
+      "order": 32,
+      "title": "Dia do Senhor 31",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O que são as chaves do reino do céu?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "A pregação do santo evangelho e a disciplina eclesiástica. É por esses dois meios que o reino do céu se abre para os que crêem, e se fecha para os incrédulos."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Mt 16.19; Jo 20. 21-23.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Como se abre e se fecha o reino do céu pela pregação do evangelho?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "De acordo com o mandamento de Cristo, o reino do céu se abre quando se proclama e se testifica de público a todo o crente — individual ou coletivamente — que Deus perdoou de fato a todos os seus pecados por causa dos méritos de Cristo, sempre que aceitam a promessa do evangelho com fé verdadeira. O reino do céu se fecha quando se proclama e se testifica a todo os incrédulos e hipócritas que, enquanto não se arrependerem, a ira de Deus e a condenação eterna repousam sobre eles. Segundo esse testemunho do evangelho, Deus os julgará tanto nessa quanto na vida porvir."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Mt 16.19; Jo 3.31-36; 20.21-23.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Como se fecha e se abre o reino do céu pela disciplina eclesiástica?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "De acordo com o mandamento de Cristo, aqueles que se chamam de cristãos mas que se mostram não-cristãos na doutrina ou na vida devem ser, em primeiro lugar e de modo fraternal, admoestado mais de uma vez. Se não abandonarem a seus erros nem à sua impiedade, de- vem ser denunciados à igreja, isto é aos presbíteros. Se também não derem ouvidos às admoestações deles, serão proibidos de participar dos sacramentos e excluídos da congregação cristã pelos presbíteros e do reino de Cristo pelo próprio Deus. Serão novamente recebidos como membros de Cristo e da igreja quando prometerem e demonstrarem arrependimento real."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Mt 18.15-20; 1Co 5.3-5; 11-13; 2Ts 3.14, 15. 2. Lc 15.20-24; 2Co 2.6-11.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-33",
+      "order": 33,
+      "title": "Dia do Senhor 32",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Parte III — A Nossa Gratidão"
+        },
+        {
+          "type": "paragraph",
+          "text": "Se fomos libertados da nossa miséria somente pela graça através de Cristo, sem nenhum mérito nosso, por que então devemos praticar boas obras?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Por que Cristo, tendo nos remido pelo Seu sangue, também nos renova por Seu Espírito Santo à Sua imagem para que, com toda a nossa vida, mostremo-nos gratos a Deus por Seus benefícios e para que Ele seja louvado por nós. Além disso, para que tenhamos a certeza da nossa fé por causa dos seus frutos, e que pelo novo viver piedoso possamos ganhar os nossos próximos para Cristo."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Rm 6.13; 12.1, 2; 1Pe 2.5-10. 2. Mt 5.16; 1Co 6.19, 20. 3. Mt 7.17, 18; Gl 5.22-24; 2Pe 1.10, 11. 4. Mt 5.14-16; Rm 14.17-19; 1Pe 2.12; 3.1, 2.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Podem ser salvos aqueles que não abandonam o modo de viver ingrato e impenitente e não se convertem a Deus?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Não, de modo nenhum. A Escritura diz que nenhum impuro, idólatra, adúltero, ladrão, avarento, bêbado, maldizente, assaltante ou semelhante herdará o reino do céu."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. 1Co 6.9, 10; Gl 5.19-21; Ef 5.5, 6; Jo 3.14.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-34",
+      "order": 34,
+      "title": "Dia do Senhor 33",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O que é o verdadeiro arrependimento ou conversão do homem?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "É a morte da velha natureza e a ressurreição da nova natureza."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Rm 6.1-11; 1Co 5.7; 2Co 5.17; Ef 4.22-24; Cl 3.5-10. 78",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "O que é a morte da velha natureza?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "É a profunda e sincera tristeza por termos ofendido a Deus com os nossos pecados, e o abominar e fugir desses pecados cada vez mais."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Sl 51.3, 4, 17; Jl 2.12, 13; Rm 8.12, 13; 2Co 7.10.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "O que é a ressurreição da nova natureza?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "É a alegria sincera em Deus por Cristo, e o amor e o deleite de viver segundo a vontade de Deus em todas as boas obras."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Sl 51.8, 12; Is 57.15; Rm 5.1; 14.17. 2. Rm 6.10, 11; Gl 2.20.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Mas, o que são as boas obras?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Somente as que são feitas pela verdadeira fé, em conformidade com a lei de Deus e para a Sua glória, e não aquelas que se baseiam na nossa própria opinião ou em preceitos de homens."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Jo 15.5; Rm 14.23; Hb 11.6. 2. Lv 18.4; 1Sm 15.22; Ef 11.6. 3. 1Co 10.31. 4. Dt 12.32; Is 29.13; Ez 10.18, 19; Mt 15.7-9.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Os Dez Mandamentos"
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-35",
+      "order": 35,
+      "title": "Dia do Senhor 34",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O que diz a lei de Deus?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "“Então, falou Deus todas estas palavras: Eu sou o SENHOR, teu Deus, que te tirei da terra do Egito, da casa da servidão. 1. Não terás outros deuses diante de mim. 2. Não farás para ti imagem de escultura, nem semelhança alguma do que há em cima nos céus, nem embaixo na terra, nem nas águas debaixo da terra. Não as adorarás, nem lhes darás culto; porque eu sou o SENHOR, teu Deus, Deus zeloso, que visito a iniqüidade dos pais nos filhos até à terceira e quarta geração daqueles que me aborrecem e faço misericórdia até mil gerações daqueles que me amam e guardam os meus mandamentos. 3. Não tomarás o nome do SENHOR, teu Deus, em vão, por- que o SENHOR não terá por inocente o que tomar o seu nome em vão. 4. Lembra-te do dia de sábado, para o santificar. Seis dias trabalharás e farás toda a tua obra. Mas o sétimo dia é o sábado do SENHOR, teu Deus; não farás nenhum trabalho, nem tu, nem o teu filho, nem a tua filha, nem o teu servo, nem a tua serva, nem o teu animal, nem o forasteiro das tuas portas para dentro; porque, em seis dias, fez o SENHOR os céus e a terra, o mar e tudo o que neles há e, ao sétimo dia, descansou; por isso, o SENHOR abençoou o dia de sábado e o santificou. 5. Honra teu pai e tua mãe, para que se prolonguem os teus dias na terra que o SENHOR, teu Deus, te dá. 6. Não matarás. 7. Não adulterarás. 8. Não furtarás. 9. Não dirás falso testemunho contra o teu próximo. 10. Não cobiçarás a casa do teu próximo. Não cobiçarás a mulher do teu próximo, nem o seu servo, nem a sua serva, nem o seu boi, nem o seu jumento, nem coisa alguma que pertença ao teu próximo”."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Ex 20.1-17; Dt 5.6-21.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Como estão divididos estes mandamentos?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Em duas partes. A primeira nos ensina como viver com relação a Deus; a segunda, que deveres temos para com o nosso próximo."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Mt 22.37-40.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Que exige o SENHOR no primeiro mandamento?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Que, por amor a minha salvação, devo evitar e fugir de toda idolatria, feitiçaria, superstição e invocação a santos ou a outras criaturas. E que devo reconhecer corretamente ao único e verdadeiro Deus, confiar somente nEle, submeter-me a Ele em toda humil- dade e paciência, só dEle esperar todo o bem, e que devo O amar, temer e honrar com todo o meu coração. Em resumo: é preferível repudiar a todas as criaturas a fazer qualquer coisa, mínima que seja, contra a Sua vontade."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. 1Co 6.9, 10; 10.5-14; 1Jo 5.21. 2. Lv 19.31; Dt 18.9-12. 3. Mt 4.10; Ap 19.10; 22.8, 9. 4. Jo 17.3. 5. Jr 17.5, 7. 6. 1Pe 5.5, 6. 7. Rm 5.3, 4; 1Co 10.10; Fp 2.14; Cl 1.11; Hb 10.36. 8. Sl 104.27, 28; Is 45.7; Tg 1.17. 9. Dt 6.5; (Mt 22.37). 10. Dt 6.2; Sl 111.10; Pv 1.7; 9.10; Mt 10.28; 1Pe 1.17. 11. Dt 6.13; (Mt 4.10); Dt 10.20. 12. Mt 5.29, 30; 10.37-39; At 5.29.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "O que é idolatria?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Idolatria é ter ou inventar algo em que colocar a nossa confiança em lugar ou ao lado do único e verdadeiro Deus que se revelou em Sua Palavra."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. 1Cr 16.26; Gl 4.8, 9; Ef 5.5; Fp 3.19.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-36",
+      "order": 36,
+      "title": "Dia do Senhor 35",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Que exige Deus no segundo mandamento?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Que não façamos a imagem de Deus em hipótese alguma, nem O adoremos de nenhum outro modo diferente do que nos ordenou em Sua Palavra."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Dt 4.15-19; Is 40.18-25; At 17.29; Rm 1.23. 2. Lv 10.1-7; Dt 12.30; 1Sm 15.22, 23; Mt 15.9; Jo 4.23, 24.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Então, não podemos fazer nenhum tipo de imagem?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Deus não pode nem deve ser visivelmente representado de nenhuma maneira. As criaturas podem ser representadas, mas Deus nos proíbe fazer ou ter imagens delas para adorá-las ou para servir a Deus por meio delas."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Ex 34.13, 14, 17; Nm 33.52; 2Rs 18.4, 5; Is 40.25.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Quer dizer que não se pode tolerar as imagens nas igrejas como “livros para os leigos”?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Não. Pois não devemos querer ser mais sábios do que o próprio Deus. Ele quer que o Seu povo seja ensinado não por meio de ídolos mudos mas pela pregação viva da Sua Palavra."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Jr 10.8; Hc 2.18-20. Rm 10.14, 15, 17; 2 Tm 3.16, 17; 2Pe 1.19.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-37",
+      "order": 37,
+      "title": "Dia do Senhor 36",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O que se exige no terceiro mandamento?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Que não blasfememos nem façamos mau uso o Nome de Deus por maldição, perjúrio ou votos desnecessários, e que não par- ticipemos, por omissão silenciosa, desses terríveis pecados. Antes devemos usar o santo nome de Deus somente com temor e reverência, para que possamos confessá-lO corretamen- te, invocá-lO, e O glorificar com todas as nossas palavras e obras."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Lv 24.10-17. 2. Lv 19.12. 3. Mt 5.37; Tg 5.12. 4. Lv 5.1; Pv 29.24. 5. Sl 99.1-5; Is 45.23; Jr 4.2. 6. Mt 10.32, 33; Rm 10.9, 10. 7. Sl 50.14, 15. 1Tm 2.8. 8. Rm 2.24; Cl 3.17; 1Tm 6.1.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Será que blasfemar o Nome de Deus por juramentos e maldições é um pecado tão grande que Deus se ira também contra aqueles que não impedem nem proíbem isso o tanto quanto podem?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Certamente que sim. Porque nenhum pecado é maior nem provoca mais a ira de Deus do que blasfemar o Seu Nome. É por isso que Ele ordenou que esse pecado fosse punido com a morte."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Lv 5.1. 2. Lv 24.16. 82",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-38",
+      "order": 38,
+      "title": "Dia do Senhor 37",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Mas será que podemos, de modo piedoso, fazer juramentos e votos em Nome de Deus? R. Sim, quando o governo o exige de seus súditos, ou quando a necessidade o exige para que se guarde e se promova a fidelidade e a verdade, para a glória de Deus e o bem do nosso próximo. Esse tipo de juramento tem por base a Palavra de Deus e foi assim utilizado da maneira correta pelos santos do Velho e do Novo Testamentos. 1. Dt 6.13; 10.20; Jr 4.1, 2; Hb 6.16. 2. Gn 21.24; 31-53; Js 9.15; 1Sm 24.22; 1Rs 1.29, 30; Rm 1.9; 2Co 1.23.",
+          "bold": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Podemos também jurar pelos santos ou por outras criaturas?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Não. Um juramento legítimo é uma invocação a Deus, para que Ele, o único que conhece o coração, sirva como testemunha da verdade e que me castigue se eu jurar falsamente. Nenhuma criatura é digna de uma tal honra."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Rm 9.1; 2Co 1.23. 2. Mt 5.34-37; 23.16-22; Tg 5.12.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-39",
+      "order": 39,
+      "title": "Dia do Senhor 38",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O que exige Deus no quarto mandamento?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Primeiro, que o ministério do evangelho e as escolas cris- tãs sejam mantidas e que eu, especialmente no dia de descanso, seja diligente em ir à igreja de Deus para ouvir à Palavra de Deus, participar dos sacramentos, para invocar publicamente ao Senhor 5 e para praticar a caridade cristã para com os necessitados. 6 Segundo, para que em todos os dias da minha vida eu cesse as minhas más obras, deixe o Senhor operar em mim por Seu Espírito Santo, e assim começar nesta vida o descanso eterno."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Dt 6.4-9; 20-25; 1Co 9.13, 14; 2Tm 2.2; 3.13-17; Tt 1.5. 2. Dt 12.5-12; Sl 40.9, 10; 68.26; At 2.42-47; Hb 10.23-25. 3. Rm 10.14-17; 1Co 14.26-33; 1Tm 4.13. 4. 1Co 11.23, 24. 5. Cl 3.16; 1Tm 2.1. 6. Sl 50.14; 1Co 16.2; 2Co 8; 9. 7. Is 66.23; Hb 4.9-11.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-40",
+      "order": 40,
+      "title": "Dia do Senhor 39",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O que exige Deus no quinto mandamento?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Que eu demonstre toda honra, amor e fidelidade a meu pai e à minha mãe, e a todos os meus superiores; que eu me submeta devidamente às suas boas instrução e disciplina e que também seja paciente com as suas fraquezas e defeitos, pois é a vontade de Deus nos governar pelas mãos deles."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Ex 21.17; Pv 1.8; 4.1; Rm 13.1, 2; Ef 5.21, 22; 6.1-9; Cl 3.18-4.1. 2. Pv 20.20; 23.22; 1Pe 2.18. 3. Mt 22.21, Rm 13.1-8; Ef 6.1-9; Cl 3.18-21.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-41",
+      "order": 41,
+      "title": "Dia do Senhor 40",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O que exige Deus no sexto mandamento?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Que eu não devo desonrar, odiar, injuriar nem matar o meu próximo por pensamentos, palavras, ou gestos e muito menos por ações, por mim mesmo ou através de outros; antes, devo fazer morrer todo desejo de vingança. Além disso, não devo me fazer mal nem me expor levianamente ao perigo. Por isso também o governo empunha a espada para impedir homicídios."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Gn 9.6; Lv 19.17, 18; Mt 5.21, 22; 26.52. 2. Pv 25.21, 22; Mt 18.35; Rm 12.19; Ef 4.26. 3. Mt 4.7; 26.52;",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Rm 13.11-14. 4. Gn 9.6; Ex 21.14; Rm 13.4."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mas, esse mandamento fala somente de matar?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Ao nos proibir de matar Deus nos ensina que detesta a raiz do homicídio, a saber: a inveja, o ódio, a ira e o desejo de vingança e que Ele considera tudo isso como homicídio."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Pv 14.30; Rm 1.29; 12.19; Gl 5.19-21; Tg 1.20; 1Jo 2.9-11. 2. 1Jo 3.15. 84",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Então, basta que não matemos o nosso próximo dessa maneira?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Não. Deus ao condenar a inveja, o ódio, a ira e o desejo de vingança nos ordena a amar os nossos inimigos como a nós mesmos, a demonstrar paciência, paz, mansidão, misericórdia e amizade para com ele, a protegê-lo do mal o tanto que pudermos e a fa- zer o bem até mesmo aos nossos inimigos."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Mt 7.12; 22.39; Rm 12.10. 2. Mt 5.5; Lc 6.36; Rm 12.10, 18; Gl 6.1, 2; Ef 4.2; Cl 3.12; 1Pe 3.8. 3. Ex 23.4, 5; Mt 5.44, 45; Rm 12.20.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-42",
+      "order": 42,
+      "title": "Dia do Senhor 41",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O que nos ensina o sétimo mandamento?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Que toda a impureza sexual é amaldiçoada por Deus. Por isso devemos abominá-la de todo coração e viver vidas puras e disciplinadas, tanto dentro quanto fora do santo matrimônio."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Lv 18.30; Ef 5.3-5. 2. Jd 22, 23. 3. 1Co 7.1-9; 1Ts 4.3-8; Hb 13.4.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Neste mandamento, Deus só proíbe o adultério e pecados vergonhosos semelhantes?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Desde que somos, corpo e alma, templos do Espírito Santo, é a vontade de Deus que nos conservemos puros e santos. Por isso Ele proíbe todas as ações impuras, gesticulações, palavras, pensamentos, desejos, e tudo aquilo que possa nos induzir à impureza."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Mt 5.27-29; 1Co 6.18-20; Ef 5.3, 4. 2. 1Co 15.33; Ef 5.18.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-43",
+      "order": 43,
+      "title": "Dia do Senhor 42",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O que proíbe Deus no oitavo mandamento?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Deus não apenas proíbe o roubo e o furto que as autoridades punem mas também os esquemas e ciladas malignos como falsos pesos e falsas medidas, negócio enganoso, dinheiro falsificado e usura; não devemos defraudar o nosso próximo de maneira nenhuma, nem pela força nem pela aparência de direito. Além disso Deus proíbe toda a avareza e todo o abuso e desperdício de Suas dádivas."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Ex 22.1; 1Co 5.9, 10; 6.9, 10. 2. Dt 25.13-16; Sl 15.5; Pv 11.1; 12.22; Ez 45.9-12; Lc 6.35. 3. Mq 6.9-11;",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Lc 3.14; Tg 5.1-6. 4. Lc 12.15; Ef 5.5. 5. Pv 21.20; 23.20, 21; Lc 16.10-13."
+        },
+        {
+          "type": "paragraph",
+          "text": "O que exige Deus de você nesse mandamento?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Que eu promova o bem do meu próximo sempre que for lícito e possível; que eu o trate do mesmo modo que desejaria ser tratado pelos outros e que trabalhe fielmente para ter condições de dar aos necessitados."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Is 58.5-10; Mt 7.12; Gl 6.9, 10; Ef 4.28.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-44",
+      "order": 44,
+      "title": "Dia do Senhor 43",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O que se exige no nono mandamento?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Que eu não devo levantar falso testemunho contra ninguém, nem distorcer as palavras de ninguém, não fazer fofoca nem difamar, não condenar nem me ajuntar com ninguém para condenar a outrem precipitadamente e sem o ter ouvido. Antes devo repudiar toda mentira e engano, obras próprias do diabo, para não trazer sobre mim a pesada ira de Deus. No tribunal ou em qualquer outro lugar eu devo amar à verdade, dizê-la e confessá-la com honestidade e fazer tudo o que puder para defender e promover a honra e a reputação do meu próximo."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Sl 15; Pv 19.5, 9; 21.28; Mt 7.1; Lc 6.37; Rm 1.28-32. 2. Lv 19.11, 12; Pv 12.22; 13.5; Jo 8.44; Ap 21.8. 3. 1Co 13.6; Ef 4.25. 4. 1Pe 3.8, 9; 4.8.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-45",
+      "order": 45,
+      "title": "Dia do Senhor 44",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O que exige de nós o décimo mandamento?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Que nem o mais leve pensamento ou desejo contrário a quais-quer mandamentos de Deus jamais deveriam se levantar em nosso coração. Antes, devemos sempre detestar de todo coração a todo o pecado e, nos deleitar em toda a justiça."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Sl 19.7-14; 139.23, 24; Rm 7.7, 8.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Mas os que se converteram a Deus são capazes de guardar esses mandamentos perfeitamente?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Não. Pois até mesmo os mais santos nessa vida só têm um leve começo dessa obediência. Mesmo assim, eles começam a viver — com sincero fervor e propósito —não apenas segundo alguns mandamentos de Deus, mas conforme todos eles. 1. Ec 7.20; Rm 7.14, 15; 1Co 13.9; 1Jo 1.8 2. Sl 1.1, 2; Rm 7.22-25; Fp 3.12-16."
+        },
+        {
+          "type": "paragraph",
+          "text": "Se nessa vida ninguém consegue obedecer perfeitamente os Dez Mandamentos, por que Deus manda que sejam pregados com tanto rigor?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Primeiro, para que ao longo das nossas vidas possamos cada vez mais estar conscientes da nossa natureza pecaminosa, e assim buscarmos com mais fervor o perdão dos pecados e a justiça de Cristo. Segundo, para que, ao orarmos a Deus pela graça do Espírito Santo, jamais deixemos de batalhar para sermos cada vez mais renovados à imagem de Deus, até que após esta vida alcancemos o alvo da perfeição."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Sl 32.5; Rm 3.19-26; 7.7, 24, 25; 1Jo 1.9. 2. 1Co 9.24; Fp 3.12-14; 1Jo 3.1-3.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "A Oração"
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-46",
+      "order": 46,
+      "title": "Dia do Senhor 4",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Por que a oração é necessária aos cristãos?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Porque a oração é a parte mais importante da gratidão que Deus exige de nós. Além disso, Deus só concederá a Sua graça e o Espírito San- to àqueles que, constante e sinceramente, Lhe pedem esses dons e O agradecem por eles."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Sl 50.14, 15; 116.12-19; 1Ts 6.16-18. 2. Mt 7.7, 8; Lc 11.9-13.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "O que é preciso para que nossa oração agrade a Deus e por Ele seja ouvida? R. Primeiro, devemos invocar de coração apenas o único e ver- dadeiro Deus — que se revelou em Sua Palavra — por tudo aquilo que Ele nos ordenou orar. Segundo, devemos ter plena consciência da nossa necessida- de e miséria, para que possamos nos humilhar diante de Deus. Terceiro, devemos descansar no fundamento inabalável — do qual não somos merecedores — de que Deus com certeza ouvirá às nossas orações por causa de Cristo, nosso Senhor, conforme Ele nos prometeu na Sua Palavra. 1. Sl 145.18-20; Jo 4.22-24; Rm 8.26, 27; Tg 1.5; 1Jo 5.14, 15 ; Ap 19.10. 2. 2Cr 7.14; 20.12; Sl 2.11; 34.18; 62.8; Is 66.2; Ap 4. 3. Dn 9.17-19; Mt 7.8; Jo 14.13, 14; 16.23; Rm 10.13; Tg 1.6.",
+          "bold": true
+        },
+        {
+          "type": "paragraph",
+          "text": "O que foi que Deus ordenou que Lhe pedíssemos?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Tudo aquilo que necessitamos para nossos corpos e almas, conforme à oração que o próprio Cristo, nosso Senhor, nos en- sinou."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Mt 6.33; Tg 1.17.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Qual é a oração do Senhor?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "“Pai nosso, que estás nos céus, santificado seja o teu nome; venha o teu reino; faça-se a tua vontade, assim na terra como no céu; o pão nosso de cada dia dá-nos hoje; e perdoa-nos as nossas dívidas, assim como nós temos perdoado aos nossos devedores; e não nos deixes cair em tentação; mas livra-nos do mal pois teu é o reino, o poder e a glória para sempre. Amém!”"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Mt 6.9-13; Lc 11.2-4.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-47",
+      "order": 47,
+      "title": "Dia do Senhor 46",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Por que Cristo ordenou nos dirigir a Deus como o “Pai nosso”?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Para despertar em nós, logo no início da nossa oração, a reverência filial e confiante em Deus que deve ser básica à nossa oração. Deus, por meio de Cristo, tornou-se o nosso Pai, e se os nos- sos pais não nos negam as coisas terrenas, muito menos nos negará Deus aquilo que Lhe pedirmos pela fé."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Mt 7.9-11; Lc 11.11-13.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Por que se acrescentou “que estás nos céu”?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Essas palavras nos ensinam a não pensar na majestade de Deus de modo terreno, e a esperar do Seu poder infinito tudo aquilo que necessitamos para os nossos corpos e almas."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Jr 23.23, 24; At 17.24, 25. 2. Mt 6.25-34; Rm 8.31, 32.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-48",
+      "order": 48,
+      "title": "Dia do Senhor 47",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Qual é a primeira petição?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "“Santificado seja o teu nome”. Isto é: Que nos concedas, antes de mais nada, que possamos Te conhecer da maneira correta, e que Te santifiquemos, glorifiquemos e louvemos em todas as Tuas obras, das quais brilham o Teu poder infinito, sabedoria, bondade, justiça, misericórdia e verdade. Também que nos concedas que dirijamos toda a nossa vida — ou pensamentos, palavras e ações — de tal maneira que o Teu nome não seja blasfemado por nossa causa, mas que seja sempre honrado e glorificado."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Jr 9.23, 24; 31.33, 34; Mt 16.17; Jo 17.3. 2. Ex 34.5-8; Sl 145; Jr 32.16-20; Lc 1.46-55, 68-75; Rm 11.33- 36. 3. Sl 115.1; Mt 5.16.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-49",
+      "order": 49,
+      "title": "Dia do Senhor 48",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Qual é a segunda petição?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "“Venha o teu reino”. Isto é: Que nos governes pela Tua Palavra e Espírito de tal modo que nos submetamos a Ti cada vez mais. Que protejas e faças crescer a Tua igreja. Que destruas as obras do diabo, todo poder que se levante contra Ti e toda conspiração contra a Tua Palavra. Que faças todas essas coisas até que venha a plenitude do Teu reino, em que serás tudo em todos."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Sl 119.5, 105; 143.10; Mt 6.33. 2. Sl 51.18; 122.6-9; Mt 16.18; At 2.42-47. 3. Rm 16.20; 1Jo 3.8. 4. Rm 8.22, 23; 1Co 15.28; Ap 22.17, 20.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-50",
+      "order": 50,
+      "title": "Dia do Senhor 49",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Qual é a terceira petição?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "“Faça-se a tua vontade, assim na terra como no céu”. Isto é: Que nós e todos os homens renunciemos à nossa própria vontade, e sem murmuração obedeçamos à Tua vontade, a única que é boa. Também que concedas que todos cumpram os deveres de seus ofícios e vocações tão espontânea e fielmente como os anjos no céu."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Mt 7.21; 16.24-26; Lc 22.42; Rm 12.1, 2; Tt 2.11, 12. 2. 1Co 7.17-24; Ef 6.5-9. 3. Sl 103.20, 21.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-51",
+      "order": 51,
+      "title": "Dia do Senhor 50",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Qual é a quarta petição?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "“O pão nosso de cada dia dá-nos hoje”. Isto é: Que supras todas as nossas necessidades físicas para que re- conheçamos que Tu és a única fonte de todo o bem, e que — sem a Tua bênção — nem o nosso cuidado, nem o nosso labor nem mesmo os Teus dons, podem nos fazer bem algum. E, portanto, que não depositemos a nossa confiança em nenhuma criatura, mas somente em Ti."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Sl 104.27-30; 145.15, 16; Mt 6.25-34. 2. At 14.17; 17.25; Tg 1.17. 3. Dt 8.3; Sl 37.16; 127.1, 2; 1Co 15.58. 4. Sl 55.22; 62; 146; Jr 17.5-8; Hb 13.5, 6.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-52",
+      "order": 52,
+      "title": "Dia do Senhor 51",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Qual é a quinta petição?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "“E perdoa-nos as nossas dívidas, assim como nós temos perdoado aos nossos devedores”. Isto é: Que, por causa do sangue de Cristo, não nos imputes, pecadores desgraçados que somos, nenhuma das nossas transgressões nem o mal que ainda persiste em nós, e que também encontremos em nós essa evidência da Tua graça: que estamos plenamente determinados de todo o coração a perdoar nosso próximo."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Sl 51.1-7; 143.2; Rm 8.1; 1Jo 2.1, 2. 2. Mt 6.14, 15; 18.21-35.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "heidelberg-53",
+      "order": 53,
+      "title": "Dia do Senhor 52",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Qual é a sexta petição?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "“E não nos deixes cair em tentação; mas livra-nos do mal”. Isto é: Que somos tão fracos em nós mesmos que não podemos per- manecer firmes por um momento sequer. Além disso, os nossos inimigos declarados — o diabo, o mundo e a nossa própria carne — não cessam de nos atacar. Queiras, portanto, sustentar-nos e fortalecer-nos pelo poder do Teu Espírito Santo, para que não sejamos derrotados nessa batalha espiritual, mas que sempre resistamos a nossos inimi- gos, até que alcancemos finalmente a vitória total."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Sl 103.14-16; Jo 15.1-5. 2. 2Co 11.14; Ef 6.10-13; 1Pe 5.8. 3. Jo 15.18-21. 4. Rm 7.13; Gl 5.17. 5. Mt 10.19, 20; 26.41; Mc 13.33; Rm 5.3-5. 6. 1Co 10.13; 1Ts 3.13; 5.23.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Com é que você conclui a sua oração?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "“Pois teu é o reino, o poder e a glória para sempre”. Isto é: Tudo isso Te pedimos porque, como nosso Rei com poder sobre todas as coisas, tanto queres quanto podes nos dar tudo o que é bom, e por essa causa não nós, mas o Teu santo Nome é digno de receber toda a glória para sempre."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Rm 10.11-13; 2Pe 2.9. 2. Sl 115.1; Jr 33.8, 9; Jo 14.13.",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "O que significa a palavra “Amém”?",
+          "bold": true
+        },
+        {
+          "type": "bible_quote",
+          "text": "Amém significa: é verdadeiro e certo. Pois é mais certo e verdadeiro que Deus ouviu a minha oração, do que o sentimento que tenho em meu coração de desejar isso dEle."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Is 65.24; 2Co 1.20; 2Tm 2.13.",
+          "italic": true
+        }
+      ]
+    }
+  ]
+}

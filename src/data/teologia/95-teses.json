@@ -1,0 +1,1176 @@
+{
+  "id": "95-teses",
+  "titulo": "As 95 Teses",
+  "subtitulo": "Disputa sobre o poder e a eficácia das indulgências",
+  "autor": "Martinho Lutero",
+  "ano": "1517",
+  "descricao": "As teses afixadas por Lutero em Wittenberg em 1517, marco inicial da Reforma Protestante.",
+  "tipo": "leitura",
+  "arquivoPdf": "95-teses.pdf",
+  "secoes": [
+    {
+      "id": "95-teses-01",
+      "order": 1,
+      "title": "Introdução",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Em 31 de Outubro de 1517, Martinho Lutero afixou na porta da capela de Wittemberg 95 teses que gostaria de discutir com os teólogos católicos, as quais versavam principalmente sobre penitência, indulgências e a salvação pela fé. O evento marca o início da Reforma Protestante, de onde posteriormente veio a Igreja Presbiteriana, e representa um marco e um ponto de partida para a recuperação das sãs doutrinas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Movido pelo amor e pelo empenho em prol do esclarecimento da verdade discutir-se-á em Wittemberg, sob a presidência do Rev. padre Martinho Lutero, o que segue. Aqueles que não puderem estar presentes para tratarem o assunto verbalmente conosco, o poderão fazer por escrito."
+        },
+        {
+          "type": "paragraph",
+          "text": "Em nome de nosso Senhor Jesus Cristo. Amém."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-02",
+      "order": 2,
+      "title": "1ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Dizendo nosso Senhor e Mestre Jesus Cristo: Arrependei-vos...., certamente quer que toda a vida dos seus crentes na terra seja contínuo arrependimento."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-03",
+      "order": 3,
+      "title": "2ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "E esta expressão não pode e não deve ser interpretada como referindo-se ao sacramento da penitência, isto é, à confissão e satisfação, a cargo do ofício dos sacerdotes."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-04",
+      "order": 4,
+      "title": "3ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Todavia não quer que apenas se entenda o arrependimento interno; o arrependimento interno nem mesmo é arrependimento quando não produz toda sorte de modificações da carne."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-05",
+      "order": 5,
+      "title": "4ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Assim sendo, o arrependimento e o pesar, isto é, a verdadeira penitência, perdura enquanto o homem se desagradar de si mesmo, a saber, até a entrada desta para a vida eterna."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-06",
+      "order": 6,
+      "title": "5ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O papa não quer e não pode dispensar outras penas, além das que impôs ao seu alvitre ou em acordo com os cânones, que são estatutos papais."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-07",
+      "order": 7,
+      "title": "6ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O papa não pode perdoar divida senão declarar e confirmar aquilo que Já foi perdoado por Deus; ou então faz nos casos que lhe foram reservados. Nestes casos, se desprezados, a dívida deixaria de ser em absoluto anulada ou perdoada."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-08",
+      "order": 8,
+      "title": "7ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Deus a ninguém perdoa a dívida sem que ao mesmo tempo o subordine, em sincera humildade, ao sacerdote, seu vigário."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-09",
+      "order": 9,
+      "title": "8ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Canones poenitendiales, que não as ordenanças de prescrição da maneira em que se deve confessar e expiar, apenas aio Impostas aos vivos, e, de acordo com as mesmas ordenanças, não dizem respeito aos moribundos."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-10",
+      "order": 10,
+      "title": "9ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Eis porque o Espírito Santo nos faz bem mediante o papa, excluído este de todos os seus decretos ou direitos o artigo da morte e da necessidade suprema"
+        }
+      ]
+    },
+    {
+      "id": "95-teses-11",
+      "order": 11,
+      "title": "10ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Procedem desajuizadamente e mal os sacerdotes que reservam e impõem aos moribundos poenitentias canonicas ou penitências para o purgatório a fim de ali serem cumpridas."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-12",
+      "order": 12,
+      "title": "11ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Este joio, que é o de se transformar a penitência e satisfação, Previstas pelos cânones ou estatutos, em penitência ou penas do purgatório, foi semeado quando os bispos se achavam dormindo."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-13",
+      "order": 13,
+      "title": "12ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Outrora canonicae poenae, ou sejam penitência e satisfação por pecadores cometidos eram impostos, não depois, mas antes da absolvição, com a finalidade de provar a sinceridade do arrependimento e do pesar."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-14",
+      "order": 14,
+      "title": "13ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Os moribundos tudo satisfazem com a sua morte e estão mortos para o direito canônico, sendo, portanto, dispensados, com justiça, de sua imposição."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-15",
+      "order": 15,
+      "title": "14ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Piedade ou amor Imperfeitos da parte daquele que se acha às portas da morte necessariamente resultam em grande temor; logo, quanto menor o amor, tanto maior o temor."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-16",
+      "order": 16,
+      "title": "15ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Este temor e espanto em si tão só, sem falar de outras cousas, bastam para causar o tormento e o horror do purgatório, pois que se avizinham da angústia do desespero."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-17",
+      "order": 17,
+      "title": "16ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Inferno, purgatório e céu parecem ser tão diferentes quanto o são um do outro o desespero completo, incompleto ou quase desespero e certeza."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-18",
+      "order": 18,
+      "title": "17ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Parece que assim como no purgatório diminuem a angústia e o espanto das almas, nelas também deve crescer e aumentar o amor."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-19",
+      "order": 19,
+      "title": "18ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Bem assim parece não ter sido provado, nem por boas ações e nem pela Escritura, que as almas no purgatório se encontram fora da possibilidade do mérito ou do crescimento no amor."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-20",
+      "order": 20,
+      "title": "19ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ainda parece não ter sido provado que todas as almas do purgatório tenham certeza de sua salvação e não receiem por ela, não obstante nós termos absoluta certeza disto."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-21",
+      "order": 21,
+      "title": "20ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Por isso o papa não quer dizer e nem compreende com as palavras “perdão plenário de todas as penas” que todo o tormento é perdoado, mas as penas por ele impostas."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-22",
+      "order": 22,
+      "title": "21ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Eis porque erram os apregoadores de indulgências ao afirmarem ser o homem perdoado de todas as penas e salvo mediante a indulgência do papa."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-23",
+      "order": 23,
+      "title": "22ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pensa com efeito, o papa nenhuma pena dispensa às almas no purgatório das que segundo os cânones da Igreja deviam ter expiado e pago na presente vida."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-24",
+      "order": 24,
+      "title": "23ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Verdade é que se houver qualquer perdão plenário das penas, este apenas será dado aos mais perfeitos, que são muito poucos."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-25",
+      "order": 25,
+      "title": "24ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Assim sendo, a maioria do povo é ludibriada com as pomposas promessas do indistinto perdão, impressionando-se o homem singelo com as penas pagas."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-26",
+      "order": 26,
+      "title": "25ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Exatamente o mesmo poder geral, que o papa tem sobre o purgatório, qualquer bispo e cura d'almas o tem no seu bispado e na sua paróquia, quer de modo especial e quer para com os seus em particular."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-27",
+      "order": 27,
+      "title": "26ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O papa faz muito bem em não conceder às almas o perdão em virtude do poder das chaves (ao qual não possui), mas pela ajuda ou em forma de intercessão."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-28",
+      "order": 28,
+      "title": "27ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pregam futilidades humanas quantos alegam que no momento em que a moeda soa ao cair na caixa a alma se vai do purgatório."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-29",
+      "order": 29,
+      "title": "28ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Certo é que no momento em que a moeda soa na caixa vêm o lucro e o amor ao dinheiro cresce e aumenta; a ajuda, porém, ou a intercessão da Igreja tão só correspondem à vontade e ao agrado de Deus."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-30",
+      "order": 30,
+      "title": "29ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "E quem sabe, se todas as almas do purgatório querem ser libertadas, quando há quem diga o que sucedeu com Santo Severino e Pascoal."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-31",
+      "order": 31,
+      "title": "30ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ninguém tem certeza da suficiência do seu arrependimento e pesar verdadeiros; muito menos certeza pode ter de haver alcançado pleno perdão dos seus pecados."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-32",
+      "order": 32,
+      "title": "31ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tão raro como existe alguém que possui arrependimento e, pesar verdadeiros, tão raro também é aquele que verdadeiramente alcança indulgência, sendo bem poucos os que se encontram."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-33",
+      "order": 33,
+      "title": "32ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Irão para o diabo juntamente com os seus mestres aqueles que julgam obter certeza de sua salvação mediante breves de indulgência."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-34",
+      "order": 34,
+      "title": "33ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Há que acautelasse muito e ter cuidado daqueles que dizem: A indulgência do papa é a mais sublime e mais preciosa graça ou dadiva de Deus, pela qual o homem é reconciliado com Deus."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-35",
+      "order": 35,
+      "title": "34ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tanto assim que a graça da indulgência apenas se refere à pena satisfatória estipulada por homens."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-36",
+      "order": 36,
+      "title": "35ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ensinam de maneira ímpia quantos alegam que aqueles que querem livrar almas do purgatório ou adquirir breves de confissão não necessitam de arrependimento e pesar."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-37",
+      "order": 37,
+      "title": "36ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Todo e qualquer cristão que se arrepende verdadeiramente dos seus pecados, sente pesar por ter pecado, tem pleno perdão da pena e da dívida, perdão esse que lhe pertence mesmo sem breve de indulgência."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-38",
+      "order": 38,
+      "title": "37ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Todo e qualquer cristão verdadeiro, vivo ou morto, é participante de todos os bens de Cristo e da Igreja, dádiva de Deus, mesmo sem breve de indulgência."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-39",
+      "order": 39,
+      "title": "38ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Entretanto se não deve desprezar o perdão e a distribuição por parte do papa. Pois, conforme declarei, o seu perdão constitui uma declaração do perdão divino."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-40",
+      "order": 40,
+      "title": "39ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "É extremamente difícil, mesmo para os mais doutos teólogos, exaltar diante do povo ao mesmo tempo a grande riqueza da indulgência e ao contrário o verdadeiro arrependimento e pesar."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-41",
+      "order": 41,
+      "title": "40ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O verdadeiro arrependimento e pesar buscam e amam o castigo: mas a profusão da indulgência livra das penas e faz com que se as aborreça, pelo menos quando há oportunidade para isso."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-42",
+      "order": 42,
+      "title": "41ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "É necessário pregar cautelosamente sobre a indulgência papal para que o homem singelo não julgue erroneamente ser a indulgência preferível às demais obras de caridade ou melhor do que elas."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-43",
+      "order": 43,
+      "title": "42ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Deve-se ensinar aos cristãos, não ser pensamento e opinião do papa que a aquisição de indulgência de alguma maneira possa ser comparada com qualquer obra de caridade."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-44",
+      "order": 44,
+      "title": "43ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Deve-se ensinar aos cristãos proceder melhor quem dá aos pobres ou empresta aos necessitados do que os que compram indulgências."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-45",
+      "order": 45,
+      "title": "44ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ê que pela obra de caridade cresce o amor ao próximo e o homem torna-se mais piedoso; pelas indulgências, porém, não se torna melhor senão mais seguro e livre da pena."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-46",
+      "order": 46,
+      "title": "45ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Deve-se ensinar aos cristãos que aquele que vê seu próximo padecer necessidade e a despeito disto gasta dinheiro com indulgências, não adquire indulgências do papa. mas provoca a ira de Deus."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-47",
+      "order": 47,
+      "title": "46ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Deve-se ensinar aos cristãos que, se não tiverem fartura , fiquem com o necessário para a casa e de maneira nenhuma o esbanjem com indulgências."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-48",
+      "order": 48,
+      "title": "47ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Deve-se ensinar aos cristãos, ser a compra de indulgências livre e não ordenada"
+        }
+      ]
+    },
+    {
+      "id": "95-teses-49",
+      "order": 49,
+      "title": "48ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Deve-se ensinar aos cristãos que, se o papa precisa conceder mais indulgências, mais necessita de uma oração fervorosa do que de dinheiro."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-50",
+      "order": 50,
+      "title": "49ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Deve-se ensinar aos cristãos, serem muito boas as indulgências do papa enquanto o homem não confiar nelas; mas muito prejudiciais quando, em conseqüência delas, se perde o temor de Deus."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-51",
+      "order": 51,
+      "title": "50ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Deve-se ensinar aos cristãos que, se o papa tivesse conhecimento da traficância dos apregoadores de indulgências, preferiria ver a catedral de São Pedro ser reduzida a cinzas a ser edificada com a pele, a carne e os ossos de suas ovelhas."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-52",
+      "order": 52,
+      "title": "51ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Deve-se ensinar aos cristãos que o papa, por dever seu, preferiria distribuir o seu dinheiro aos que em geral são despojados do dinheiro pelos apregoadores de indulgências, vendendo, se necessário fosse, a própria catedral de São Pedro."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-53",
+      "order": 53,
+      "title": "52ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Comete-se injustiça contra a Palavra de Deus quando, no mesmo sermão, se consagra tanto ou mais tempo à indulgência do que à pregação da Palavra do Senhor."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-54",
+      "order": 54,
+      "title": "53ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "São inimigos de Cristo e do papa quantos por causa da prédica de indulgências proíbem a Palavra de Deus nas demais igrejas."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-55",
+      "order": 55,
+      "title": "54ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Esperar ser salvo mediante breves de indulgência é vaidade e mentira, mesmo se o comissário de indulgências, mesmo se o próprio papa oferecesse sua alma como garantia."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-56",
+      "order": 56,
+      "title": "55ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A intenção do papa não pode ser outra do que celebrar a indulgência, que é a causa menor, com um sino, uma pompa e uma cerimônia, enquanto o Evangelho, que é o essencial, importa ser anunciado mediante cem sinos, centenas de pompas e solenidades."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-57",
+      "order": 57,
+      "title": "56ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Os tesouros da Igreja, dos quais o papa tira e distribui as indulgências, não são bastante mencionados e nem suficientemente conhecido na Igreja de Cristo."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-58",
+      "order": 58,
+      "title": "57ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Que não são bens temporais, é evidente, porquanto muitos pregadores a estes não distribuem com facilidade, antes os ajuntam."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-59",
+      "order": 59,
+      "title": "58ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tão pouco são os merecimentos de Cristo e dos santos, porquanto estes sempre são eficientes e, independentemente do papa, operam salvação do homem interior e a cruz, a morte e o inferno para o homem exterior."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-60",
+      "order": 60,
+      "title": "59ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "São Lourenço aos pobres chamava tesouros da Igreja, mas no sentido em que a palavra era usada na sua época."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-61",
+      "order": 61,
+      "title": "60ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Afirmamos com boa razão, sem temeridade ou leviandade, que estes tesouros são as chaves da Igreja, a ela dado pelo merecimento de Cristo."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-62",
+      "order": 62,
+      "title": "61ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Evidente é que para o perdão de penas e para a absolvição em determinados casos o poder do papa por si só basta."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-63",
+      "order": 63,
+      "title": "62ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O verdadeiro tesouro da Igreja é o santíssimo Evangelho da glória e da graça de Deus."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-64",
+      "order": 64,
+      "title": "63ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Este tesouro, porém, é muito desprezado e odiado, porquanto faz com que os primeiros sejam os últimos."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-65",
+      "order": 65,
+      "title": "64ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Enquanto isso o tesouro das indulgências é sabiamente o mais apreciado, porquanto faz com que os últimos sejam os primeiros."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-66",
+      "order": 66,
+      "title": "65ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Por essa razão os tesouros evangélicos outrora foram as redes com que se apanhavam os ricos e abastados."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-67",
+      "order": 67,
+      "title": "66ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Os tesouros das indulgências, porém, são as redes com que hoje se apanham as riquezas dos homens."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-68",
+      "order": 68,
+      "title": "67ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "As indulgências apregoadas pelos seus vendedores como a mais sublime graça decerto assim são consideradas porque lhes trazem grandes proventos."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-69",
+      "order": 69,
+      "title": "68ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Nem por isso semelhante indigência não deixa de ser a mais Intima graça comparada com a graça de Deus e a piedade da cruz."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-70",
+      "order": 70,
+      "title": "69ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Os bispos e os sacerdotes são obrigados a receber os comissários das indulgências apostólicas com toda a reverência."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-71",
+      "order": 71,
+      "title": "70ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Entretanto têm muito maior dever de conservar abertos olhos e ouvidos, para que estes comissários, em vez de cumprirem as ordens recebidas do papa, não preguem os seus próprios sonhos."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-72",
+      "order": 72,
+      "title": "71ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Aquele, porém, que se insurgir contra as palavras insolentes e arrogantes dos apregoadores de indulgências, seja abençoado."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-73",
+      "order": 73,
+      "title": "72ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Quem levanta a sua voz contra a verdade das indulgências papais é excomungado e maldito."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-74",
+      "order": 74,
+      "title": "73ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Da mesma maneira em que o papa usa de justiça ao fulminar com a excomunhão aos que em prejuízo do comércio de indulgências procedem astuciosamente."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-75",
+      "order": 75,
+      "title": "74ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Muito mais deseja atingir com o desfavor e a excomunhão àqueles que, sob o pretexto de indulgência, prejudiquem a santa caridade e a verdade pela sua maneira de agir."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-76",
+      "order": 76,
+      "title": "75ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Considerar as indulgências do papa tão poderosas, a ponto de poderem absolver alguém dos pecados, mesmo que (cousa impossível) tivesse desonrado a mãe de Deus, significa ser demente."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-77",
+      "order": 77,
+      "title": "76ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Bem ao contrario, afirmamos que a indulgência do papa nem mesmo o menor pecado venial pode anular o que diz respeito à culpa que constitui."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-78",
+      "order": 78,
+      "title": "77ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Dizer que mesmo São Pedro, se agora fosse papa, não poderia dispensar maior indulgência, significa blasfemar S. Pedro e o papa."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-79",
+      "order": 79,
+      "title": "78ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Em contrario dizemos que o atual papa, e todos os que o sucederam, é detentor de muito maior indulgência, isto é, o Evangelho, as virtudes o dom de curar, etc., de acordo com o que diz 1Coríntios 12."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-80",
+      "order": 80,
+      "title": "79ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Afirmar ter a cruz de indulgências adornada com as armas do papa e colocada na igreja tanto valor como a própria cruz de Cristo, é blasfêmia."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-81",
+      "order": 81,
+      "title": "80ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Os bispos, padres e teólogos que consentem em semelhante linguagem diante do povo, terão de prestar contas deste procedimento."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-82",
+      "order": 82,
+      "title": "81ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Semelhante pregação, a enaltecer atrevida e insolentemente a Indulgência, faz com que mesmo a homens doutos é difícil proteger a devida reverência ao papa contra a maledicência e as fortes objeções dos leigos."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-83",
+      "order": 83,
+      "title": "82ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Eis um exemplo: Por que o papa não tira duma só vez todas as almas do purgatório, movido por santíssima caridade e em face da mais premente necessidade das almas, que seria justíssimo motivo para tanto, quando em troca de vil dinheiro para a construção da catedral de S. Pedro, livra um sem número de almas, logo por motivo bastante Insignificante?"
+        }
+      ]
+    },
+    {
+      "id": "95-teses-84",
+      "order": 84,
+      "title": "83ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Outrossim: Por que continuam as exéquias e missas de ano em sufrágio das almas dos defuntos e não se devolve o dinheiro recebido para o mesmo fim ou não se permite os doadores busquem de novo os benefícios ou pretendas oferecidos em favor dos mortos, visto ser Injusto continuar a rezar pelos já resgatados?"
+        }
+      ]
+    },
+    {
+      "id": "95-teses-85",
+      "order": 85,
+      "title": "84ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ainda: Que nova piedade de Deus e do papa é esta, que permite a um ímpio e inimigo resgatar uma alma piedosa e agradável a Deus por amor ao dinheiro e não resgatar esta mesma alma piedosa e querida de sua grande necessidade por livre amor e sem paga?"
+        }
+      ]
+    },
+    {
+      "id": "95-teses-86",
+      "order": 86,
+      "title": "85ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ainda: Por que os cânones de penitencia, que, de fato, faz muito caducaram e morreram pelo desuso, tornam a ser resgatados mediante dinheiro em forma de indulgência como se continuassem bem vivos e em vigor?"
+        }
+      ]
+    },
+    {
+      "id": "95-teses-87",
+      "order": 87,
+      "title": "86ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ainda: Por que o papa, cuja fortuna hoje é mais principesca do que a de qualquer Credo, não prefere edificar a catedral de S. Pedro de seu próprio bolso em vez de o fazer com o dinheiro de fiéis pobres?"
+        }
+      ]
+    },
+    {
+      "id": "95-teses-88",
+      "order": 88,
+      "title": "87ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ainda: Quê ou que parte concede o papa do dinheiro proveniente de indulgências aos que pela penitência completa assiste o direito à indulgência plenária?"
+        }
+      ]
+    },
+    {
+      "id": "95-teses-89",
+      "order": 89,
+      "title": "88ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Afinal: Que maior bem poderia receber a Igreja, se o papa, como Já O faz, cem vezes ao dia, concedesse a cada fiel semelhante dispensa e participação da indulgência a título gratuito."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-90",
+      "order": 90,
+      "title": "89ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Visto o papa visar mais a salvação das almas do que o dinheiro, por que revoga os breves de indulgência outrora por ele concedidos, aos quais atribuía as mesmas virtudes?"
+        }
+      ]
+    },
+    {
+      "id": "95-teses-91",
+      "order": 91,
+      "title": "90ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Refutar estes argumentos sagazes dos leigos pelo uso da força e não mediante argumentos da lógica, significa entregar a Igreja e o papa a zombaria dos inimigos e desgraçar os cristãos."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-92",
+      "order": 92,
+      "title": "91ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Se a Indulgência fosse apregoada segundo o espírito e sentido do papa, aqueles receios seriam facilmente desfeitos, nem mesmo teriam surgido."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-93",
+      "order": 93,
+      "title": "92ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Fora, pois, com todos estes profetas que dizem ao povo de Cristo: Paz! Paz! e não há Paz."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-94",
+      "order": 94,
+      "title": "93ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Abençoados sejam, porém, todos os profetas que dizem à grei de Cristo: Cruz! Cruz! e não há cruz."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-95",
+      "order": 95,
+      "title": "94ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Admoestem-se os cristãos a que se empenhem em seguir sua Cabeça Cristo através do padecimento, morte e inferno."
+        }
+      ]
+    },
+    {
+      "id": "95-teses-96",
+      "order": 96,
+      "title": "95ª Tese",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "E assim esperem mais entrar no Reino dos céus através de muitas tribulações do que facilitados diante de consolações infundadas."
+        },
+        {
+          "type": "paragraph",
+          "text": "http://www.monergismo.com/"
+        }
+      ]
+    }
+  ]
+}
