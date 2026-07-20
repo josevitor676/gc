@@ -1,0 +1,328 @@
+{
+  "id": "confissao-guanabara",
+  "titulo": "Confissão da Guanabara",
+  "subtitulo": "Primeira confissão de fé protestante das Américas",
+  "autor": "Jean du Bourdel e companheiros",
+  "ano": "1558",
+  "descricao": "Confissão redigida pelos huguenotes mártires no Rio de Janeiro, em 17 artigos.",
+  "tipo": "leitura",
+  "arquivoPdf": "confissao-guanabara.pdf",
+  "secoes": [
+    {
+      "id": "confissao-guanabara-01",
+      "order": 1,
+      "title": "Introdução",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "No dia 7 de março de 1557 chegou a Guanabara um grupo de huguenotes (calvinistas franceses) com o propósito de ajudar a estabelecer um refúgio para os calvinistas perseguidos na França. Perseguidos também na Guanabara em virtude de sua fé reformada, alguns conseguiram escapar; outros, foram condenados à morte por Villegaignon, foram enforcados e seus corpos atirados de um despenhadeiro, em 1558. Antes de morrer, entretanto, foram obrigados a professar por escrito sua fé, no prazo de doze horas, respondendo uma série de perguntas que lhes foram entregues. Eles assim o fizeram, e escreveram a primeira confissão de fé na América (ver Apêndice 2), sabendo que com ela estavam assinando a própria sentença de morte."
+        }
+      ]
+    },
+    {
+      "id": "confissao-guanabara-02",
+      "order": 2,
+      "title": "Preâmbulo",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Segundo a doutrina de S. Pedro Apóstolo, em sua primeira epístola, todos os cristãos devem estar sempre prontos para dar razão da esperança que neles há, e isso com toda a doçura e benignidade, nós abaixo assinados, Senhor de Villegaignon, unanimemente (segundo a medida de graça que o Senhor nos tem concedido) damos razão, a cada ponto, como nos haveis apontado e ordenado, e começando no primeiro artigo:"
+        }
+      ]
+    },
+    {
+      "id": "confissao-guanabara-03",
+      "order": 3,
+      "title": "Artigo I",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cremos em um só Deus, imortal, invisível, criador do céu e da terra, e de todas as coisas, tanto visíveis como invisíveis, o qual é distinto em três pessoas: o Pai, o Filho e o Santo Espírito, que não constituem senão uma mesma substância em essência eterna e uma mesma vontade; o Pai, fonte e começo de todo o bem; o Filho, eternamente gerado do Pai, o qual, cumprida a plenitude do tempo, se manifestou em carne ao mundo, sendo concebido do Santo Espírito, nasceu da virgem Maria, feito sob a lei para resgatar os que sob ela estavam, a fim de que recebêssemos a adoção de próprios filhos; o Santo Espírito, procedente do Pai e do Filho, mestre de toda a verdade, falando pela boca dos profetas, sugerindo as coisas que foram ditas por nosso Senhor Jesus Cristo aos apóstolos. Este é o único Consolador em aflição, dando constância e perseverança em todo bem."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cremos que é mister somente adorar e perfeitamente amar, rogar e invocar a majestade de Deus em fé ou particularmente."
+        }
+      ]
+    },
+    {
+      "id": "confissao-guanabara-04",
+      "order": 4,
+      "title": "Artigo II",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Adorando nosso Senhor Jesus Cristo, não separamos uma natureza da outra, confessando as duas naturezas, a saber, divina e humana nele inseparáveis."
+        }
+      ]
+    },
+    {
+      "id": "confissao-guanabara-05",
+      "order": 5,
+      "title": "Artigo III",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cremos, quanto ao Filho de Deus e ao Santo Espírito, o que a Palavra de Deus e a doutrina apostólica, e o símbolo, nos ensinam."
+        }
+      ]
+    },
+    {
+      "id": "confissao-guanabara-06",
+      "order": 6,
+      "title": "Artigo IV",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cremos que nosso Senhor Jesus Cristo virá julgar os vivos e os mortos, em forma visível e humana como subiu ao céu, executando tal juízo na forma em que nos predisse no capítulo vinte e cinco de Mateus, tendo todo o poder de julgar, a Ele dado pelo Pai, sendo homem."
+        },
+        {
+          "type": "paragraph",
+          "text": "E, quanto ao que dizemos em nossas orações, que o Pai aparecerá enfim na pessoa do Filho, entendemos por isso que o poder do Pai, dado ao Filho, será manifestado no dito juízo, não todavia que queiramos confundir as pessoas, sabendo que elas são realmente distintas uma da outra."
+        }
+      ]
+    },
+    {
+      "id": "confissao-guanabara-07",
+      "order": 7,
+      "title": "Artigo V",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cremos que no santíssimo sacramento da ceia, com as figuras corporais do pão e do vinho, as almas fiéis são realmente e de fato alimentadas com a própria substância do nosso Senhor Jesus, como nossos corpos são alimentados de alimentos, e assim não entendemos dizer que o pão e o vinho sejam transformados ou transubstanciados no seu corpo, porque o pão continua em sua natureza e substância, semelhantemente ao vinho, e não há mudança ou alteração."
+        },
+        {
+          "type": "paragraph",
+          "text": "Distinguimos todavia este pão e vinho do outro pão que é dedicado ao uso comum, sendo que este nos é um sinal sacramental, sob o qual a verdade é infalivelmente recebida. Ora, esta recepção não se faz senão por meio da fé e nela não convém imaginar nada de carnal, nem preparar os dentes para comer, como santo Agostinho nos ensina, dizendo: “Porque preparas tu os dentes e o ventre? Crê, e tu o comeste.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "O sinal, pois, nem nos dá a verdade, nem a coisa significada; mas Nosso Senhor Jesus Cristo, por seu poder, virtude e bondade, alimenta e preserva nossas almas, e as faz participantes da sua carne, e de seu sangue, e de todos os seus benefícios."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vejamos a interpretação das palavras de Jesus Cristo: “Este pão é meu corpo.” Tertuliano, no livro quarto contra Marcião, explica estas palavras assim: “este é o sinal e a figura do meu corpo.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "S. Agostinho diz: “O Senhor não evitou dizer: — Este é o meu corpo, quando dava apenas o sinal de seu corpo.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Portanto (como é ordenado no primeiro cânon do Concílio de Nicéia), neste santo sacramento não devemos imaginar nada de carnal e nem nos distrair no pão e no vinho, que nos são neles propostos por sinais, mas levantar nossos espíritos ao céu para contemplar pela fé o Filho de Deus, nosso Senhor Jesus, sentado à destra de Deus, seu Pai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Neste sentido podíamos jurar o artigo da Ascensão, com muitas outras sentenças de Santo Agostinho, que omitimos, temendo ser longas."
+        }
+      ]
+    },
+    {
+      "id": "confissao-guanabara-08",
+      "order": 8,
+      "title": "Artigo VI",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cremos que, se fosse necessário pôr água no vinho, os evangelistas e São Paulo não teriam omitido uma coisa de tão grande conseqüência."
+        },
+        {
+          "type": "paragraph",
+          "text": "E quanto ao que os doutores antigos têm observado (fundamen­tando-se sobre o sangue misturado com água que saiu do lado de Jesus Cristo, desde que tal observância não tem fundamento na Palavra de Deus, visto mesmo que depois da instituição da Santa Ceia isso aconteceu), nós não podemos hoje admitir necessariamente."
+        }
+      ]
+    },
+    {
+      "id": "confissao-guanabara-09",
+      "order": 9,
+      "title": "Artigo VII",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cremos que não há outra consagração senão a que se faz pelo ministro, quando se celebra a ceia, recitando o ministro ao povo, em linguagem conhecida, a instituição desta ceia literalmente, segundo a forma que nosso Senhor Jesus Cristo nos prescreveu, admoestando o povo quanto à morte e paixão do nosso Senhor. E mesmo, como diz santo Agostinho, a consagração é a palavra de fé que é pregada e recebida em fé. Pelo que, segue-se que as palavras secretamente pronunciadas sobre os sinais não podem ser a consagração como aparece da instituição que nosso Senhor Jesus Cristo deixou aos seus apóstolos, dirigindo suas palavras aos seus discípulos presentes, aos quais ordenou tomar e comer."
+        }
+      ]
+    },
+    {
+      "id": "confissao-guanabara-10",
+      "order": 10,
+      "title": "Artigo VIII",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O santo sacramento da ceia não é alimento para o corpo como para as almas (porque nós não imaginamos nada de carnal, como declaramos no artigo quinto) recebendo-o por fé, a qual não é carnal."
+        }
+      ]
+    },
+    {
+      "id": "confissao-guanabara-11",
+      "order": 11,
+      "title": "Artigo IX",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cremos que o batismo é sacramento de penitência, e como uma entrada na igreja de Deus, para sermos incorporados em Jesus Cristo. Representa-nos a remissão de nossos pecados passados e futuros, a qual é adquirida plenamente, só pela morte de nosso Senhor Jesus."
+        },
+        {
+          "type": "paragraph",
+          "text": "De mais, a mortificação de nossa carne aí nos é representada, e a lavagem, representada pela água lançada sobre a criança, é sinal e selo do sangue de nosso Senhor Jesus, que é a verdadeira purificação de nossas almas. A sua instituição nos é ensinada na Palavra de Deus, a qual os santos apóstolos observaram, usando de água em nome do Pai, do Filho e do Santo Espírito. Quanto aos exorcismos, abjurações de Satanás, crisma, saliva e sal, nós os registramos como tradições dos homens, contentando-nos só com a forma e instituição deixada por nosso Senhor Jesus."
+        }
+      ]
+    },
+    {
+      "id": "confissao-guanabara-12",
+      "order": 12,
+      "title": "Artigo X",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Quanto ao livre arbítrio, cremos que, se o primeiro homem, criado à imagem de Deus, teve liberdade e vontade, tanto para bem como para mal, só ele conheceu o que era livre arbítrio, estando em sua integridade. Ora, ele nem apenas guardou este dom de Deus, assim como dele foi privado por seu pecado, e todos os que descendem dele, de sorte que nenhum da semente de Adão tem uma centelha do bem."
+        },
+        {
+          "type": "paragraph",
+          "text": "Por esta causa, diz São Paulo, o homem natural não entende as coisas que são de Deus. E Oséias clama aos filho de Israel: “Tua perdição é de ti, ó Israel.” Ora isto entendemos do homem que não é regenerado pelo Santo Espírito."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quanto ao homem cristão, batizado no sangue de Jesus Cristo, o qual caminha em novidade de vida, nosso Senhor Jesus Cristo restitui nele o livre arbítrio, e reforma a vontade para todas as boas obras, não todavia em perfeição, porque a execução de boa vontade não está em seu poder, mas vem de Deus, como amplamente este santo apóstolo declara, no sétimo capítulo aos Romanos, dizendo: “Tenho o querer, mas em mim não acho o realizar.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "O homem predestinado para a vida eterna, embora peque por fragilidade humana, todavia não pode cair em impenitência."
+        },
+        {
+          "type": "paragraph",
+          "text": "A este propósito, S. João diz que ele não peca, porque a eleição permanece nele."
+        }
+      ]
+    },
+    {
+      "id": "confissao-guanabara-13",
+      "order": 13,
+      "title": "Artigo XI",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cremos que pertence só à Palavra de Deus perdoar os pecados, da qual, como diz santo Ambrósio, o homem é apenas o ministro; portanto, se ele condena ou absolve, não é ele, mas a Palavra de Deus que ele anuncia."
+        },
+        {
+          "type": "paragraph",
+          "text": "Santo Agostinho, neste lugar diz que não é pelo mérito dos homens que os pecados são perdoados, mas pela virtude do Santo Espírito. Porque o Senhor dissera aos seus apóstolos: “recebei o Santo Espírito;” depois acrescenta: “Se perdoardes a alguém os seus pecados,” etc."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cipriano diz que o servo não pode perdoar a ofensa contra o Senhor."
+        }
+      ]
+    },
+    {
+      "id": "confissao-guanabara-14",
+      "order": 14,
+      "title": "Artigo XII",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Quanto à imposição das mãos, essa serviu em seu tempo, e não há necessidade de conservá-la agora, porque pela imposição das mãos não se pode dar o Santo Espírito, porquanto isto só a Deus pertence."
+        },
+        {
+          "type": "paragraph",
+          "text": "No tocante à ordem eclesiástica, cremos no que S. Paulo dela escreveu na primeira epístola a Timóteo, e em outros lugares."
+        }
+      ]
+    },
+    {
+      "id": "confissao-guanabara-15",
+      "order": 15,
+      "title": "Artigo XIII",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A separação entre o homem e a mulher legitimamente unidos por casamento não se pode fazer senão por causa de adultério, como nosso Senhor ensina (Mateus 19:5). E não somente se pode fazer a separação por essa causa, mas também, bem examinada a causa perante o magistrado, a parte não culpada, se não podendo conter-se, deve casar-se, como São Ambrósio diz sobre o capítulo sete da Primeira Epístola aos Coríntios. O magistrado, todavia, deve nisso proceder com madureza de conselho."
+        }
+      ]
+    },
+    {
+      "id": "confissao-guanabara-16",
+      "order": 16,
+      "title": "Artigo XIV",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "São Paulo, ensinando que o bispo deve ser marido de uma só mulher, não diz que não lhe seja lícito tornar a casar, mas o santo apóstolo condena a bigamia a que os homens daqueles tempos eram muito afeitos; todavia, nisso deixamos o julgamento aos mais versados nas Santas Escrituras, não se fundando a nossa fé sobre esse ponto."
+        }
+      ]
+    },
+    {
+      "id": "confissao-guanabara-17",
+      "order": 17,
+      "title": "Artigo XV",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Não é lícito votar a Deus, senão o que ele aprova. Ora, é assim que os votos monásticos só tendem à corrupção do verdadeiro serviço de Deus. É também grande temeridade e presunção do homem fazer votos além da medida de sua vocação, visto que a santa Escritura nos ensina que a continência é um dom especial (Mateus 15 e 1 Coríntios 7). Portanto, segue-se que os que se impõem esta necessidade, renunciando ao matrimônio toda a sua vida, não podem ser desculpados de extrema temeridade e confiança excessiva e insolente em si mesmos."
+        },
+        {
+          "type": "paragraph",
+          "text": "E por este meio tentam a Deus, visto que o dom da continência é em alguns apenas temporal, e o que o teve por algum tempo não o terá pelo resto da vida. Por isso, pois, os monges, padres e outros tais que se obrigam e prometem viver em castidade, tentam contra Deus, por isso que não está neles o cumprir o que prometem. São Cipriano, no capítulo onze, diz assim: “Se as virgens se dedicam de boa vontade a Cristo, perseverem em castidade sem defeito; sendo assim fortes e constantes, esperem o galardão preparado para a sua virgindade; se não querem ou não podem perseverar nos votos, é melhor que se casem do que serem precipitadas no fogo da lascívia por seus prazeres e delícias.” Quanto à passagem do apóstolo S. Paulo, é verdade que as viúvas tomadas para servir à igreja, se submetiam a não mais casar, enquanto estivessem sujeitas ao dito cargo, não que por isso se lhes reputasse ou atribuísse alguma santidade, mas porque não podiam bem desempenhar os deveres, sendo casadas; e, querendo casar, renunciassem à vocação para a qual Deus as tinha chamado, contudo que cumprissem as promessas feitas na igreja, sem violar a promessa feita no batismo, na qual está contido este ponto: “Que cada um deve servir a Deus na vocação em que foi chamado.” As viúvas, pois, não faziam voto de continência, senão porque o casamento não convinha ao ofício para que se apresentavam, e não tinha outra consideração que cumpri-lo. Não eram tão constrangidas que não lhes fosse antes permitido casar que se abrasar e cair em alguma infâmia ou desonestidade."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mas, para evitar tal inconveniência, o apóstolo São Paulo, no capítulo citado, proíbe que sejam recebidas para fazer tais votos sem que tenham a idade de sessenta anos, que é uma idade normalmente fora da incontinência. Acrescenta que os eleitos só devem ter sido casados uma vez, a fim de que por essa forma, tenham já uma aprovação de continência."
+        }
+      ]
+    },
+    {
+      "id": "confissao-guanabara-18",
+      "order": 18,
+      "title": "Artigo XVI",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cremos que Jesus Cristo é o nosso único Mediador, intercessor e advogado, pelo qual temos acesso ao Pai, e que, justificados no seu sangue, seremos livres da morte, e por ele já reconciliados teremos plena vitória contra a morte."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quanto aos santos mortos, dizemos que desejam a nossa salvação e o cumprimento do Reino de Deus, e que o número dos eleitos se complete; todavia, não nos devemos dirigir a eles como intercessores para obterem alguma coisa, porque desobedeceríamos o mandamento de Deus. Quanto a nós, ainda vivos, enquanto estamos unidos como membros de um corpo, devemos orar uns pelos outros, como nos ensinam muitas passagens das Santas Escrituras."
+        }
+      ]
+    },
+    {
+      "id": "confissao-guanabara-19",
+      "order": 19,
+      "title": "Artigo XVII",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Quanto aos mortos, São Paulo, na Primeira Epístola aos Tessalonicenses, no capítulo quatro, nos proíbe entristecer-nos por eles, porque isto convém aos pagãos, que não têm esperança alguma de ressuscitar. O apóstolo não manda e nem ensina orar por eles, o que não teria esquecido se fosse conveniente. S. Agostinho, sobre o Salmo 48, diz que os espíritos dos mortos recebem conforme o que tiverem feito durante a vida; que se nada fizeram, estando vivos, nada recebem, estando mortos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Esta é a resposta que damos aos artigos por vós enviados, segundo a medida e porção da fé, que Deus nos deu, suplicando que lhe praza fazer que em nós não seja morta, antes produza frutos dignos de seus filhos, e assim, fazendo-nos crescer e perseverar nela, lhe rendamos graças e louvores para sempre. Assim seja."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jean du Bourdel, Matthieu Verneuil, Pierre Bourdon, André la Fon."
+        }
+      ]
+    }
+  ]
+}

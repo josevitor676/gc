@@ -1,0 +1,28 @@
+{
+  "id": "credo-calcedonia",
+  "titulo": "Definição de Calcedônia",
+  "subtitulo": "Concílio de Calcedônia",
+  "autor": "true",
+  "ano": "451",
+  "descricao": "Declaração sobre as duas naturezas de Cristo — verdadeiro Deus e verdadeiro homem em uma só pessoa.",
+  "tipo": "leitura",
+  "arquivoPdf": null,
+  "secoes": [
+    {
+      "id": "credo-01",
+      "order": 1,
+      "title": "Texto",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "(...) Todos nós, perfeitamente unânimes, ensinamos que se deve confessar um só e mesmo Filho, nosso Senhor Jesus Cristo, perfeito quanto à divindade, perfeito quanto à humanidade, verdadeiro Deus e verdadeiro homem, constando de alma racional e de corpo; consubstancial ao Pai, segundo a divindade, e consubstancial a nós, segundo a humanidade; “em todas as coisas semelhante a nós, excetuando o pecado”, gerado segundo a divindade antes dos séculos pelo Pai e, segundo a humanidade, por nós e para nossa salvação, gerado da Virgem Maria, mãe de Deus;"
+        },
+        {
+          "type": "paragraph",
+          "text": "Um só e mesmo Cristo, Filho, Senhor, Unigênito, que se deve confessar, em duas naturezas, inconfundíveis e imutáveis, conseparáveis e indivisíveis; a distinção da naturezas de modo algum é anulada pela união, mas, pelo contrário, as propriedades de cada natureza permanecem intactas, concorrendo para formar uma só pessoa e subsistência; não dividido ou separado em duas pessoas. Mas um só e mesmo Filho Unigênito, Deus Verbo, Jesus Cristo Senhor; conforme os profetas outrora a seu respeito testemunharam, e o mesmo Jesus Cristo nos ensinou e o credo dos padres nos transmitiu."
+        }
+      ]
+    }
+  ]
+}

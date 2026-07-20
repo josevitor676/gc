@@ -1,0 +1,1930 @@
+{
+  "id": "westminster-breve",
+  "titulo": "Breve Catecismo de Westminster",
+  "subtitulo": "Catecismo Menor da Assembleia de Westminster",
+  "autor": "Assembleia de Westminster",
+  "ano": "1647",
+  "descricao": "Catecismo menor em 107 perguntas e respostas, com apêndices (Dez Mandamentos, Oração Dominical e Credo Apostólico).",
+  "tipo": "leitura",
+  "arquivoPdf": null,
+  "secoes": [
+    {
+      "id": "westminster-breve-001",
+      "order": 1,
+      "title": "1. Qual é o fim principal do homem?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O fim principal do homem é glorificar a Deus, e gozá-lo para sempre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rm 11.36; 1Co 10.31; Sl 73.25-26; Is 43.7; Rm 14.7-8; Ef 1.5-6; Is 60.21; 61.3.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-002",
+      "order": 2,
+      "title": "2. Que regra deu Deus para nos dirigir na maneira de o glorificar e gozar?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A Palavra de Deus, que se acha nas Escrituras do Velho e do Novo Testamentos, é a única regra para nos dirigir na maneira de o glorificar e gozar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lc 24.27, 44; 2Pe 3.2, 15-16; 2Tm 3.15-17; Lc 16.29-31; Gl 1.8-9; Jo 15.10-11; Is 8.20; Hb 1:1 comparado com Lc 1.1-4 e Jo 20.30-31.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-003",
+      "order": 3,
+      "title": "3. Qual é a coisa principal que as Escrituras nos ensinam?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A coisa principal que as Escrituras nos ensinam é o que o homem deve crer acerca de Deus, o dever que Deus requer do homem."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jo 5.39; 20.31; Sl 119.105; Rm 15.4; 1Co 10.11.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-004",
+      "order": 4,
+      "title": "4. Quem é Deus?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Deus é espírito, infinito, eterno e imutável em seu ser, sabedoria, poder, santidade, justiça, bondade e verdade."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jo 4.24; Ex 3.14; Sl 145.3; 90.2; Tg 1.17; Rm 11.33; Gn 17.1, Ap 4.8; Ex 34.6-7.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-005",
+      "order": 5,
+      "title": "5. Há mais de um Deus?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Há só um Deus, o Deus vivo e verdadeiro."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dt 6.4; 1Co 8.4; Jr 10.10; Jo 17.3.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-006",
+      "order": 6,
+      "title": "6. Quantas pessoas há na Divindade?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Há três pessoas na Divindade: o Pai, o Filho e o Espírito Santo, e estas três são um Deus, da mesma substância, iguais em poder e glória."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mt 3.16-17; 28.19; 2Co 13.13; Jo 1.1; 3.18; At 5.3-4; Hb 1.3; Jo 10.30.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-007",
+      "order": 7,
+      "title": "7. Que são os decretos de Deus?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Os decretos de Deus são o seu eterno propósito, segundo o conselho da sua vontade, pelo qual, para sua própria glória, Ele predestinou tudo o que acontece."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rm 11.36; Ef 1.4-6, 11; At 2.23; 17.26; Jo 21.19; Is 44.28; At 13.48; 1Co 2.7; Ef 3.10-11.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-008",
+      "order": 8,
+      "title": "8. Como executa Deus os seus decretos?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Deus executa os seus decretos nas obras da criação e da providência."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ap 4.11; Dn 4.35; Is 40.26; 14.26-27; 46.9-11; At 4.24.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-009",
+      "order": 9,
+      "title": "9. Qual é a obra da criação?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A obra da criação é aquela pela qual, Deus fez todas as coisas do nada, no espaço de seis dias, e tudo muito bem."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gn 1; Hb 11.3; Sl 33.9; Gn 1.31.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-010",
+      "order": 10,
+      "title": "10. Como criou Deus o homem?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Deus criou o homem macho e fêmea, conforme a sua própria imagem, em conhecimento, retidão e santidade com domínio sobre as criaturas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gn 1.27-28; Cl 3.10; Ef 4.24; Rm 2.14-15; Sl 86-8.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-011",
+      "order": 11,
+      "title": "11. Quais são as obras da providência de Deus?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "As obras da providência de Deus são a sua maneira muito santa, sábia e poderosa de preservar e governar todas as suas criaturas, e todas as ações delas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sl 145.17; 104.10-24; Hb 1.3; Mt 10.29-30; Os 2.6.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-012",
+      "order": 12,
+      "title": "12. Que ato especial de providência exerceu Deus para com o homem no estado em que ele foi criado?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Quando Deus criou o homem, fez com ele um pacto de vida, com a condição de perfeita obediência: proibindo-lhe comer da árvore da ciência do bem e do mal, sob pena de morte."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gl 3.12; Gn 2.17.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-013",
+      "order": 13,
+      "title": "13. Conservaram-se nossos primeiros pais no estado em que foram criados?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Nossos primeiros pais, sendo deixados à liberdade da sua própria vontade, caíram do estado em que foram criados, pecando contra Deus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rm 5.12; Gn 3.6.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-014",
+      "order": 14,
+      "title": "14. Que é pecado?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pecado é qualquer falta de conformidade com a lei de Deus, ou qualquer transgressão desta lei."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tg 2.10; 4.17; 1Jo 3.4.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-015",
+      "order": 15,
+      "title": "15. Qual foi o pecado pelo qual nossos primeiros pais caíram do estado em que foram criados?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O pecado pelo qual nossos primeiros pais caíram do estado em que foram criados foi o comerem do fruto proibido."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gn 3.12-13; Os 6.7.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-016",
+      "order": 16,
+      "title": "16. Caiu todo o gênero humano pela primeira transgressão de Adão?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Visto que o pacto foi feito com Adão não só para ele, mas também para sua posteridade, todo gênero humano que dele procede por geração ordinária, pecou nele e caiu com ele na sua primeira transgressão."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gn 1.28; At 17.26; 1Co 15.21-22; Rm 5.12-14.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-017",
+      "order": 17,
+      "title": "17. Qual foi o estado a que a queda reduziu o gênero humano?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A queda reduziu o gênero humano a um estado de pecado e miséria."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rm 5.12.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-018",
+      "order": 18,
+      "title": "18. Em que consiste o estado de pecado em que o homem caiu?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O estado de pecado em que o homem caiu consiste na culpa do primeiro pecado de Adão, na falta de retidão original e na corrupção de toda a sua natureza, o que ordinariamente de chama Pecado Original, juntamente com todas as transgressões atuais que procedem dele."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rm 5.18-19; Ef 2.1-3; Rm 8.7-8; Sl 51.5.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-019",
+      "order": 19,
+      "title": "19. Qual é a miséria do estado em que o homem caiu?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Todo o gênero humano pela sua queda perdeu comunhão com Deus, está debaixo da sua ira e maldição, e assim sujeito a todas as misérias nesta vida, à morte e às penas do Inferno para sempre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gn 3.8, 24; Ef 2.3; Rm 6.23; Mt 25.41-46.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-020",
+      "order": 20,
+      "title": "20. Deixou Deus todo o gênero humano perecer no estado de pecado e miséria?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tendo Deus, unicamente pela sua boa vontade desde toda a eternidade, escolhido alguns para a vida eterna, entrou com eles em um pacto de graça, para os livrar do estado de pecado e miséria, e trazer a um estado de salvação por meio de um Redentor."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ef 1.4; Tt 1.2; 3.4-7; Jo 17.6.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-021",
+      "order": 21,
+      "title": "21. Quem é o Redentor dos escolhidos de Deus?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O único redentor dos escolhidos de Deus é o Senhor Jesus Cristo que, sendo o eterno Filho de Deus, se fez homem, e assim foi e continua a ser Deus e homem em duas naturezas distintas, e uma só pessoa, para sempre."
+        },
+        {
+          "type": "paragraph",
+          "text": "1Tm 2.5; Jo 1.14; Rm 9.5; Cl 2.9; Hb 13.8.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-022",
+      "order": 22,
+      "title": "22. Como Cristo, sendo o Filho de Deus, se fez homem?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cristo, o Filho de Deus, fez-se homem tomando um verdadeiro corpo, e uma alma racional, sendo concebido pelo poder do Espirito Santo no ventre da virgem Maria, e nascido dela, mas sem pecado."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hb 2.14; Mt 26.38; Lc 2.52; 1.31, 35; Hb 4.15.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-023",
+      "order": 23,
+      "title": "23. Que funções exerce Cristo como nosso Redentor?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cristo, como nosso Redentor, exerce as funções de profeta, sacerdote e rei, tanto no seu estado de humilhação como no de exaltação."
+        },
+        {
+          "type": "paragraph",
+          "text": "At 3.22; Hb 5.5-6; Sl 2.6; Jo 1.49.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-024",
+      "order": 24,
+      "title": "24. Como exerce Cristo as funções de profeta?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cristo exerce as funções de profeta, revelando-nos, pela sua Palavra e pelo seu Espírito, a vontade de Deus para a nossa salvação."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jo 1.18; Hb 1.1-2; Jo 14.26; 16.13.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-025",
+      "order": 25,
+      "title": "25. Como exerce Cristo as funções de sacerdote?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cristo exerce as funções de sacerdote, oferecendo-se a si mesmo uma vez em sacrifício, para satisfazer a justiça divina, reconciliar-nos com Deus e fazendo contínua intercessão por nós."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hb 9.28; Rm 3.24-26; 10.4; Hb 2.17; 7.25; Is 53.12.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-026",
+      "order": 26,
+      "title": "26. Como exerce Cristo as funções de rei?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cristo exerce as funções de rei, sujeitando-nos a si mesmo, governando-nos e protegendo-nos, contendo e subjugando todos os seus e os nossos inimigos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sl 110.3; At 2.36; 18.9-10; Is 9.6-7; 1Co 15.26-27.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-027",
+      "order": 27,
+      "title": "27. Em que consistiu a humilhação de Cristo?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A humilhação de Cristo consistiu em Ele nascer, e isso em condição baixa, feito sujeito à lei; em sofrer as misérias desta vida, a ira de Deus e amaldiçoada morte na cruz; em ser sepultado, e permanecer debaixo do poder da morte durante certo tempo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lc 2.7; Fp 2.6-8; Gl 4.4; 3.13; Is 53.3; Mt 27.43; 1Co 15.3-4.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-028",
+      "order": 28,
+      "title": "28. Em que consiste a exaltação de Cristo?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A exaltação de Cristo consiste em Ele ressurgir dos mortos no terceiro dia; em subir ao Céu e estar sentado à mão direita de Deus Pai, e em vir para julgar o mundo no último dia."
+        },
+        {
+          "type": "paragraph",
+          "text": "1Co 15.4; Ef 1.20-21; At 17.31.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-029",
+      "order": 29,
+      "title": "29. Como nos tornamos participantes da redenção adquirida por Cristo?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tornamo-nos participantes da redenção adquirida por Cristo pela eficaz aplicação dela a nós pelo Seu Santo Espírito."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jo 1.12; 3.5-6; Tt 3.5-6.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-030",
+      "order": 30,
+      "title": "30. Como nos aplica o Espírito a redenção adquirida por Cristo?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O Espírito aplica-nos a redenção adquirida por Cristo, operando em nós a fé, e unindo-nos a Cristo por meio dela em nossa vocação eficaz."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gl 2.20; Ef 2.8; 1Co 12.12-13.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-031",
+      "order": 31,
+      "title": "31. Que é vocação eficaz?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vocação eficaz é a obra do Espírito Santo, pela qual, convencendo-nos do nosso pecado, e da nossa miséria, iluminando nossos entendimentos pelo conhecimento de Cristo, e renovando a nossa vontade, nos persuade e habilita a abraçar Jesus Cristo, que nos é oferecido de graça no Evangelho."
+        },
+        {
+          "type": "paragraph",
+          "text": "1Ts 2.13; At 2.37; 26.18; Ez 36.25-27; 2Tm 1.9; Fp 2.13; Jo 6.37, 44-45.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-032",
+      "order": 32,
+      "title": "32. Que bênçãos gozam nesta vida aqueles que são eficazmente chamados?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Aqueles que são eficazmente chamados, gozam, nesta vida, da justificação, adoção e santificação, e das diversas bênçãos que acompanham estas graças ou delas procedem."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rm 8.30; Ef 1.5; 1Co 1.30.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-033",
+      "order": 33,
+      "title": "33. Que é justificação?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Justificação é um ato da livre graça de Deus, no qual Ele perdoa todos os nossos pecados, e nos aceita como justos diante de Si, somente por causa da justiça de Cristo a nós imputada, e recebida só pela fé."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ef 1.7; 2Co 5.21; Rm 4.6; 5.18; Gl 2.16.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-034",
+      "order": 34,
+      "title": "34. Que é adoção?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Adoção é um ato de livre graça de Deus, pelo qual somos recebidos no número dos filhos de Deus, e temos direito a todos os seus privilégios."
+        },
+        {
+          "type": "paragraph",
+          "text": "1Jo 3.1; Jo 1.12; Rm 8.14-17.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-035",
+      "order": 35,
+      "title": "35. Que é santificação?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "É a obra da livre graça de Deus, pela qual somos renovados em todo o nosso ser, segundo a imagem de Deus, e habilitados a morrer cada vez mais para o pecado e a viver para a retidão."
+        },
+        {
+          "type": "paragraph",
+          "text": "1Pe 1.2; Ef 4.20-24; Rm 6.6; 12.1-2.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-036",
+      "order": 36,
+      "title": "36. Quais são as bênçãos que nesta vida acompanham a justificação, adoção e santificação ou delas procedem?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "As bênçãos que nesta vida acompanham a justificação, adoção e santificação, ou delas procedem, são: certeza do amor de Deus, paz de consciência, gozo no Espírito Santo, aumento de graça, e perseverança nela até ao fim."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rm 5.1-5; 14.17; Jo 1.16; Fp 1.6; 1Pe 1.5.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-037",
+      "order": 37,
+      "title": "37. Quais são as bênçãos que os fiéis recebem de Cristo na hora da morte?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "As almas dos fiéis na hora da morte são aperfeiçoadas em santidade, e imediatamente entram na glória; e os corpos que continuam unidos Cristo, descansam na sepultura até a ressurreição."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ap 14.13; Lc 23.43; At 7.55, 59; Fp 1.23; 1Ts 4.14; Jo 5.28-29; 14.2-3; Hb 12.22-23.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-038",
+      "order": 38,
+      "title": "38. Quais são as bênçãos que os fieis recebem de Cristo na ressurreição?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Na ressurreição, os fieis, sendo ressuscitados em glória, serão publicamente reconhecidos e absolvidos no dia de juízo, e tornados perfeitamente felizes no pleno gozo de Deus por toda a eternidade."
+        },
+        {
+          "type": "paragraph",
+          "text": "1Co 15.43; Mt 10.32; 25.34; Sl 16.11.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-039",
+      "order": 39,
+      "title": "39. Qual é o dever que Deus exige do homem?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O dever que Deus exige do homem é obediência à sua vontade revelada."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mq 6.8; Lc 10.27-28; Gn 17.1.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-040",
+      "order": 40,
+      "title": "40. Que revelou Deus primeiramente ao homem para regra de sua obediência?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A regra que Deus revelou primeiramente ao homem para sua obediência foi a lei moral."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rm 2.14-15.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-041",
+      "order": 41,
+      "title": "41. Onde está a lei moral resumidamente compreendida?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A lei moral está resumidamente compreendida nos dez mandamentos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dt 10.4; Mt 19.17-19.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-042",
+      "order": 42,
+      "title": "42. Em que se resumem os dez mandamentos?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Os dez mandamentos se resumem em amar ao Senhor nosso Deus de todo o nosso coração, de toda a nossa alma, de todas as nossas forças e de todo o nosso entendimento; e ao nosso próximo como a nós mesmos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mt 22-37-40.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-043",
+      "order": 43,
+      "title": "43. Qual é o prefácio dos dez mandamentos?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O prefácio dos dez mandamentos é: \"Eu sou o Senhor teu Deus, que te tirei da terra do Egito, da casa da servidão\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ex 20.2.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-044",
+      "order": 44,
+      "title": "44. Que nos ensina o prefácio dos dez mandamentos?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O prefácio dos dez mandamentos ensina-nos que nós temos obrigação de guardar todos os mandamentos de Deus, por ser Ele o Senhor nosso Deus e Redentor."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dt 11.1; 1Pe 1.15-19.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-045",
+      "order": 45,
+      "title": "45. Qual é o primeiro mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O primeiro mandamento é: \"Não terás outros deuses além de mim\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ex 20.3.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-046",
+      "order": 46,
+      "title": "46. Que exige o primeiro mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O primeiro mandamento exige de nós o conhecer e reconhecer a Deus como o único Deus verdadeiro, e nosso Deus; e como tal adorá-lo."
+        },
+        {
+          "type": "paragraph",
+          "text": "1Cr 28.9; Dt 26.17; Sl 95.6-7.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-047",
+      "order": 47,
+      "title": "47. Que proíbe o primeiro mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O primeiro mandamento proíbe o negar, ou deixar de adorar ou glorificar ao verdadeiro Deus, como Deus, e nosso Deus; e dar a qualquer outro a adoração e a glória que só a Ele são devidas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sl 14.1; Rm 1.20-21, 25; Sl 8.11.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-048",
+      "order": 48,
+      "title": "48. Que se nos ensina especialmente pelas palavras \"além de mim\", no primeiro mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "As palavras \"além de mim\", no primeiro mandamento, ensinam-nos que Deus, que vê todas as coisas, toma conhecimento e muito se ofende do pecado de ter-se em seu lugar outro deus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sl 139.1-3; Dt 30.17-18.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-049",
+      "order": 49,
+      "title": "49. Qual é o segundo mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O segundo mandamento é: \"Não farás para ti imagem de escultura, nem figura alguma de tudo que há em cima no Céu, e do que há embaixo na terra, nem de coisa alguma que haja nas águas, debaixo da terra. Não as adorarás, nem lhes darás culto; porque eu sou o Senhor teu Deus, o Deus zeloso, que vinga a iniqüidade dos pais nos filhos até à terceira e quarta geração daqueles que me aborrecem; e que usa de misericórdia com milhares daqueles que me amam e que guardam os meus preceitos\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ex 20.4-6.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-050",
+      "order": 50,
+      "title": "50. Que exige o segundo mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O segundo mandamento exige que recebamos, observemos e guardemos puros e inteiros todo o culto e ordenanças religiosas que Deus instituiu na sua Palavra."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dt 12.32; Mt 28.20; Jo 4.23-24.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-051",
+      "order": 51,
+      "title": "51. Que proíbe o segundo mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O segundo mandamento proíbe o adorar a Deus por meio de imagens, ou de qualquer outra maneira não prescrita na sua Palavra."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rm 1.22-23; 2Rs 18.3-4.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-052",
+      "order": 52,
+      "title": "52. Quais são as razões anexas ao segundo mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "As razões anexas ao segundo mandamento são a soberania de Deus sobre nós, a sua propriedade em nós, e o zelo que Ele tem pelo seu culto."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sl 45.11; 100.3; Ex 34.14; 1Co 10.22.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-053",
+      "order": 53,
+      "title": "53. Qual é o terceiro mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O terceiro mandamento é: \"Não tomarás o nome do Senhor teu Deus em vão, porque o Senhor não terá por inocente aquele que tomar em vão o nome do Senhor seu Deus\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ex 20.7.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-054",
+      "order": 54,
+      "title": "54. Que exige o terceiro mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O terceiro mandamento exige o santo e reverente uso dos nomes, títulos, atributos, ordenanças, palavras e obras de Deus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sl 29.2; Ap 15.3-4; Ec 5.1; Sl 138.2; 104.24.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-055",
+      "order": 55,
+      "title": "55. O que proíbe o terceiro mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O terceiro mandamento proíbe toda a profanação ou abuso das coisas por meio das quais Deus se faz conhecer."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lv 19.12; Mt 5.34-35.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-056",
+      "order": 56,
+      "title": "56. Qual é a razão anexa ao terceiro mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A razão anexa ao terceiro mandamento é que, embora os transgressores deste mandamento escapem do castigo dos homens, o Senhor nosso Deus não os deixará escapar do seu justo juízo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dt 28.58-59.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-057",
+      "order": 57,
+      "title": "57. Qual é o quarto mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O quarto mandamento é: \"Lembra-te de santificar o dia do Sábado. Trabalharás seis dias, e farás nele tudo o que tens para fazer. O sétimo dia, porém, é o Sábado do Senhor teu Deus. Não farás nesse dia, obra alguma, nem tu, nem teu filho, nem tua filha, nem o teu servo, nem a tua serva, nem o teu animal, nem o peregrino que vive das tuas portas para dentro. Porque o Senhor fez em seis dias o céu, a terra e o mar, e tudo o que neles há, e descansou no sétimo dia. Por isso o Senhor abençoou o dia sétimo e o santificou\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ex 20.8-11.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-058",
+      "order": 58,
+      "title": "58. Que exige o quarto mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O quarto mandamento exige que consagremos a Deus os tempos determinados em sua Palavra, particularmente um dia inteiro em cada sete, para ser um dia de santo descanso a Ele dedicado."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lv 19.30; Dt 5.12.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-059",
+      "order": 59,
+      "title": "59. Qual dos sete dias designou Deus para esse descanso semanal?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Desde o princípio do mundo até à ressurreição de Cristo, Deus designou o sétimo dia da semana para o descanso semanal; e desde então o primeiro dia da semana para continuar sempre até ao fim do mundo, que é o Sábado cristão, ou Domingo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gn 2.3; Ex 16.23; At 20.7; 1Co 16.1-2; Ap 1.10.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-060",
+      "order": 60,
+      "title": "60. De que modo se deve santificar o Domingo?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Deve-se santificar o Domingo com um santo repouso por todo aquele dia, mesmo das ocupações e recreações temporais que são permitidas nos outros dias; empregando todo o tempo em exercícios públicos e particulares de adoração a Deus, exceto o tempo preciso para as obras de pura necessidade e misericórdia."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lv 23.3; Is 58.13-14; Mt 12.11-12; Mc 2.27-28.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-061",
+      "order": 61,
+      "title": "61. Que proíbe o quarto mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O quarto mandamento proíbe a omissão ou a negligência no cumprimento dos deveres exigidos, e a profanação deste dia por meio de ociosidade ou por fazer aquilo que é em si mesmo pecaminoso, ou por desnecessários pensamentos, palavras, ou obras acerca de nossos negócios e recreações temporais."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jr 17.21; Lc 23.56.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-062",
+      "order": 62,
+      "title": "62. Quais são as razões anexas ao quarto mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "As razões anexas ao quarto mandamento são: a permissão que Deus nos concede de fazermos uso dos seis dias da semana para os nossos interesses temporais; o reclamar ele para si a propriedade especial do dia sétimo, o seu próprio exemplo, e a benção que ele conferiu ao dia do descanso."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ex 31.15-16; Lv 23.3; Ex 31.17; Gn 2.3.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-063",
+      "order": 63,
+      "title": "63. Qual é o quinto mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O quinto mandamento é: \"Honrarás a teu pai e a tua mãe, para teres uma dilatada vida sobre a terra que o Senhor teu Deus te há de dar\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ex 20.12.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-064",
+      "order": 64,
+      "title": "64. Que exige o quinto mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O quinto mandamento exige a conservação da honra e o desempenho dos deveres pertencentes a cada um em suas diferentes condições e relações, como superiores, inferiores, ou iguais."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ef 6.1-3; Rm 13.1-2; 12.10.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-065",
+      "order": 65,
+      "title": "65. Que proíbe o quinto mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O quinto mandamento proíbe negligenciarmos ou fazermos alguma coisa contra a honra e dever que pertencem a cada um em suas diferentes condições e relações."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rm 13.7-8.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-066",
+      "order": 66,
+      "title": "66. Qual é a razão anexa ao quinto mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A razão anexa ao quinto mandamento é uma promessa de longa vida e prosperidade (quanto sirva para glória de Deus e bem do homem) a todos aqueles que guardam este mandamento."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ef 6.2-3.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-067",
+      "order": 67,
+      "title": "67. Qual é o sexto mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O sexto mandamento é: \"Não matarás\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ex 20.13.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-068",
+      "order": 68,
+      "title": "68. Que exige o sexto mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O sexto mandamento exige todos os esforços lícitos para conservar a nossa vida e a dos nossos semelhantes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sl 132.3-4; At 27.33-34; Rm 12.20-21; Lc 10.33-37.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-069",
+      "order": 69,
+      "title": "69. Que proíbe o sexto mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O sexto mandamento proíbe o tirar a nossa própria vida, ou a do nosso próximo injustamente, e tudo aquilo que para isso concorre."
+        },
+        {
+          "type": "paragraph",
+          "text": "At 16.28; Gn 9.6; Dt 24.6; Pv 24.11-12; 1Jo 3.15.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-070",
+      "order": 70,
+      "title": "70. Qual é o sétimo mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O sétimo mandamento é: \"Não adulterarás\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ex 20.14.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-071",
+      "order": 71,
+      "title": "71. Que exige o sétimo mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O sétimo mandamento exige a conservação da nossa própria castidade, e da do nosso próximo, no coração, nas palavras e nos costumes."
+        },
+        {
+          "type": "paragraph",
+          "text": "1Ts 4.4; Ef 4.29; 5.11-12; 1Pe 3.2.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-072",
+      "order": 72,
+      "title": "72. Que proíbe o sétimo mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O sétimo mandamento proíbe todos os pensamentos, palavras e ações impuras."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mt 5.28; Ef 5.3-4.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-073",
+      "order": 73,
+      "title": "73. Qual é o oitavo mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O oitavo mandamento é: \"Não furtarás\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ex 20.15.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-074",
+      "order": 74,
+      "title": "74. Que exige o oitavo mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O oitavo mandamento exige que procuremos o lícito adiantamento das riquezas e do estado exterior, tanto nosso como do nosso próximo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pv 27.23; 22.1-14; Fl 2.4; Ex 23.4-6.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-075",
+      "order": 75,
+      "title": "75. Que proíbe o oitavo mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O oitavo mandamento proíbe tudo o que impede ou pode impedir injustamente o adiantamento da riqueza ou do bem-estar, tanto nosso como do nosso próximo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pv 28.19; 1Tm 5.8; Tg 5.1-4.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-076",
+      "order": 76,
+      "title": "76. Qual é o nono mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O nono mandamento é: \"Não dirás falso testemunho contra o teu próximo\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ex 20.16.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-077",
+      "order": 77,
+      "title": "77. Que exige o nono mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O nono mandamento exige a conservação e promoção da verdade entre os homens, e a manutenção da nossa boa reputação, e a do nosso próximo, especialmente quando somos chamados a dar testemunho."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ef 4.25; 1Pe 3.16; At 25.10; 3Jo 12; Pv 14.5, 25; Mt 5.37.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-078",
+      "order": 78,
+      "title": "78. Que proíbe o nono mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O nono mandamento proíbe tudo o que é prejudicial à verdade, ou injurioso, tanto à nossa reputação como à do nosso próximo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cl 3.9; 2Co 8.20-21; Sl 15.3; 12.3.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-079",
+      "order": 79,
+      "title": "79. Qual é o décimo mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O décimo mandamento é: \"Não cobiçarás a casa do teu próximo; não desejarás a sua mulher, nem o seu servo, nem a sua serva, nem o seu boi, nem o seu jumento, nem coisa alguma que lhe pertença\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ex 20.17.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-080",
+      "order": 80,
+      "title": "80. Que exige o décimo mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O décimo mandamento exige o pleno contentamento com a nossa condição, bem como disposição caridosa para com o nosso próximo e tudo o que lhe pertence."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hb 13.5; 1Tm 6.6-10; Lv 19.18; 1Co 13.4-6.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-081",
+      "order": 81,
+      "title": "81. O que proíbe o décimo mandamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O décimo mandamento proíbe todo o descontentamento com a nossa condição, todo o movimento de inveja ou pesar à vista da prosperidade do nosso próximo e todas as tendências ou afeições desordenadas a alguma coisa que lhe pertence."
+        },
+        {
+          "type": "paragraph",
+          "text": "1Co 10.10; Gl 5.26; Cl 3.5; 1Tm 6.6-10.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-082",
+      "order": 82,
+      "title": "82. Será alguém capaz de guardar perfeitamente os mandamentos de Deus?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Nenhum mero homem, desde a queda de Adão, é capaz, nesta vida, de guardar perfeitamente os mandamentos de Deus, mas diariamente os quebranta por pensamentos, palavras e obras."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rm 3.9-10; Tg 3.2.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-083",
+      "order": 83,
+      "title": "83. São igualmente odiosas todas as transgressões da lei?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Alguns pecados em si mesmos, e em razão de circunstâncias agravantes, são mais odiosos à vista de Deus do que outros."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sl 19.13; Mt 11.24; Lc 12.10; Hb 2.2-3.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-084",
+      "order": 84,
+      "title": "84. Que merece cada pecado?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cada pecado merece a ira e a maldição de Deus, tanto nesta vida como na vindoura."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gl 3.10; Tg 2.10; Mt 25.41.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-085",
+      "order": 85,
+      "title": "85. Que exige Deus de nós para que possamos escapar a sua ira e maldição em que temos incorrido pelo pecado?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Para escaparmos à ira e maldição de Deus, em que temos incorrido pelo pecado, Deus exige de nós fé em Jesus Cristo e arrependimento para a vida, com o uso diligente de todos os meios exteriores pelos quais Cristo nos comunica as bênçãos da redenção."
+        },
+        {
+          "type": "paragraph",
+          "text": "At 20.21; 2Pe 1.10; Hb 2.3; 1Tm 4.16.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-086",
+      "order": 86,
+      "title": "86. Que é fé em Jesus Cristo?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Fé em Jesus Cristo é uma graça salvadora, pela qual o recebemos e confiamos só nEle para a salvação, como Ele nos é oferecido."
+        },
+        {
+          "type": "paragraph",
+          "text": "At 16.31; Hb 10.39; Jo 1.12; Fp 3.9; Ap 22.17.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-087",
+      "order": 87,
+      "title": "87. Que é arrependimento para a vida?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Arrependimento para a vida é uma graça salvadora pela qual o pecador, tendo um verdadeiro sentimento do seu pecado e percepção da misericórdia de Deus em Cristo, se enche de tristeza e de horror pelos seus pecados, abandona-os e volta para Deus, inteiramente resolvido a prestar-lhe nova obediência."
+        },
+        {
+          "type": "paragraph",
+          "text": "2Co 7.10; At 2.37; Lc 1.77-79; Jr 31.18-19; Rm 6.18.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-088",
+      "order": 88,
+      "title": "88. Quais são os meios exteriores e ordinários pelos quais Cristo nos comunica as bênçãos da redenção?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Os meios exteriores e ordinários pelos quais Cristo nos comunica as bênçãos da redenção, são as suas ordenanças, especialmente a Palavra, os sacramentos e a oração; as quais todas se tornam eficazes aos eleitos para a salvação."
+        },
+        {
+          "type": "paragraph",
+          "text": "At 2.41-42.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-089",
+      "order": 89,
+      "title": "89. Como se torna a Palavra eficaz para a salvação?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O Espírito de Deus torna a leitura e especialmente a pregação da Palavra, meios eficazes para convencer e converter os pecadores, para os edificar em santidade e conforto, por meio da fé para a salvação."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ne 8.8; At 20.32; Rm 15.4; 2Tm 3.15.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-090",
+      "order": 90,
+      "title": "90. Como se deve ler e ouvir a Palavra a fim de que ela se torne eficaz para a salvação?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Para que a Palavra se torne eficaz para a salvação, devemos ouvi-la com diligência, preparação e oração; recebê-la com fé e amor, guardá-la em nossos corações e praticá-la em nossas vidas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dt 6.6-7; 1Pe 2.1-2; Sl 119.11-18; Rm 1.16; 2Ts 2.10; Tg 1.21-25.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-091",
+      "order": 91,
+      "title": "91. Como se tornam os sacramentos meios eficazes para a salvação?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Os sacramentos tornam-se meios eficazes para a salvação, não por alguma virtude que eles ou aqueles que os ministram tenham, mas somente pela bênção de Cristo e pela obra do seu Espírito naqueles que pela fé os recebem."
+        },
+        {
+          "type": "paragraph",
+          "text": "1Pe 3.21; Rm 2.28-29; 1Co 12.13; 10.16-17.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-092",
+      "order": 92,
+      "title": "92. Que é um sacramento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Um sacramento é uma santa ordenança, instituída por Cristo, na qual, por sinais sensíveis, Cristo e as bênçãos do novo pacto são representadas, seladas e aplicadas aos crentes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mt 26.26-28; 28.19; Rm 4.11.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-093",
+      "order": 93,
+      "title": "93. Quais são os sacramentos do Novo Testamento?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Os sacramentos do Novo Testamento são o Batismo e a Ceia do Senhor."
+        },
+        {
+          "type": "paragraph",
+          "text": "At 10.47-48; 1Co 11.23-26.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-094",
+      "order": 94,
+      "title": "94. Que é o Batismo?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O Batismo é o sacramento no qual o lavar com água em nome do Pai, do Filho e do Espírito Santo significa e sela a nossa união com Cristo, a participação das bênçãos do pacto da graça, e a promessa de pertencermos ao Senhor."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mt 28.19; Jo 3.5; Rm 6.1-11; Gl 3.27.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-095",
+      "order": 95,
+      "title": "95. A quem deve ser ministrado o Batismo?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O Batismo não deve ser ministrado àqueles que estão fora da igreja visível, enquanto não professarem sua fé em Cristo e obediência a Ele; mas os filhos daqueles que são membros da igreja visível devem ser batizados."
+        },
+        {
+          "type": "paragraph",
+          "text": "At 18.8; Gn 17.7-14; At 2.38-39; 1Co 7.14.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-096",
+      "order": 96,
+      "title": "96. O que é a Ceia do Senhor?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A Ceia do Senhor é o sacramento no qual, dando-se e recebendo-se pão e vinho, conforme a instituição de Cristo, se anuncia a sua morte, e aqueles que participam dignamente tornam-se, não de uma maneira corporal e carnal, mas pela fé, participantes do seu corpo e do seu sangue, com todas as suas bênçãos para o seu alimento espiritual e crescimento em graça."
+        },
+        {
+          "type": "paragraph",
+          "text": "1Co 11.23-26; At 3.21; 1Co 10.16.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-097",
+      "order": 97,
+      "title": "97. Que se exige para participar dignamente da Ceia do Senhor?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Exige-se daqueles que desejam participar dignamente da Ceia do Senhor que se examine sobre o seu conhecimento em discernir o corpo do Senhor, sobre a sua fé para se alimentarem dele, sobre o seu arrependimento, amor e nova obediência; para não suceder que, vindo indignamente, comam e bebam para si a condenação."
+        },
+        {
+          "type": "paragraph",
+          "text": "1Co 11.27; 31-32; Rm 6.17-18.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-098",
+      "order": 98,
+      "title": "98. O que é Oração?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A Oração é um santo oferecimento dos nossos desejos a Deus, por coisas conformes com a sua vontade, em nome de Cristo, com a confissão dos nossos pecados, e um agradecido reconhecimento das suas misericórdias."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sl 10.17; 145.19; 1Jo 5.14; 1.9; Jo 16.23-24; Fp 4.6.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-099",
+      "order": 99,
+      "title": "99. Qual é a regra que Deus nos deu para nos dirigir em oração?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Toda palavra de Deus é útil para nos dirigir em oração, mas a regra especial de direção é aquela forma de oração que Cristo ensinou aos seus discípulos, e que geralmente se chama a Oração Dominical."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rm 8.26; Sl 119.170; Mt 6.9-13.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-100",
+      "order": 100,
+      "title": "100. Que nos ensina o prefácio da Oração Dominical?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O prefácio da Oração Dominical, que é: \"Pai nosso que estás no Céu\", ensina-nos que nos devemos aproximar de Deus com toda a santa reverência e confiança, como filhos a um pai poderoso e pronto para nos ajudar, e também nos ensina a orar com os outros e por eles."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lc 11.13; Rm 8.15; 1Tm 2.1-2.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-101",
+      "order": 101,
+      "title": "101. Pelo que oramos na primeira petição?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Na primeira petição, que é: \"Santificado seja o Teu nome\", pedimos que Deus nos habilite a nós e aos outros a glorificá-lo em tudo aquilo em que se dá a conhecer; e que disponha tudo para sua glória."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sl 67.1-3; Rm 11.36; Ap 4.11.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-102",
+      "order": 102,
+      "title": "102. Pelo que oramos na segunda petição?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Na segunda petição, que é: \"Venha o Teu reino\", pedimos que o reino de Satanás seja destruído e que o reino da graça seja adiantado; que nós e os outros a ele sejamos guiados e nele guardados, e que cedo venha o reino da glória."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sl 68.1; Jo 12.31; Mt 9.37-38; 2Ts 3.1; Rm 10.1; Ap 22.20.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-103",
+      "order": 103,
+      "title": "103. Pelo que oramos na terceira petição?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Na terceira petição, que é: \"Seja feita Tua vontade, assim na terra como no Céu\", pedimos que Deus, pela sua graça, nos torne capazes e desejosos de conhecer a sua vontade, de obedecer e submeter-nos a ela em tudo, como fazem os anjos no Céu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mt 24.39; Fp 1.9-11; Sl 103.20-21.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-104",
+      "order": 104,
+      "title": "104. Pelo que oramos na quarta petição?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Na quarta petição, que é: \"O pão nosso de cada dia nos dá hoje\", pedimos que da livre dádiva de Deus recebamos uma porção suficiente das coisas boas desta vida, e gozemos com elas de suas bênçãos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pv 30.8-9; 1Tm 6.6-8; Pv 10.22.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-105",
+      "order": 105,
+      "title": "105. Pelo que oramos na quinta petição?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Na quinta petição, que é: \"E perdoa-nos as nossas dividas, assim como nós também perdoamos aos nossos devedores\", pedimos que Deus, por amor de Cristo, nos perdoe gratuitamente os nossos pecados, o que somos animados a pedir, porque, pela Sua graça somos habilitados a perdoar de coração ao nosso próximo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sl 51.1-2, 7; Mt 18.35.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-106",
+      "order": 106,
+      "title": "106. Pelo que oramos na sexta petição?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Na sexta petição, que é: \"E não nos deixes cair em tentação\", pedimos que Deus nos guarde de sermos tentados a pecar, ou nos preserve e livre, quando formos tentados."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mt 26.41; Sl 19.13; Jo 17.15; 1Co 10.13.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-107",
+      "order": 107,
+      "title": "107. Que nos ensina a conclusão da Oração Dominical?",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A conclusão da Oração Dominical, que é: \"Porque Teu é o reino, o poder e a glória, para sempre. Amém\", ensina-nos que na Oração devemos confiar somente em Deus, e louvá-lO em nossas orações, atribuindo-Lhe reino, poder e glória. E em testemunho do nosso desejo e certeza de sermos ouvidos, dizemos: Amém."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dn 9.18-19; Fp 4.6; 1Cr 29.11-13; 1Co 14.16; Ap 22.20-21.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-108",
+      "order": 108,
+      "title": "Os Dez Mandamentos",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ex 20.3-17",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Não terás outros deuses além de mim."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Não farás para ti imagem de escultura, nem figura alguma de tudo que há em cima no céu, e do que há em baixo na terra, nem de coisa que haja nas água debaixo da terra. Não as adorarás, nem lhes darás culto, porque Eu sou o Senhor teu Deus, o Deus zeloso, que vinga a iniqüidade dos pais nos filhos até a terceira e quarta geração daqueles que me aborrecem, e que usa de misericórdia com milhares daqueles que me amam e que guardam os meus preceitos."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Não tomarás em vão o nome do Senhor teu Deus, porque o Senhor não terá por inocente aquele que tomar em vão o nome do Senhor seu Deus."
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Lembra-te de santificar o dia de Sábado. Trabalharás seis dias e farás neles tudo o que tens para fazer. O sétimo dia, porém, é o sábado do Senhor teu Deus. Não farás nesse dia obra alguma, nem tu, nem teu filho, nem tua filha, nem o teu animal, nem o peregrino que vive das tuas portas para dentro. Porque o Senhor fez em seis dias o céu e a terra, e tudo o que neles há, e descansou no sétimo e o santificou."
+        },
+        {
+          "type": "paragraph",
+          "text": "5. Honrarás a teu pai e a tua mãe, para teres uma vida dilatada sobre a terra que o Senhor teu Deus te há de dar."
+        },
+        {
+          "type": "paragraph",
+          "text": "6. Não matarás."
+        },
+        {
+          "type": "paragraph",
+          "text": "7. Não adulterarás."
+        },
+        {
+          "type": "paragraph",
+          "text": "8. Não furtarás."
+        },
+        {
+          "type": "paragraph",
+          "text": "9. Não dirás falso testemunho contra o teu próximo."
+        },
+        {
+          "type": "paragraph",
+          "text": "10. Não cobiçarás a casa de teu próximo; não desejarás a sua mulher, nem o seu servo, nem a sua serva, nem o seu boi, nem o seu jumento, nem coisa alguma que lhe pertença."
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-109",
+      "order": 109,
+      "title": "Resumo dos Dez Mandamentos",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Lc 10.27",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Amarás ao Senhor teu Deus de todo o coração, de toda tua a alma, de todas as tuas forças e de todo o teu entendimento; e ao teu próximo como a ti mesmo."
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-110",
+      "order": 110,
+      "title": "Oração Dominical",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Mt 6.9-13",
+          "italic": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Pai nosso que estás nos Céus, santificado seja Teu nome; venha o Teu reino; seja feita a Tua vontade, assim na terra como no Céu. O pão nosso de cada dia nos dá hoje; e perdoa-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores; e não nos deixes cair em tentação, mas livra-nos do mal; porque Teu é o reino, o poder e a glória para sempre. Amém."
+        }
+      ]
+    },
+    {
+      "id": "westminster-breve-111",
+      "order": 111,
+      "title": "Credo",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Creio em Deus Pai, todo poderoso, Criador do céu e da terra. Creio em Jesus Cristo, Seu único Filho, nosso Senhor, o qual foi concebido por obra do Espírito Santo; nasceu da Virgem Maria; padeceu sob o poder de Pôncio Pilatos, foi crucificado, morto e sepultado; desceu em Hades; ressurgiu dos mortos ao terceiro dia; subiu ao Céu; está sentado à mão direita de Deus Pai todo poderoso; donde há de vir a julgar os vivos e os mortos. Creio no Espírito Santo; na santa Igreja universal; na comunhão dos santos; na remissão dos pecados; na ressurreição do corpo; na vida eterna. Amém."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "cinco-solas",
+  "titulo": "As Cinco Solas",
+  "subtitulo": "Declaração de Cambridge (1996)",
+  "autor": "Aliança de Evangélicos Confessantes",
+  "ano": "1996",
+  "descricao": "Sola Scriptura, Solus Christus, Sola Gratia, Sola Fide e Soli Deo Gloria — os cinco princípios da Reforma, reafirmados na Declaração de Cambridge.",
+  "tipo": "leitura",
+  "arquivoPdf": "5-solas.pdf",
+  "secoes": [
+    {
+      "id": "cinco-solas-01",
+      "order": 1,
+      "title": "Sola Scriptura: A Erosão da Autoridade",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Só a Escritura é a regra inerrante da vida da igreja, mas a igreja evangélica atual fez separação entre a Escritura e sua função oficial. Na prática, a igreja é guiada, por vezes demais, pela cultura. Técnicas terapêuticas, estratégias de marketing, e o ritmo do mundo de entretenimento muitas vezes tem mais voz naquilo que a igreja quer, em como funciona, e no que oferece, do que a Palavra de Deus. Os pastores negligenciam a supervisão do culto, que lhes compete, inclusive o conteúdo doutrinário da música. À medida que a autoridade bíblica foi abandonada na prática, que suas verdades se enfraqueceram na consciência cristã, e que suas doutrinas perderam sua proeminência, a igreja foi cada vez mais esvaziada de sua integridade, autoridade moral e discernimento."
+        },
+        {
+          "type": "paragraph",
+          "text": "Em lugar de adaptar a fé cristã para satisfazer as necessidades sentidas dos consumidores, devemos proclamar a Lei como medida única da justiça verdadeira, e o evangelho como a única proclamação da verdade salvadora. A verdade bíblica é indispensável para a compreensão, o desvelo e a disciplina da igreja."
+        },
+        {
+          "type": "paragraph",
+          "text": "A Escritura deve nos levar além de nossas necessidades percebidas para nossas necessidades reais, e libertar-nos do hábito de nos enxergar por meio das imagens sedutoras, clichês, promessas e prioridades da cultura massificada. É só à luz da verdade de Deus que nós nos entendemos corretamente e abrimos os olhos para a provisão de Deus para a nossa sociedade. A Bíblia, portanto, precisa ser ensinada e pregada na igreja. Os sermões precisam ser exposições da Bíblia e de seus ensino, não a expressão de opinião ou de idéias da época. Não devemos aceitar menos do que aquilo que Deus nos tem dado."
+        },
+        {
+          "type": "paragraph",
+          "text": "A obra do Espírito Santo na experiência pessoal não pode ser desvinculada da Escritura. O Espírito não fala em formas que independem da Escritura. À parte da Escritura nunca teríamos conhecido a graça de Deus em Cristo. A Palavra bíblica, e não a experiência espiritual, é o teste da verdade."
+        },
+        {
+          "type": "heading",
+          "text": "Tese 1: Sola Scriptura"
+        },
+        {
+          "type": "paragraph",
+          "text": "Reafirmamos a Escritura inerrante como fonte única de revelação divina escrita, única para constranger a consciência. A Bíblia sozinha ensina tudo o que é necessário para nossa salvação do pecado, e é o padrão pelo qual todo comportamento cristão deve ser avaliado."
+        },
+        {
+          "type": "paragraph",
+          "text": "Negamos que qualquer credo, concílio ou indivíduo possa constranger a consciência de um crente, que o Espírito Santo fale independentemente de, ou contrariando, o que está exposto na Bíblia, ou que a experiência pessoal possa ser veículo de revelação."
+        }
+      ]
+    },
+    {
+      "id": "cinco-solas-02",
+      "order": 2,
+      "title": "Solus Christus: A Erosão da Fé Centrada em Cristo",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "À medida que a fé evangélica se secularizou, seus interesses se confundiram com os da cultura. O resultado é uma perda de valores absolutos, um individualismo permissivo, a substituição da santidade pela integridade, do arrependimento pela recuperação, da verdade pela intuição, da fé pelo sentimento, da providência pelo acaso e da esperança duradoura pela gratificação imediata. Cristo e sua cruz se deslocaram do centro de nossa visão."
+        },
+        {
+          "type": "heading",
+          "text": "Tese 2: Solus Christus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Reafirmamos que nossa salvação é realizada unicamente pela obra mediatória do Cristo histórico. Sua vida sem pecado e sua expiação por si só são suficientes para nossa justificação e reconciliação com o Pai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Negamos que o evangelho esteja sendo pregado se a obra substitutiva de Cristo não estiver sendo declarada e a fé em Cristo e sua obra não estiver sendo invocada."
+        }
+      ]
+    },
+    {
+      "id": "cinco-solas-03",
+      "order": 3,
+      "title": "Sola Gratia: A Erosão do Evangelho",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A Confiança desmerecida na capacidade humana é um produto da natureza humana decaída. Esta falsa confiança enche hoje o mundo evangélico – desde o evangelho da auto-estima até o evangelho da saúde e da prosperidade, desde aqueles que já transformaram o evangelho num produto vendável e os pecadores em consumidores e aqueles que tratam a fé cristã como verdadeira simplesmente porque funciona. Isso faz calar a doutrina da justificação, a despeito dos compromissos oficiais de nossas igrejas."
+        },
+        {
+          "type": "paragraph",
+          "text": "A graça de Deus em Cristo não só é necessária como é a única causa eficaz da salvação. Confessamos que os seres humanos nascem espiritualmente mortos e nem mesmo são capazes de cooperar com a graça regeneradora."
+        },
+        {
+          "type": "heading",
+          "text": "Tese 3: Sola Gratia"
+        },
+        {
+          "type": "paragraph",
+          "text": "Reafirmamos que na salvação somos resgatados da ira de Deus unicamente pela sua graça. A obra sobrenatural do Espírito Santo é que nos leva a Cristo, soltando-nos de nossa servidão ao pecado e erguendo-nos da morte espiritual à vida espiritual."
+        },
+        {
+          "type": "paragraph",
+          "text": "Negamos que a salvação seja em qualquer sentido obra humana. Os métodos, técnicas ou estratégias humanas por si só não podem realizar essa transformação. A fé não é produzida pela nossa natureza não-regenerada."
+        }
+      ]
+    },
+    {
+      "id": "cinco-solas-04",
+      "order": 4,
+      "title": "Sola Fide: A Erosão do Artigo Primordial",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A justificação é somente pela graça, somente por intermédio da fé, somente por causa de Cristo. Este é o artigo pelo qual a igreja se sustenta ou cai. É um artigo muitas vezes ignorado, distorcido, ou por vezes até negado por líderes, estudiosos e pastores que professam ser evangélicos. Embora a natureza humana decaída sempre tenha recuado de professar sua necessidade da justiça imputada de Cristo, a modernidade alimenta as chamas desse descontentamento com o Evangelho bíblico. Já permitimos que esse descontentamento dite a natureza de nosso ministério e o conteúdo de nossa pregação."
+        },
+        {
+          "type": "paragraph",
+          "text": "Muitas pessoas ligadas ao movimento do crescimento da igreja acreditam que um entendimento sociológico daqueles que vêm assistir aos cultos é tão importante para o êxito do evangelho como o é a verdade bíblica proclamada. Como resultado, as convicções teológicas freqüentemente desaparecem, divorciadas do trabalho do ministério. A orientação publicitária de marketing em muitas igrejas leva isso mais adiante, apegando a distinção entre a Palavra bíblica e o mundo, roubando da cruz de Cristo a sua ofensa e reduzindo a fé cristã aos princípios e métodos que oferecem sucesso às empresas seculares."
+        },
+        {
+          "type": "paragraph",
+          "text": "Embora possam crer na teologia da cruz, esses movimentos a verdade estão esvaziando-a de seu conteúdo. Não existe evangelho a não ser o da substituição de Cristo em nosso lugar, pela qual Deus lhe imputou o nosso pecado e nos imputou a sua justiça. Por ele Ter levado sobre si a punição de nossa culpa, nós agora andamos na sua graça como aqueles que são para sempre perdoados, aceitos e adotados como filhos de Deus. Não há base para nossa aceitação diante de Deus a não ser na obra salvífica de Cristo; a base não é nosso patriotismo, devoção à igreja, ou probidade moral. O evangelho declara o que Deus fez por nós em Cristo. Não é sobre o que nós podemos fazer para alcançar Deus."
+        },
+        {
+          "type": "heading",
+          "text": "Tese 4: Sola Fide"
+        },
+        {
+          "type": "paragraph",
+          "text": "Reafirmamos que a justificação é somente pela graça somente por intermédio da fé somente por causa de Cristo. Na justificação a retidão de Cristo nos é imputada como o único meio possível de satisfazer a perfeita justiça de Deus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Negamos que a justificação se baseie em qualquer mérito que em nós possa ser achado, ou com base numa infusão da justiça de Cristo em nós; ou que uma instituição que reivindique ser igreja mas negue ou condene sola fide possa ser reconhecida como igreja legítima."
+        }
+      ]
+    },
+    {
+      "id": "cinco-solas-05",
+      "order": 5,
+      "title": "Soli Deo Gloria: A Erosão do Culto Centrado em Deus",
+      "bibleReference": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Onde quer que, na igreja, se tenha perdido a autoridade da Bíblia, onde Cristo tenha sido colocado de lado, o evangelho tenha sido distorcido ou a fé pervertida, sempre foi por uma mesma razão. Nossos interesses substituíram os de Deus e nós estamos fazendo o trabalho dele a nosso modo. A perda da centralidade de Deus na vida da igreja de hoje é comum e lamentável. É essa perda que nos permite transformar o culto em entretenimento, a pregação do evangelho em marketing, o crer em técnica, o ser bom em sentir-nos bem e a fidelidade em ser bem-sucedido. Como resultado, Deus, Cristo e a Bíblia vêm significando muito pouco para nós e têm um peso irrelevante sobre nós."
+        },
+        {
+          "type": "paragraph",
+          "text": "Deus não existe para satisfazer as ambições humanas, os desejos, os apetites de consumo, ou nossos interesses espirituais particulares. Precisamos nos focalizar em Deus em nossa adoração, e não em satisfazer nossas próprias necessidades. Deus é soberano no culto, não nós. Nossa preocupação precisa estar no reino de Deus, não em nossos próprios impérios, popularidade ou êxito."
+        },
+        {
+          "type": "heading",
+          "text": "Tese 5: Soli Deo Gloria"
+        },
+        {
+          "type": "paragraph",
+          "text": "Reafirmamos que, como a salvação é de Deus e realizada por Deus, ela é para a glória de Deus e devemos glorificá-lo sempre. Devemos viver nossa vida inteira perante a face de Deus, sob a autoridade de Deus, e para sua glória somente."
+        },
+        {
+          "type": "paragraph",
+          "text": "Negamos que possamos apropriadamente glorificar a Deus se nosso culto for confundido com entretenimento, se negligenciarmos ou a Lei ou o Evangelho em nossa pregação, ou se permitirmos que o afeiçoamento próprio, a auto-estima e a auto-realização se tornem opções alternativas ao evangelho."
+        }
+      ]
+    }
+  ]
+}
