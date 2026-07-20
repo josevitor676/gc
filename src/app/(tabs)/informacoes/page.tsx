@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { MapPin, Users, Clock, HandCoins, Copy, Check, Phone, MessageCircle, Mail, Navigation } from "lucide-react";
 import { useTheme } from "@/contexts/ThemeContext";
+import { waLink, mapsLink } from "@/lib/links";
 
 const TINTS = {
   azul: { tint: "#E6F1FB", ink: "#0C447C" },
@@ -10,13 +11,6 @@ const TINTS = {
   verde: { tint: "#E1F5EE", ink: "#085041" },
   ambar: { tint: "#FAEEDA", ink: "#633806" },
 };
-
-function mapsLink(address: string) {
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
-}
-function waLink(digits: string) {
-  return `https://wa.me/${digits}`;
-}
 
 const SEDE = "Av. Paissandú, 32 - Vila Operária, Maringá - PR, 87050-130";
 const MANDAGUACU = "R. Gastão Vidgal, 76 - Vila Bernardino, Mandaguaçu - PR, 87160-000";
