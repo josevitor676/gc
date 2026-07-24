@@ -107,8 +107,8 @@ export default function EstudosPage() {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Buscar estudo, tema ou livro…"
-          className="flex-1 bg-transparent py-2.5 text-sm outline-none"
-          style={{ color: colors.text }}
+          className="study-search-input flex-1 bg-transparent py-2.5 text-sm outline-none"
+          style={{ color: colors.text, caretColor: colors.primary }}
           aria-label="Buscar estudo"
         />
         {query && (

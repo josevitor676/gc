@@ -120,7 +120,7 @@ export default function NotificationBell() {
         <>
           <div className="fixed inset-0 z-40" onClick={() => setOpen(false)} aria-hidden />
           <div
-            className="absolute right-0 top-full mt-2 z-50 w-[320px] max-w-[calc(100vw-2rem)] rounded-2xl border shadow-lg overflow-hidden"
+            className="absolute right-0 top-full mt-2 z-50 w-[320px] max-w-[calc(100vw-1rem)] rounded-2xl border shadow-lg overflow-hidden max-[480px]:fixed max-[480px]:left-1/2 max-[480px]:right-auto max-[480px]:top-[4.25rem] max-[480px]:mt-0 max-[480px]:w-[calc(100vw-1rem)] max-[480px]:-translate-x-1/2"
             style={{ backgroundColor: colors.card, borderColor: colors.border }}
             role="region"
             aria-label="Notificações"

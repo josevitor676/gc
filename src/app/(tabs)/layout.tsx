@@ -78,10 +78,10 @@ export default function TabsLayout({ children }: { children: React.ReactNode }) 
         className="flex items-center justify-between px-5 py-3 sticky top-0 z-30"
         style={{ backgroundColor: colors.headerBg }}
       >
-        <h1 className="text-white font-semibold text-base tracking-tight">
+        <h1 className="text-white font-semibold text-base tracking-tight whitespace-nowrap truncate min-w-0 pr-2">
           Grupos de Crescimento
         </h1>
-        <div className="flex items-center align-middle gap-3">
+        <div className="flex items-center align-middle gap-1.5 sm:gap-3 shrink-0">
           <InstallButton />
           <NotificationBell />
           <button
@@ -125,12 +125,11 @@ export default function TabsLayout({ children }: { children: React.ReactNode }) 
               title={label}
               style={{
                 color: active ? (dark ? colors.primary : '#FFFFFF') : colors.headerText,
-                fontWeight: active ? 'bold' : 'normal',
-                transform: active ? 'scale(1.1)' : 'scale(1)',
+                fontWeight: active ? 700 : 500,
               }}
             >
               <Icon size={20} />
-              <span className="text-[10px] font-medium leading-tight truncate w-full text-center">{label}</span>
+              <span className="text-[10px] leading-tight truncate w-full text-center">{label}</span>
             </Link>
           );
         })}
