@@ -79,7 +79,7 @@ export default function TabsLayout({ children }: { children: React.ReactNode }) 
         style={{ backgroundColor: colors.headerBg }}
       >
         <h1 className="text-white font-semibold text-base tracking-tight whitespace-nowrap truncate min-w-0 pr-2">
-          Grupos de Crescimento
+          IPVO
         </h1>
         <div className="flex items-center align-middle gap-1.5 sm:gap-3 shrink-0">
           <InstallButton />
